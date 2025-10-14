@@ -1,0 +1,341 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+:root {
+    --primary-color: black;
+    --text-color: white;
+    --bar-color: #555;
+    --secondary-color: #222;
+    --map-brightness: 50%;
+}
+
+.leaflet-container .leaflet-mousecoords {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 5px #bbb;
+  padding: 0 5px;
+  margin:0;
+  color: #333;
+  font: 13px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    background-color: var(--primary-color);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+canvas {
+    image-rendering: pixelated;
+    cursor: grab;
+}
+
+#mapa {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    image-rendering: pixelated;
+    position: fixed;
+}
+
+.leaflet-layer {
+    filter: brightness(var(--map-brightness));
+}
+
+#sidebar {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    width: 20%;
+    height: 100%;
+    color: var(--text-color);
+    position: absolute;
+    background-color: var(--primary-color);
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.3) 15px 0px 15px;
+}
+
+.x {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+#hamburger {
+    color: white;
+    position: fixed;
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#nav {
+    width: 24%;
+    float: left;
+    background-color: var(--secondary-color);
+}
+
+#nav p {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    height: calc((100% - 3px) / 6);
+    writing-mode: sideways-lr;
+    text-orientation: upright;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#nav .active {
+    background-color: var(--primary-color);
+}
+
+#bar {
+    width: 2%;
+    height: 100%;
+    background-color: var(--bar-color);
+    float: left;
+    font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+}
+
+#main {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#content {
+    width: 74%;
+    height: 100%;
+    float: left;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.section {
+    box-sizing: border-box;
+    padding: 3em;
+    height: 100%;
+}
+
+.list-container {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.list-container h1 {
+    margin: 0
+}
+
+dl> :nth-of-type(2n) {
+    background: var(--secondary-color);
+}
+
+.list {
+    margin: 0;
+    position: relative;
+    overflow: auto;
+    width: 100%;
+}
+
+.list dt {
+    padding: 1em;
+    padding-left: calc(1em - 10px);
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.details>* {
+    padding: 0 3rem;
+}
+
+.back {
+    position: absolute;
+    top: 10px;
+    left: calc(26% + 10px);
+    margin: 0;
+    cursor: pointer;
+    padding: 0;
+}
+
+#line-name {
+    position: relative;
+}
+
+#line-name:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+#line-name:hover::before {
+    position: absolute;
+    left: 27px;
+    content: "#";
+    color: lightgray;
+    cursor: pointer;
+}
+
+#line-stations {
+    padding: 0;
+    padding-right: 5px;
+    overflow: auto;
+}
+
+#line-stations h3 {
+    text-align: center;
+}
+
+#filters {
+    position: absolute;
+    width: calc(50%);
+    height: 50%;
+    top: 25%;
+    left: 25%;
+}
+
+.filter-container {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+#station-name {
+    position: relative;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+#station-name:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+#station-name:hover::before {
+    position: absolute;
+    left: 27px;
+    content: "#";
+    color: lightgray;
+    cursor: pointer;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.searchbar {
+    position: relative;
+}
+
+.section hr {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.filter-link {
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+#line-stations {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.station-item:before {
+    background-color: var(--line-color, white);
+    width: 2px;
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 20.65px;
+}
+
+
+.station-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    padding-bottom: 1em;
+    padding-left: 35px;
+}
+
+#line-stations>ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.station-item::after {
+    content: '';
+    position: absolute;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    background-color: var(--line-color, white);
+    left: 15.5px;
+    top: 2px;
+    width: 12px;
+    height: 12px;
+}
+
+.station-item:first-child:before {
+    top: 10px;
+}
+
+.station-item:last-child:before {
+    height: 6px;
+}
+
+.connections {
+    display: inline;
+    padding: 5px 0px;
+}
+
+.connections_line {
+    display: inline-block;
+}
+
+.badge {
+    font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+    display: inline-block;
+    height: 1em;
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0.25em;
+    text-align: center;
+    color: #fff;
+    background-color: darkslategray;
+    border: 1px solid rgba(75, 75, 75, 0.5);
+    text-shadow: rgba(75, 75, 75, 0.5) 1px 0px, rgba(75, 75, 75, 0.5) 0px 1px, rgba(75, 75, 75, 0.5) -1px 0px, rgba(75, 75, 75, 0.5) 0px -1px;
+    cursor: pointer;
+}
+
+hr {
+    margin: 0;
+    border: solid 1px #555;
+}
