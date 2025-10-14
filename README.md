@@ -1,3 +1,5 @@
 # WorldMC-Ice-Highways-Map
 
-ppp
+WIP. Need help to develop!
+
+TNIH-W Server: https://discord.gg/HfXS975McJ
