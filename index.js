@@ -20,6 +20,13 @@ let lineFilters = {
 let pathfinder;
 let renderedPath;
 
+// $(document).ready(function() {
+// 				window.dynmap = new DynMap($.extend({
+// 					container: $('#mcmap')
+// 				}));
+// 			});
+
+
 const map = L.map('mapa', {
     crs: L.CRS.Simple,
     center: [0, 0],
@@ -29,12 +36,22 @@ const map = L.map('mapa', {
 }).setView([0, 0], 1);
 map.zoomControl.setPosition('topright')
 
-L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
-    maxNativeZoom: 3,
-    minNativeZoom: 0,
-    maxZoom: 15,
+L.tileLayer('', {
+    maxZoom: 5,
     minZoom: -2
-}).addTo(map);
+});
+
+// L.tileLayer(function(coords) {
+//     const scaledX = coords.x * 32;
+//     const scaledY = coords.y * 32;
+//     return mapURL + `/world/flat/${coords.x}_${coords.y}/zzzzz_${scaledX}_${scaledY}.jpg?timestamp=${Date.now()}`;
+// },
+//     {
+//     maxNativeZoom: 3,
+//     minNativeZoom: 0,
+//     maxZoom: 5,
+//     minZoom: -2
+// }).addTo(map);
 
 // Variable to store coordinates
 let coordinateController = document.querySelector('.leaflet-mousecoords');
@@ -54,12 +71,13 @@ map.on("mousemove", function (e) {
 init();
 
 async function init() {
-    if (localStorage.getItem("showTowns") == null) localStorage.setItem("showTowns", true);
+    // if (localStorage.getItem("showTowns") == null) localStorage.setItem("showTowns", true);
     if (localStorage.getItem("showLines") == null) localStorage.setItem("showLines", true);
     if (localStorage.getItem("showStations") == null) localStorage.setItem("showStations", true);
     document.documentElement.style.setProperty("--map-brightness", localStorage.getItem("mapBrightness") == null ? "50%" : localStorage.getItem("mapBrightness") + "%");
 
-    highwayData = await fetchJSON(highwaysURL)
+    // highwayData = await fetchJSON(highwaysURL)
+    highwayData = await fetchJSON("highways.json")
     if (!highwayData) {
         console.log('debug: There was a problem with getting station and line data')
     }
@@ -85,7 +103,7 @@ async function init() {
     listLine()
     listStation();
 
-    if (localStorage.getItem("showTowns") == "true") await renderTowns();
+    // if (localStorage.getItem("showTowns") == "true") await renderTowns();
     if (localStorage.getItem("showLines") == "true") renderLines(highwayData, false);
     if (localStorage.getItem("showStations") == "true") renderStations(highwayData, false);
 }
@@ -660,8 +678,8 @@ document.getElementById('custom-data').addEventListener('change', () => {
 
             const reader = new FileReader();
             reader.onload = () => {
-                renderLines(JSON.parse(reader.result), true);
-                renderStations(JSON.parse(reader.result), true);
+                // renderLines(JSON.parse(reader.result), true);
+                // renderStations(JSON.parse(reader.result), true);
             }
             reader.readAsText(file);
 
