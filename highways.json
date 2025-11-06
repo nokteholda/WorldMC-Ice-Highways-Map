@@ -45,6 +45,85 @@
 					"Aqua": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Paris",
+            "id": 4,
+            "x": 899,
+            "z": -16656,
+            "lines": {
+                "European Ice lines": {
+                    "Monaco Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Taurinorum JCT",
+            "type": "jct",
+            "id": 5,
+            "x": 2460,
+            "z": -15353,
+            "lines": {
+                "European Ice lines": {
+                    "Monaco Central": ["", "Main line to Taurinorum branch"]
+                }
+            }
+        },
+        {
+            "name": "Taurinorum",
+            "id": 6,
+            "x": 2575,
+            "z": -15353,
+            "lines": {
+                "European Ice lines": {
+                    "Monaco Central": ["", "Taurinorum branch"]
+                }
+            }
+        },
+        {
+            "name": "Monaco",
+            "id": 7,
+            "x": 2460,
+            "z": -14901,
+            "lines": {
+                "European Ice lines": {
+                    "Monaco Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Florence",
+            "id": 8,
+            "x": 3512,
+            "z": -14901,
+            "lines": {
+                "European Ice lines": {
+                    "Monaco Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Brussels",
+            "id": 9,
+            "x": 1463.5,
+            "z": -17314,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Amsterdam-Berlin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "JCT",
+            "type": "jct",
+            "id": 10,
+            "x": 1600,
+            "z": -17314,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Amsterdam-Berlin": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -74,6 +153,57 @@
                         "vertices": [
                         ],
                         "stations": [3]
+                    }
+                }
+            }
+        },
+        "European Ice lines": {
+            "Monaco Central": {
+                "prefix": "",
+                "code": "MN",
+                "color": "ff0000",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [899, -16656],
+                            [2460, -16656],
+                            [2460, -15353],
+                            [2460, -14901],
+                            [3512, -14901]
+                        ],
+                        "stations": [4, [5, "Taurinorum branch"], 7, 8]
+                    },
+                    "Taurinorum branch": {
+                        "vertices": [
+                            [2460, -15353],
+                            [2575, -15353]
+                        ],
+                        "stations": [[5, "Main line"], 6]
+                    }
+                }
+            },
+            "Brussels-Amsterdam-Berlin": {
+                "prefix": "",
+                "code": "BR-AM-BE",
+                "color": "008c45",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1458, -17319],
+                            [1469, -17309],
+                            [1469, -17314],
+                            [1605, -17314]
+                        ],
+                        "stations": [9, [10, "Amsterdam branch"]]
+                    },
+                    "Amsterdam branch": {
+                        "vertices": [
+                            [1600, -17314],
+                            [1600, -17872]
+                        ],
+                        "stations": [[10, "Main line"]]
                     }
                 }
             }
