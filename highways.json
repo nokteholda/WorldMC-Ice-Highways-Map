@@ -41,7 +41,9 @@
             "z": -14440,
             "lines": {
                 "TNIH": {
-					"Keisha": ["", "Main line"],
+					"Keisha": ["", "Main line"]
+                },
+                "X-ICE": {
 					"Aqua": ["", "Main line"]
                 }
             }
@@ -124,14 +126,25 @@
                     "Brussels-Amsterdam-Berlin": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Taklamakan",
+            "id": 11,
+            "x": 29546,
+            "z": -14440,
+            "lines": {
+                "X-ICE": {
+					"Aqua": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
         "TNIH": {
             "Keisha": {
                 "prefix": "",
-                "code": "LH",
-                "color": "aa0044",
+                "code": "KS",
+                "color": "f8f18d",
                 "y": 10,
                 "branches": {
                     "Main line": {
@@ -142,17 +155,21 @@
                         "stations": [1, 0, 2, 3]
                     }
                 }
-            },
+            }
+        },
+        "X-ICE": {
             "Aqua": {
                 "prefix": "",
                 "code": "AQ",
-                "color": "00cccc",
+                "color": "00fff0",
                 "y": 10,
                 "branches": {
                     "Main line": {
                         "vertices": [
+                            [29546, -14440],
+                            [31680, -14440]
                         ],
-                        "stations": [3]
+                        "stations": [3, 11]
                     }
                 }
             }
