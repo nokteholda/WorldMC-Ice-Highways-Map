@@ -108,10 +108,10 @@
             "name": "Brussels",
             "id": 9,
             "x": 1463.5,
-            "z": -17314,
+            "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Brussels-Amsterdam-Berlin": ["", "Main line"]
+                    "Brussels-Berlin": ["", "Main line"]
                 }
             }
         },
@@ -120,10 +120,11 @@
             "type": "jct",
             "id": 10,
             "x": 1600,
-            "z": -17314,
+            "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Brussels-Amsterdam-Berlin": ["", "Main line"]
+                    "Brussels-Berlin": ["", "Main line"],
+                    "Amsterdam": ["", "Main line"]
                 }
             }
         },
@@ -137,14 +138,50 @@
 					"Aqua": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Unknown Way JCT",
+            "type": "jct",
+            "id": 12,
+            "x": 2376,
+            "z": -17313,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Berlin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Monaco Way JCT",
+            "type": "jct",
+            "id": 13,
+            "x": 2461,
+            "z": -17313,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Berlin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Denmark Way JCT",
+            "type": "jct",
+            "id": 14,
+            "x": 3477,
+            "z": -17313,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Berlin": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
         "TNIH": {
             "Keisha": {
                 "prefix": "",
-                "code": "KS",
-                "color": "f8f18d",
+                "code": "LH",
+                "color": "aa0044",
                 "y": 10,
                 "branches": {
                     "Main line": {
@@ -166,10 +203,10 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [29546, -14440],
-                            [31680, -14440]
+                            [29544, -14440],
+                            [31851, -14440]
                         ],
-                        "stations": [3, 11]
+                        "stations": [11, 3]
                     }
                 }
             }
@@ -200,27 +237,37 @@
                     }
                 }
             },
-            "Brussels-Amsterdam-Berlin": {
+            "Brussels-Berlin": {
                 "prefix": "",
-                "code": "BR-AM-BE",
+                "code": "BR-BE",
                 "color": "008c45",
                 "y": -60,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [1458, -17319],
-                            [1469, -17309],
-                            [1469, -17314],
-                            [1605, -17314]
+                            [1459, -17313.5],
+                            [1610.5, -17313.5],
+                            [1610.5, -17313],
+                            [1469, -17313],
+                            [4608, -17313],
+                            [4608, -17743]
                         ],
-                        "stations": [9, [10, "Amsterdam branch"]]
-                    },
-                    "Amsterdam branch": {
+                        "stations": [9, 10, 12, 13, 14]
+                    }
+                }
+            },
+            "Amsterdam": {
+                "prefix": "",
+                "code": "BR-BE",
+                "color": "000080",
+                "y": -60,
+                "branches": {
+                    "Main line": {
                         "vertices": [
-                            [1600, -17314],
-                            [1600, -17872]
+                            [1600.5, -17313],
+                            [1600.5, -17872]
                         ],
-                        "stations": [[10, "Main line"]]
+                        "stations": [10]
                     }
                 }
             }
