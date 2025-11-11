@@ -20,12 +20,6 @@ let lineFilters = {
 let pathfinder;
 let renderedPath;
 
-// $(document).ready(function() {
-// 				window.dynmap = new DynMap($.extend({
-// 					container: $('#mcmap')
-// 				}));
-// 			});
-
 
 const map = L.map('mapa', {
     crs: L.CRS.Simple,
@@ -35,11 +29,14 @@ const map = L.map('mapa', {
     noWrap: true
 }).setView([0, 0], 1);
 map.zoomControl.setPosition('topright')
-
-L.tileLayer('', {
+console.log("HELLO")
+console.log(proxyURL + mapURL + "/world/flat/{x}_{y}/zzzzz_{x}_{y}.jpg");
+L.tileLayer(mapURL + "/world/flat/{x}_{y}/zzzzz_{ix}_{iy}.jpg", {
+    ix: args => args.x * 32,
+    iy: args => (- args.y) * 32,
     maxZoom: 5,
-    minZoom: -2
-});
+    minZoom: 2,
+}).addTo(map);
 
 // L.tileLayer(function(coords) {
 //     const scaledX = coords.x * 32;
@@ -678,8 +675,8 @@ document.getElementById('custom-data').addEventListener('change', () => {
 
             const reader = new FileReader();
             reader.onload = () => {
-                // renderLines(JSON.parse(reader.result), true);
-                // renderStations(JSON.parse(reader.result), true);
+                renderLines(JSON.parse(reader.result), true);
+                renderStations(JSON.parse(reader.result), true);
             }
             reader.readAsText(file);
 
