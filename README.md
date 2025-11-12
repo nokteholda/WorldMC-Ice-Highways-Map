@@ -1,6 +1,6 @@
-# WorldMC-Ice-Highways-Map
+# WorldMC Ice Highways Map
 
-WIP. Need help to develop!
+This is a tool that aims to give information on stations and lines across the WorldMC server using Leaflet as the base and EarthMC Ice Highways Map as the inspiration.
 
 TNIH-W Server: https://discord.gg/HfXS975McJ
 
