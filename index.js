@@ -29,26 +29,19 @@ const map = L.map('mapa', {
     noWrap: true
 }).setView([0, 0], 1);
 map.zoomControl.setPosition('topright')
-console.log("HELLO")
-console.log(proxyURL + mapURL + "/world/flat/{x}_{y}/zzzzz_{x}_{y}.jpg");
-L.tileLayer(mapURL + "/world/flat/{x}_{y}/zzzzz_{ix}_{iy}.jpg", {
-    ix: args => args.x * 32,
-    iy: args => (- args.y) * 32,
-    maxZoom: 5,
-    minZoom: 2,
-}).addTo(map);
 
-// L.tileLayer(function(coords) {
-//     const scaledX = coords.x * 32;
-//     const scaledY = coords.y * 32;
-//     return mapURL + `/world/flat/${coords.x}_${coords.y}/zzzzz_${scaledX}_${scaledY}.jpg?timestamp=${Date.now()}`;
-// },
-//     {
-//     maxNativeZoom: 3,
-//     minNativeZoom: 0,
-//     maxZoom: 5,
-//     minZoom: -2
-// }).addTo(map);
+// console.log(mapURL + "/world/flat/{x}_{y}/" + z_level.repeat(args.z) + "_{ix}_{iy}.jpg");
+let temp2 = mapURL + "/world/flat/{x}_{y}/zzzzz_{ix}_{iy}.jpg"
+
+for (i = 5; i >= 0; i--) {
+    L.tileLayer(mapURL + "/world/flat/{x}_{y}/" + "z".repeat(i) + "_".repeat((i !== 0) + 0) + "{ix}_{iy}.jpg",{
+        ix: args => {console.log(args.ix); return args.x * Math.pow(2, 2 + 5 - args.z)},
+        iy: args => (- args.y) * Math.pow(2, 2 + 5 - args.z),
+        maxZoom: 2 + 5 - i,
+        minZoom: 2 + 5 - i,
+    }).addTo(map)
+    console.log((i === 0) + 1)
+}
 
 // Variable to store coordinates
 let coordinateController = document.querySelector('.leaflet-mousecoords');
