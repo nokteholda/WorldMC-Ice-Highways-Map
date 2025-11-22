@@ -20,9 +20,12 @@ let lineFilters = {
 let pathfinder;
 let renderedPath;
 
+const CorrectedCRS = L.extend({}, L.CRS.Simple, {
+    transformation: new L.Transformation(1, 0, -1, 2)
+});
 
 const map = L.map('mapa', {
-    crs: L.CRS.Simple,
+    crs: CorrectedCRS,
     center: [0, 0],
     attributionControl: false,
     preferCanvas: true,
@@ -30,17 +33,16 @@ const map = L.map('mapa', {
 }).setView([0, 0], 1);
 map.zoomControl.setPosition('topright')
 
-// console.log(mapURL + "/world/flat/{x}_{y}/" + z_level.repeat(args.z) + "_{ix}_{iy}.jpg");
 let temp2 = mapURL + "/world/flat/{x}_{y}/zzzzz_{ix}_{iy}.jpg"
 
 for (i = 5; i >= 0; i--) {
     L.tileLayer(mapURL + "/world/flat/{x}_{y}/" + "z".repeat(i) + "_".repeat((i !== 0) + 0) + "{ix}_{iy}.jpg",{
-        ix: args => {console.log(args.ix); return args.x * Math.pow(2, 2 + 5 - args.z)},
+        real_y: args => args.y,
+        ix: args => args.x * Math.pow(2, 2 + 5 - args.z),
         iy: args => (- args.y) * Math.pow(2, 2 + 5 - args.z),
         maxZoom: 2 + 5 - i,
         minZoom: 2 + 5 - i,
     }).addTo(map)
-    console.log((i === 0) + 1)
 }
 
 // Variable to store coordinates
@@ -66,8 +68,8 @@ async function init() {
     if (localStorage.getItem("showStations") == null) localStorage.setItem("showStations", true);
     document.documentElement.style.setProperty("--map-brightness", localStorage.getItem("mapBrightness") == null ? "50%" : localStorage.getItem("mapBrightness") + "%");
 
-    // highwayData = await fetchJSON(highwaysURL)
-    highwayData = await fetchJSON("highways.json")
+    highwayData = await fetchJSON(highwaysURL)
+    // highwayData = await fetchJSON("highways.json")
     if (!highwayData) {
         console.log('debug: There was a problem with getting station and line data')
     }
@@ -111,20 +113,25 @@ function toggle(setting) {
 
 async function renderTowns() {
     const startTownRender = new Date()
-    const data = await fetchJSON(proxyURL + mapURL + '/minecraft_overworld/markers.json')
-    if (!data || data[0].markers.length == 0) {
+    const data = await fetchJSON('marker_world.json')
+    if (!data) {
         console.log('debug: There was a problem with getting towns data')
         return
     }
+    console.log(Object.values(data.sets["towny.markerset"].areas)[0].desc.match(/\(([^)]+)\)/))
+
 
     const regions = []
 
     // Collect info about towns
-    for (const town of data[0].markers) {
+    for (const town of Object.values(data.sets["towny.markerset"].areas)) {
         if (town.type != 'polygon') continue
 
-        const townName = town.tooltip.match(/<b>(.*)<\/b>/)[1]
-        const nation = town.tooltip.match(/\(\b(?:Member|Capital)\b of (.*)\)\n/)?.at(1)
+        // const townName = town.tooltip.match(/<b>(.*)<\/b>/)[1]
+        const townName = town.label
+        // const nation = town.tooltip.match(/\(\b(?:Member|Capital)\b of (.*)\)\n/)?.at(1)
+        let nation = town.desc.match(/\(([^)]+)\)/)
+        nation = (nation == null) ? "": nation[0]
 
         // Might need capital? maybe
         let isCapital = town.tooltip.search(/\(Capital of /)
@@ -419,12 +426,12 @@ function showStation(station) {
     }
     document.getElementById('station-codes').innerHTML = ''
     for (company in station.lines) {
-        console.log(company);
+        // console.log(company);
         let companyName = document.createElement('h3')
         companyName.textContent = company
         document.getElementById('station-codes').appendChild(companyName)
         for (line in station.lines[company]) {
-            console.log(line);
+            // console.log(line);
             let code = document.createElement('p')
             let temp = [company, line, highwayData.lines[company][line]]
             code.innerHTML = `${temp[2].prefix}${station.lines[company][line][0]} `
