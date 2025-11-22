@@ -63,7 +63,7 @@
             "name": "Taurinorum JCT",
             "type": "jct",
             "id": 5,
-            "x": 2460,
+            "x": 2461,
             "z": -15353,
             "lines": {
                 "European Ice lines": {
@@ -85,7 +85,7 @@
         {
             "name": "Monaco",
             "id": 7,
-            "x": 2460,
+            "x": 2468.5,
             "z": -14901,
             "lines": {
                 "European Ice lines": {
@@ -116,15 +116,15 @@
             }
         },
         {
-            "name": "JCT",
+            "name": "Brussels JCT",
             "type": "jct",
             "id": 10,
-            "x": 1600,
+            "x": 1600.5,
             "z": -17313,
             "lines": {
                 "European Ice lines": {
                     "Brussels-Berlin": ["", "Main line"],
-                    "Amsterdam": ["", "Main line"]
+                    "Brussels-Amsterdam-Britain": ["", "Main line"]
                 }
             }
         },
@@ -167,11 +167,129 @@
             "name": "Denmark Way JCT",
             "type": "jct",
             "id": 14,
-            "x": 3477,
+            "x": 3477.5,
             "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Brussels-Berlin": ["", "Main line"]
+                    "Brussels-Berlin": ["", "Main line"],
+                    "Brussels-Aarhus": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Amsterdam",
+            "id": 15,
+            "x": 1600.5,
+            "z": -17865.5,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Amsterdam-Britain": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "France JCT",
+            "type": "jct",
+            "id": 16,
+            "x": 2461,
+            "z": -16656,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Berlin": ["", "Monaco connector branch"],
+                    "Monaco Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Britain JCT",
+            "type": "jct",
+            "id": 17,
+            "x": -430.5,
+            "z": -17865.5,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Amsterdam-Britain": ["", "Main line"],
+                    "Britain Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "York",
+            "id": 18,
+            "x": -430.5,
+            "z": -18421.5,
+            "lines": {
+                "European Ice lines": {
+                    "Britain Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Evreux",
+            "id": 19,
+            "x": 377.5,
+            "z": -16730.5,
+            "lines": {
+                "European Ice lines": {
+                    "Britain Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Helsinki",
+            "id": 20,
+            "x": 8491.5,
+            "z": -20535.5,
+            "lines": {
+                "European Ice lines": {
+                    "Greater Southern Iceroads": ["", "Estonian line"]
+                }
+            }
+        },
+        {
+            "name": "Saint-Estonia JCT",
+            "type": "jct",
+            "id": 21,
+            "x": 8491.5,
+            "z": -20458.5,
+            "lines": {
+                "European Ice lines": {
+                    "Greater Southern Iceroads": ["", "Estonian line"]
+                }
+            }
+        },
+        {
+            "name": "Karlsruhe Way JCT",
+            "type": "jct",
+            "id": 22,
+            "x": 2906.5,
+            "z": -17313,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Berlin": ["", "Main line"],
+                    "Brussels-Karlsruhe": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Aarhus",
+            "id": 23,
+            "x": 3477.5,
+            "z": -19157.5,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Aarhus": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Karlsruhe",
+            "id": 24,
+            "x": 2906.5,
+            "z": -16793.5,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Karlsruhe": ["", "Main line"]
                 }
             }
         }
@@ -221,19 +339,39 @@
                     "Main line": {
                         "vertices": [
                             [899, -16656],
-                            [2460, -16656],
-                            [2460, -15353],
-                            [2460, -14901],
+                            [2461, -16656],
+                            [2461, -15353],
+                            [2461, -14908.5],
+                            [2468.5, -14908.5],
+                            [2468.5, -14901],
                             [3512, -14901]
                         ],
-                        "stations": [4, [5, "Taurinorum branch"], 7, 8]
+                        "stations": [4, 16, [5, "Taurinorum branch"], 7, 8]
                     },
                     "Taurinorum branch": {
                         "vertices": [
-                            [2460, -15353],
+                            [2461, -15353],
                             [2575, -15353]
                         ],
                         "stations": [[5, "Main line"], 6]
+                    }
+                }
+            },
+            "Monaco South": {
+                "prefix": "",
+                "code": "MN.s",
+                "color": "ff00e3",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [2468.5, -14901],
+                            [2468.5, -14892.5],
+                            [2460.5, -14892.5],
+                            [2460.5, -14418.5],
+                            [2530.5, -14418.5]
+                        ],
+                        "stations": []
                     }
                 }
             },
@@ -251,22 +389,105 @@
                             [4608, -17313],
                             [4608, -17743]
                         ],
-                        "stations": [9, 10, 12, 13, 14]
+                        "stations": [9, 10, [12, "Unknown branch"], [13, "Monaco connector branch"], 22, 14]
+                    },
+                    "Monaco connector branch": {
+                        "vertices": [
+                            [2461, -17313],
+                            [2461, -16656]
+                        ],
+                        "stations": [[13, "Main line"], 16]
+                    },
+                    "Unknown branch": {
+                        "vertices": [
+                            [2376, -17313],
+                            [2376, -17386]
+                        ],
+                        "stations": [[12, "Main line"]]
                     }
                 }
             },
-            "Amsterdam": {
+            "Brussels-Amsterdam-Britain": {
                 "prefix": "",
-                "code": "AM",
+                "code": "BR-AM-GBR",
                 "color": "000080",
                 "y": -60,
                 "branches": {
                     "Main line": {
                         "vertices": [
                             [1600.5, -17313],
-                            [1600.5, -17872]
+                            [1600.5, -17865.5],
+                            [-430.5, -17865.5]
                         ],
-                        "stations": [10]
+                        "stations": [10, 15, 17]
+                    }
+                }
+            },
+            "Britain Main": {
+                "prefix": "",
+                "code": "GBR.main",
+                "color": "90d5ff",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-430.5, -24771],
+                            [-430.5, -16730.5],
+                            [377.5, -16730.5]
+                        ],
+                        "stations": [18, 17, 19]
+                    }
+                }
+            },
+            "Brussels-Karlsruhe": {
+                "prefix": "",
+                "code": "",
+                "color": "90d5ff",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [2906.5, -17313.5],
+                            [2906.5, -16793.5]
+                        ],
+                        "stations": [22, 24]
+                    }
+                }
+            },
+            "Greater Southern Iceroads": {
+                "prefix": "",
+                "code": "GSI",
+                "color": "abff32",
+                "y": -60,
+                "branches": {
+                    "Estonian line": {
+                        "vertices": [
+                            [8491.5, -20535.5],
+                            [8491.5, -20318.5]
+                        ],
+                        "stations": [20, [21, "St. Petersburg line"]]
+                    },
+                    "St. Petersburg line": {
+                        "vertices": [
+                            [8491.5, -20458.5],
+                            [10306.5, -20458.5]
+                        ],
+                        "stations": [[21, "Estonian line"]]
+                    }
+                }
+            },
+            "Brussels-Aarhus": {
+                "prefix": "",
+                "code": "",
+                "color": "0032de",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [3477.5, -17313],
+                            [3477.5, -19157.5]
+                        ],
+                        "stations": [14, 23]
                     }
                 }
             }
