@@ -292,6 +292,79 @@
                     "Brussels-Karlsruhe": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Niigata",
+            "id": 25,
+            "x": 47223.5,
+            "z": -12919.5,
+            "lines": {
+                "Japanese Ice lines": {
+                    "Kyoto-Niigata-Tokyo": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[47216, -12918], [47247, -12928]]
+            ]
+        },
+        {
+            "name": "Tokyo South",
+            "id": 26,
+            "x": 47618,
+            "z": -12118.5,
+            "lines": {
+                "Japanese Ice lines": {
+                    "Tokyo-Osaka cherry": ["", "Tokyo-Nagoya line"]
+                }
+            }
+        },
+        {
+            "name": "Nagoya",
+            "id": 27,
+            "x": 46710.5,
+            "z": -12007.5,
+            "lines": {
+                "Japanese Ice lines": {
+                    "Tokyo-Osaka cherry": ["", "Tokyo-Nagoya line to Nagoya-Osaka line"]
+                }
+            },
+            "areas": [
+                [[46719, -12016], [46702, -11999]]
+            ]
+        },
+        {
+            "name": "Osaka",
+            "id": 28,
+            "x": 46305,
+            "z": -11865,
+            "lines": {
+                "Japanese Ice lines": {
+                    "Tokyo-Osaka cherry": ["", "Nagoya-Osaka line"]
+                }
+            }
+        },
+        {
+            "name": "Taiwan JCT",
+            "type": "jct",
+            "id": 29,
+            "x": 41592,
+            "z": -8594,
+            "lines": {
+                "Japanese Ice lines": {
+                    "Kagoshima-Taiwan cherry": ["", "Main line to Shanghai line"]
+                }
+            }
+        },
+        {
+            "name": "Shanghai",
+            "id": 30,
+            "x": 41592,
+            "z": -10526,
+            "lines": {
+                "Japanese Ice lines": {
+                    "Kagoshima-Taiwan cherry": ["", "Shanghai line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -489,6 +562,78 @@
                             [3477.5, -19157.5]
                         ],
                         "stations": [14, 23]
+                    }
+                }
+            }
+        },
+        "Japanese Ice lines": {
+            "Kyoto-Niigata-Tokyo": {
+                "prefix": "",
+                "code": "KYO-NII-TOK",
+                "color": "f28c28",
+                "y": 16,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [47620.5, -12193.5],
+                            [47620.5, -12919.5],
+                            [46325.5, -12919.5],
+                            [46325.5, -11916.5]
+                        ],
+                        "stations": [25]
+                    }
+                }
+            },
+            "Tokyo-Osaka cherry": {
+                "prefix": "",
+                "code": "TOK-OSA.cherry",
+                "color": "fccbe7",
+                "y": 76,
+                "branches": {
+                    "Tokyo-Nagoya line": {
+                        "vertices": [
+                            [47618, -12118.5],
+                            [47618, -11976],
+                            [47354, -11976],
+                            [47354, -11892],
+                            [46776, -11892],
+                            [46776, -12003],
+                            [46719, -12003]
+                        ],
+                        "stations": [26, [27, "Tokyo-Nagoya line"]]
+                    },
+                    "Nagoya-Osaka line": {
+                        "vertices": [
+                            [46702, -12012],
+                            [46618, -12012],
+                            [46618, -11865],
+                            [46305, -11865]
+                        ],
+                        "stations": [[27, "Nagoya-Osaka line"], 28]
+                    }
+                }
+            },
+            "Kagoshima-Taiwan cherry": {
+                "prefix": "",
+                "code": "KAG-TAI",
+                "color": "fccbe7",
+                "y": 76,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [44699, -10803],
+                            [43603, -10803],
+                            [43603, -8594],
+                            [41532, -8594]
+                        ],
+                        "stations": [[29, "Shanghai line"]]
+                    },
+                    "Shanghai line": {
+                        "vertices": [
+                            [41592, -10526],
+                            [41592, -8594]
+                        ],
+                        "stations": [[29, "Main line"], 30]
                     }
                 }
             }
