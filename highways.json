@@ -89,7 +89,8 @@
             "z": -14901,
             "lines": {
                 "European Ice lines": {
-                    "Paris-Monaco-Rome": ["", "Main line"]
+                    "Paris-Monaco-Rome": ["", "Main line"],
+                    "Monaco South": ["", "Main line"]
                 }
             }
         },
@@ -220,7 +221,8 @@
             "z": -18421.5,
             "lines": {
                 "European Ice lines": {
-                    "Britain Main": ["", "Main line"]
+                    "Britain Main": ["", "Main line"],
+                    "York-Isle-Inverness": ["", "Main line"]
                 }
             }
         },
@@ -365,7 +367,30 @@
                     "Kagoshima-Taiwan cherry": ["", "Shanghai line"]
                 }
             }
+        },
+        {
+            "name": "Isle",
+            "id": 31,
+            "x": -1594.5,
+            "z": -18499.5,
+            "lines": {
+                "European Ice lines": {
+                    "York-Isle-Inverness": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Inverness",
+            "id": 32,
+            "x": -1459.5,
+            "z": -19650,
+            "lines": {
+                "European Ice lines": {
+                    "York-Isle-Inverness": ["", "Main line"]
+                }
+            }
         }
+
     ],
     "lines": {
         "TNIH": {
@@ -445,7 +470,7 @@
                             [2460.5, -14418.5],
                             [2530.5, -14418.5]
                         ],
-                        "stations": []
+                        "stations": [7]
                     }
                 }
             },
@@ -510,6 +535,24 @@
                             [377.5, -16730.5]
                         ],
                         "stations": [18, 17, 19]
+                    }
+                }
+            },
+            "York-Isle-Inverness": {
+                "prefix": "",
+                "code": "YRK-ISL-INV",
+                "color": "095dff",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-430.5, -18420.5],
+                            [-1594.5, -18420.5],
+                            [-1594.5, -18539.5],
+                            [-1458.5, -18539.5],
+                            [-1458.5, -19658.5]
+                        ],
+						"stations": [18, 31, 32]
                     }
                 }
             },
