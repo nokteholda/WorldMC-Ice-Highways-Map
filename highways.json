@@ -389,6 +389,28 @@
                     "York-Isle-Inverness": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "New York City",
+            "id": 33,
+            "x": -25258.5,
+            "z": -13895.5,
+            "lines": {
+                "Transatlantic": {
+                    "Monaco-New York City": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Monaco 2",
+            "id": 34,
+            "x": 2431.5,
+            "z": -14950.5,
+            "lines": {
+                "Transatlantic": {
+                    "Monaco-New York City": ["", "Main line"]
+                }
+            }
         }
 
     ],
@@ -677,6 +699,24 @@
                             [41592, -8594]
                         ],
                         "stations": [[29, "Main line"], 30]
+                    }
+                }
+            }
+        },
+        "Transatlantic": {
+            "Monaco-New York City": {
+                "prefix": "",
+                "code": "MON-NYC",
+                "color": "0af20d",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-25258.5, -13885],
+                            [-25258.5, -14950.5],
+                            [2431.5, -14950.5]
+                        ],
+                        "stations": [33, 34]
                     }
                 }
             }
