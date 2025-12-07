@@ -411,6 +411,56 @@
                     "Monaco-New York City": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Cookie JCT",
+            "type": "jct",
+            "id": 35,
+            "x": 898.5,
+            "z": -17313.5,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels-Berlin": ["", "Main line"],
+                    "Paris-Brussels": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Italian JCT",
+            "type": "jct",
+            "id": 36,
+            "x": 4400.5,
+            "z": -14900.5,
+            "lines": {
+                "European Ice lines": {
+                    "Paris-Monaco-Rome": ["", "Main line"],
+                    "Monaco-Thessaloniki-Volos": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Thessaloniki",
+            "id": 37,
+            "x": 7830.5,
+            "z": -13851.5,
+            "lines": {
+                "European Ice lines": {
+                    "Monaco-Thessaloniki-Volos": ["", "Main line"],
+                    "Y=10 Thessaloniki-Volos": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Volos",
+            "id": 38,
+            "x": 7830.5,
+            "z": -13461.5,
+            "lines": {
+                "European Ice lines": {
+                    "Monaco-Thessaloniki-Volos": ["", "Main line"],
+                    "Y=10 Thessaloniki-Volos": ["", "Main line"]
+                }
+            }
         }
 
     ],
@@ -480,7 +530,7 @@
             },
             "Monaco South": {
                 "prefix": "",
-                "code": "MN.s",
+                "code": "MON.s",
                 "color": "ff00e3",
                 "y": -60,
                 "branches": {
@@ -504,6 +554,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
+                            [880.5, -17313.5],
                             [1459, -17313.5],
                             [1610.5, -17313.5],
                             [1610.5, -17313],
@@ -525,6 +576,21 @@
                             [2376, -17386]
                         ],
                         "stations": [[12, "Main line"]]
+                    }
+                }
+            },
+            "Paris-Brussels": {
+                "prefix": "",
+                "code": "PAR-BRU",
+                "color": "aabbee",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [898.5, -17313.5],
+                            [898.5, -16737.5]
+                        ],
+                        "stations": [35]
                     }
                 }
             },
@@ -627,6 +693,49 @@
                             [3477.5, -19157.5]
                         ],
                         "stations": [14, 23]
+                    }
+                }
+            },
+            "Monaco-Thessaloniki-Volos": {
+                "prefix": "",
+                "code": "MON-TSL-VOL",
+                "color": "fba34e",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [4400.5, -14900.5],
+                            [7830.5, -14900.5],
+                            [7830.5, -13460.5]
+                        ],
+                        "stations": [36, 37, 38],
+                        "concurrencies" : {
+                            "European Ice lines.Y=10 Thessaloniki-Volos": [
+                                [7830.5, -13460.5],
+                                [7830.5, -13859.5]
+                            ]
+                        }
+                    }
+                }
+            },
+            "Y=10 Thessaloniki-Volos": {
+                "prefix": "Y=10",
+                "code": "Y=10.TSL-VOL",
+                "color": "09f8a4",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [7830.5, -13460.5],
+                            [7830.5, -13859.5]
+                        ],
+                        "stations": [37, 38],
+                        "concurrencies" : {
+                            "European Ice lines.Monaco-Thessaloniki-Volos": [
+                                [7830.5, -13460.5],
+                                [7830.5, -13859.5]
+                            ]
+                        }
                     }
                 }
             }
