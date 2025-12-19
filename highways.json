@@ -112,7 +112,7 @@
             "z": -17313.5,
             "lines": {
                 "European Ice lines": {
-                    "Brussels-Berlin": ["", "Main line"]
+                    "Britain-Brussels-Berlin": ["", "Main line"]
                 }
             }
         },
@@ -124,7 +124,7 @@
             "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Brussels-Berlin": ["", "Main line"],
+                    "Britain-Brussels-Berlin": ["", "Main line"],
                     "Brussels-Amsterdam-Britain": ["", "Main line"]
                 }
             }
@@ -136,7 +136,8 @@
             "z": -14440,
             "lines": {
                 "X-ICE": {
-					"Aqua": ["", "Main line"]
+					"Aqua": ["", "Main line"],
+					"Red": ["", "Main line"]
                 }
             }
         },
@@ -148,7 +149,7 @@
             "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Brussels-Berlin": ["", "Main line"]
+                    "Britain-Brussels-Berlin": ["", "Main line"]
                 }
             }
         },
@@ -160,7 +161,7 @@
             "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Brussels-Berlin": ["", "Main line"]
+                    "Britain-Brussels-Berlin": ["", "Main line"]
                 }
             }
         },
@@ -172,7 +173,7 @@
             "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Brussels-Berlin": ["", "Main line"],
+                    "Britain-Brussels-Berlin": ["", "Main line"],
                     "Brussels-Aarhus": ["", "Main line"]
                 }
             }
@@ -196,7 +197,7 @@
             "z": -16656,
             "lines": {
                 "European Ice lines": {
-                    "Brussels-Berlin": ["", "Monaco connector branch"],
+                    "Britain-Brussels-Berlin": ["", "Monaco connector branch"],
                     "Paris-Monaco-Rome": ["", "Main line"]
                 }
             }
@@ -268,7 +269,7 @@
             "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Brussels-Berlin": ["", "Main line"],
+                    "Britain-Brussels-Berlin": ["", "Main line"],
                     "Brussels-Karlsruhe": ["", "Main line"]
                 }
             }
@@ -420,7 +421,7 @@
             "z": -17313.5,
             "lines": {
                 "European Ice lines": {
-                    "Brussels-Berlin": ["", "Main line"],
+                    "Britain-Brussels-Berlin": ["", "Main line"],
                     "Paris-Brussels": ["", "Main line"]
                 }
             }
@@ -461,6 +462,18 @@
                     "Y=10 Thessaloniki-Volos": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Britain-Belgium JCT",
+            "type": "jct",
+            "id": 39,
+            "x": -430.5,
+            "z": -17313.5,
+            "lines": {
+                "European Ice lines": {
+                    "Britain-Brussels-Berlin": ["", "Main line"]
+                }
+            }
         }
 
     ],
@@ -492,9 +505,24 @@
                     "Main line": {
                         "vertices": [
                             [29544, -14440],
-                            [37700, -14440]
+                            [38849, -14440]
                         ],
                         "stations": [11, 3]
+                    }
+                }
+            },
+            "Red": {
+                "prefix": "",
+                "code": "RD",
+                "color": "ff0000",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [29265, -14440],
+                            [29544, -14440]
+                        ],
+                        "stations": [11]
                     }
                 }
             }
@@ -546,7 +574,7 @@
                     }
                 }
             },
-            "Brussels-Berlin": {
+            "Britain-Brussels-Berlin": {
                 "prefix": "",
                 "code": "BR-BE",
                 "color": "008c45",
@@ -554,14 +582,14 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [880.5, -17313.5],
+                            [-430.5, -17313.5],
                             [1459, -17313.5],
                             [1610.5, -17313.5],
                             [1610.5, -17313],
                             [4608, -17313],
                             [4608, -17743]
                         ],
-                        "stations": [9, 10, [12, "Cologne branch"], [13, "Monaco connector branch"], 22, 14]
+                        "stations": [39, 35, 9, 10, [12, "Cologne branch"], [13, "Monaco connector branch"], 22, 14]
                     },
                     "Monaco connector branch": {
                         "vertices": [
