@@ -474,8 +474,33 @@
                     "Britain-Brussels-Berlin": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Berlin JCT",
+            "type": "jct",
+            "id": 40,
+            "x": 4608.5,
+            "z": -17313.5,
+            "lines": {
+                "European Ice lines": {
+                    "Britain-Brussels-Berlin": ["", "Main line"],
+                    "Berlin-Thessaloniki-Volos": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Thessaloniki JCT",
+            "type": "jct",
+            "id": 41,
+            "x": 7830.5,
+            "z": -14900.5,
+            "lines": {
+                "European Ice lines": {
+                    "Monaco-Thessaloniki-Volos": ["", "Main line"],
+                    "Berlin-Thessaloniki-Volos": ["", "Main line"]
+                }
+            }
         }
-
     ],
     "lines": {
         "TNIH": {
@@ -589,7 +614,7 @@
                             [4608, -17313],
                             [4608, -17743]
                         ],
-                        "stations": [39, 35, 9, 10, [12, "Cologne branch"], [13, "Monaco connector branch"], 22, 14]
+                        "stations": [39, 35, 9, 10, [12, "Cologne branch"], [13, "Monaco connector branch"], 22, 14, 40]
                     },
                     "Monaco connector branch": {
                         "vertices": [
@@ -736,13 +761,29 @@
                             [7830.5, -14900.5],
                             [7830.5, -13460.5]
                         ],
-                        "stations": [36, 37, 38],
+                        "stations": [36, 37, 38, 41],
                         "concurrencies" : {
                             "European Ice lines.Y=10 Thessaloniki-Volos": [
                                 [7830.5, -13460.5],
                                 [7830.5, -13859.5]
                             ]
                         }
+                    }
+                }
+            },
+            "Berlin-Thessaloniki-Volos": {
+                "prefix": "",
+                "code": "BE-TSL-VOL",
+                "color": "e6e35c",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [4608.5, -17313.5],
+                            [7830.5, -17313.5],
+                            [7830.5, -14900.5]
+                        ],
+                        "stations": [40, 41]
                     }
                 }
             },
