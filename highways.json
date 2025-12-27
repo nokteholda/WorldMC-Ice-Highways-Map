@@ -112,7 +112,7 @@
             "z": -17313.5,
             "lines": {
                 "European Ice lines": {
-                    "Britain-Brussels-Berlin": ["", "Main line"]
+                    "Brussels Highway": ["", "Main line"]
                 }
             }
         },
@@ -124,7 +124,7 @@
             "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Britain-Brussels-Berlin": ["", "Main line"],
+                    "Brussels Highway": ["", "Main line"],
                     "Brussels-Amsterdam-Britain": ["", "Main line"]
                 }
             }
@@ -149,7 +149,7 @@
             "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Britain-Brussels-Berlin": ["", "Main line"]
+                    "Brussels Highway": ["", "Main line"]
                 }
             }
         },
@@ -161,7 +161,7 @@
             "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Britain-Brussels-Berlin": ["", "Main line"]
+                    "Brussels Highway": ["", "Main line"]
                 }
             }
         },
@@ -173,7 +173,7 @@
             "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Britain-Brussels-Berlin": ["", "Main line"],
+                    "Brussels Highway": ["", "Main line"],
                     "Brussels-Aarhus": ["", "Main line"]
                 }
             }
@@ -197,7 +197,7 @@
             "z": -16656,
             "lines": {
                 "European Ice lines": {
-                    "Britain-Brussels-Berlin": ["", "Monaco connector branch"],
+                    "Brussels Highway": ["", "Monaco connector branch"],
                     "Paris-Monaco-Rome": ["", "Main line"]
                 }
             }
@@ -254,7 +254,7 @@
             "type": "jct",
             "id": 21,
             "x": 8491.5,
-            "z": -20458.5,
+            "z": -20457.5,
             "lines": {
                 "European Ice lines": {
                     "Greater Southern Iceroads": ["", "Estonian line"]
@@ -269,7 +269,7 @@
             "z": -17313,
             "lines": {
                 "European Ice lines": {
-                    "Britain-Brussels-Berlin": ["", "Main line"],
+                    "Brussels Highway": ["", "Main line"],
                     "Brussels-Karlsruhe": ["", "Main line"]
                 }
             }
@@ -421,7 +421,7 @@
             "z": -17313.5,
             "lines": {
                 "European Ice lines": {
-                    "Britain-Brussels-Berlin": ["", "Main line"],
+                    "Brussels Highway": ["", "Main line"],
                     "Paris-Brussels": ["", "Main line"]
                 }
             }
@@ -471,7 +471,7 @@
             "z": -17313.5,
             "lines": {
                 "European Ice lines": {
-                    "Britain-Brussels-Berlin": ["", "Main line"]
+                    "Brussels Highway": ["", "Main line"]
                 }
             }
         },
@@ -483,8 +483,8 @@
             "z": -17313.5,
             "lines": {
                 "European Ice lines": {
-                    "Britain-Brussels-Berlin": ["", "Main line"],
-                    "Berlin-Thessaloniki-Volos": ["", "Main line"]
+                    "Brussels Highway": ["", "Main line"],
+                    "Berlin": ["", "Main line"]
                 }
             }
         },
@@ -498,6 +498,44 @@
                 "European Ice lines": {
                     "Monaco-Thessaloniki-Volos": ["", "Main line"],
                     "Berlin-Thessaloniki-Volos": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Greece Way JCT",
+            "type": "jct",
+            "id": 42,
+            "x": 7830.5,
+            "z": -17313.5,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels Highway": ["", "Main line"],
+                    "Berlin-Thessaloniki-Volos": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "St. Petersburg Highwhay JCT",
+            "type": "jct",
+            "id": 43,
+            "x": 10319,
+            "z": -17313.5,
+            "lines": {
+                "European Ice lines": {
+                    "Brussels Highway": ["", "Main line"],
+                    "Saint Petersburg": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Saint Petersburg",
+            "id": 44,
+            "x": 10319,
+            "z": -20460,
+            "lines": {
+                "European Ice lines": {
+                    "Greater Southern Iceroads": ["", "St. Petersburg line"],
+                    "Saint Petersburg": ["", "Main line"]
                 }
             }
         }
@@ -530,7 +568,7 @@
                     "Main line": {
                         "vertices": [
                             [29544, -14440],
-                            [38849, -14440]
+                            [39763, -14440]
                         ],
                         "stations": [11, 3]
                     }
@@ -599,7 +637,7 @@
                     }
                 }
             },
-            "Britain-Brussels-Berlin": {
+            "Brussels Highway": {
                 "prefix": "",
                 "code": "BR-BE",
                 "color": "008c45",
@@ -611,10 +649,9 @@
                             [1459, -17313.5],
                             [1610.5, -17313.5],
                             [1610.5, -17313],
-                            [4608, -17313],
-                            [4608, -17743]
+                            [10324, -17313]
                         ],
-                        "stations": [39, 35, 9, 10, [12, "Cologne branch"], [13, "Monaco connector branch"], 22, 14, 40]
+                        "stations": [39, 35, 9, 10, [12, "Cologne branch"], [13, "Monaco connector branch"], 22, 14, 40, 42, 43]
                     },
                     "Monaco connector branch": {
                         "vertices": [
@@ -629,6 +666,21 @@
                             [2376, -17386]
                         ],
                         "stations": [[12, "Main line"]]
+                    }
+                }
+            },
+            "Berlin": {
+                "prefix": "",
+                "code": "BER",
+                "color": "458c00",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [4608, -17313],
+                            [4608, -17743]
+                        ],
+                        "stations": [40]
                     }
                 }
             },
@@ -727,10 +779,27 @@
                     },
                     "St. Petersburg line": {
                         "vertices": [
-                            [8491.5, -20458.5],
-                            [10306.5, -20458.5]
+                            [8491.5, -20457.5],
+                            [8605.5, -20457.5],
+                            [8605.5, -20460],
+                            [10319, -20460]
                         ],
-                        "stations": [[21, "Estonian line"]]
+                        "stations": [[21, "Estonian line"], 44]
+                    }
+                }
+            },
+            "Saint Petersburg": {
+                "prefix": "",
+                "code": "",
+                "color": "ff00ff",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10319, -20460],
+                            [10319, -17313]
+                        ],
+                        "stations": [43, 44]
                     }
                 }
             },
@@ -779,11 +848,10 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [4608.5, -17313.5],
                             [7830.5, -17313.5],
                             [7830.5, -14900.5]
                         ],
-                        "stations": [40, 41]
+                        "stations": [42, 41]
                     }
                 }
             },
