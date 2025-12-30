@@ -446,7 +446,7 @@
             "z": -13851.5,
             "lines": {
                 "European Ice lines": {
-                    "Monaco-Thessaloniki-Volos": ["", "Main line"],
+                    "Western Aegean": ["", "Main line"],
                     "Y=10 Thessaloniki-Volos": ["", "Main line"]
                 }
             }
@@ -458,7 +458,7 @@
             "z": -13461.5,
             "lines": {
                 "European Ice lines": {
-                    "Monaco-Thessaloniki-Volos": ["", "Main line"],
+                    "Western Aegean": ["", "Main line"],
                     "Y=10 Thessaloniki-Volos": ["", "Main line"]
                 }
             }
@@ -497,7 +497,7 @@
             "lines": {
                 "European Ice lines": {
                     "Monaco-Thessaloniki-Volos": ["", "Main line"],
-                    "Berlin-Thessaloniki-Volos": ["", "Main line"]
+                    "Western Aegean": ["", "Main line"]
                 }
             }
         },
@@ -510,7 +510,7 @@
             "lines": {
                 "European Ice lines": {
                     "Brussels Highway": ["", "Main line"],
-                    "Berlin-Thessaloniki-Volos": ["", "Main line"]
+                    "Western Aegean": ["", "Main line"]
                 }
             }
         },
@@ -536,6 +536,133 @@
                 "European Ice lines": {
                     "Greater Southern Iceroads": ["", "St. Petersburg line"],
                     "Saint Petersburg": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bogota",
+            "id": 45,
+            "x": -25405,
+            "z": -1417,
+            "lines": {
+                "Bolivar Ice lines": {
+                    "Bogota": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bogota JCT",
+            "type": "jct",
+            "id": 46,
+            "x": -25752,
+            "z": -1417,
+            "lines": {
+                "Bolivar Ice lines": {
+                    "Bogota": ["", "Main line"],
+                    "Cali-Medellin-Barranquilla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cali",
+            "id": 47,
+            "x": -26091,
+            "z": -1192,
+            "lines": {
+                "Bolivar Ice lines": {
+                    "Cali-Medellin-Barranquilla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Medellín",
+            "id": 48,
+            "x": -25752,
+            "z": -2072,
+            "lines": {
+                "Bolivar Ice lines": {
+                    "Cali-Medellin-Barranquilla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Barranquilla",
+            "id": 49,
+            "x": -25544,
+            "z": -3739,
+            "lines": {
+                "Bolivar Ice lines": {
+                    "Cali-Medellin-Barranquilla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Barranquilla Elevator",
+            "type": "elev-we",
+            "id": 50,
+            "x": -25544,
+            "z": -3745,
+            "lines": {
+                "Bolivar Ice lines": {
+                    "Cali-Medellin-Barranquilla": ["", "Main line"],
+                    "Barranquilla-Hispanola": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hispanola",
+            "id": 51,
+            "x": -24978,
+            "z": -6425,
+            "lines": {
+                "Bolivar Ice lines": {
+                    "Barranquilla-Hispanola": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Alexandria",
+            "id": 52,
+            "x": 10260,
+            "z": -10682,
+            "lines": {
+                "European Ice lines": {
+                    "Alexandria-Anatolia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Alexandria Interchange",
+            "id": 53,
+            "x": 10260,
+            "z": -12715,
+            "lines": {
+                "European Ice lines": {
+                    "Alexandria-Anatolia": ["", "Main line"],
+                    "Eurasian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Eastern Aegean Interchange",
+            "id": 54,
+            "x": 9419,
+            "z": -12715,
+            "lines": {
+                "European Ice lines": {
+                    "Eastern Aegean": ["", "Main line"],
+                    "Eurasian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bodrum",
+            "id": 55,
+            "x": 9419,
+            "z": -12648,
+            "lines": {
+                "European Ice lines": {
+                    "Eastern Aegean": ["", "Main line"]
                 }
             }
         }
@@ -608,7 +735,7 @@
                             [4400.5, -14900.5],
                             [4400.5, -14416.5]
                         ],
-                        "stations": [4, 16, [5, "Taurinorum branch"], 7, 8]
+                        "stations": [4, 16, [5, "Taurinorum branch"], 7, 36, 8]
                     },
                     "Taurinorum branch": {
                         "vertices": [
@@ -827,31 +954,15 @@
                     "Main line": {
                         "vertices": [
                             [4400.5, -14900.5],
-                            [7830.5, -14900.5],
-                            [7830.5, -13460.5]
+                            [7830.5, -14900.5]
                         ],
-                        "stations": [36, 37, 38, 41],
+                        "stations": [36, 41],
                         "concurrencies" : {
                             "European Ice lines.Y=10 Thessaloniki-Volos": [
                                 [7830.5, -13460.5],
                                 [7830.5, -13859.5]
                             ]
                         }
-                    }
-                }
-            },
-            "Berlin-Thessaloniki-Volos": {
-                "prefix": "",
-                "code": "BE-TSL-VOL",
-                "color": "e6e35c",
-                "y": -60,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [7830.5, -17313.5],
-                            [7830.5, -14900.5]
-                        ],
-                        "stations": [42, 41]
                     }
                 }
             },
@@ -868,14 +979,133 @@
                         ],
                         "stations": [37, 38],
                         "concurrencies" : {
-                            "European Ice lines.Monaco-Thessaloniki-Volos": [
+                            "European Ice lines.Western Aegean": [
                                 [7830.5, -13460.5],
                                 [7830.5, -13859.5]
                             ]
                         }
                     }
                 }
+            },
+
+            "Western Aegean": {
+                "prefix": "",
+                "code": "AG",
+                "color": "b6529b",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [7830.5, -17313.5],
+                            [7830.5, -13460.5]
+                        ],
+                        "stations": [42, 41, 37, 38]
+                    }
+                }
+            },
+            "Eastern Aegean": {
+                "prefix": "",
+                "code": "AE",
+                "color": "016937",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9419, -12648],
+                            [9419, -13000]
+                        ],
+                        "stations": [55, 54]
+                    }
+                }
+            },
+            "Alexandria-Anatolia": {
+                "prefix": "",
+                "code": "AA",
+                "color": "c01c1c",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10260, -10682],
+                            [10260, -12715]
+                        ],
+                        "stations": [52, 53]
+                    }
+                }
+            },
+            "Eurasian": {
+                "prefix": "",
+                "code": "EA",
+                "color": "f49020",
+                "y": -60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10260, -12715],
+                            [9419, -12715]
+                        ],
+                        "stations": [53, 54]
+                    },
+                    "Athens branch": {
+                        "vertices": [
+
+                        ],
+                        "stations": []
+                    }
+                }
             }
+        },
+        "Bolivar Ice lines": {
+            "Cali-Medellin-Barranquilla": {
+                "prefix": "",
+                "code": "CAL-MDL-BRQ",
+                "color": "ffd800",
+                "y": 35,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-26091, -1192],
+                            [-25752, -1192],
+                            [-25752, -2072],
+                            [-25544, -2072],
+                            [-25544, -3745]
+                        ],
+                        "stations": [47, 46, 48, 49, 50]
+                    }
+                }
+            },
+            "Bogota": {
+                "prefix": "",
+                "code": "BGT",
+                "color": "ffd800",
+                "y": 35,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-25405, -1417],
+                            [-25752, -1417]
+                        ],
+                        "stations": [45, 46]
+                    }
+                }
+            },
+            "Barranquilla-Hispanola": {
+                "prefix": "",
+                "code": "BRQ-HSP",
+                "color": "00e9ff",
+                "y": 35,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-25544, -3745],
+                            [-25544, -6425],
+                            [-24978, -6425]
+                        ],
+                        "stations": [50, 51]
+                    }
+                }
+            }
+
         },
         "Japanese Ice lines": {
             "Kyoto-Niigata-Tokyo": {
