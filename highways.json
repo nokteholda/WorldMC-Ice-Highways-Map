@@ -583,7 +583,7 @@
       }
     },
     {
-      "name": "Italian JCT",
+      "name": "Roman JCT",
       "id": 36,
       "x": 4400.5,
       "z": -14900.5,
@@ -676,7 +676,7 @@
       }
     },
     {
-      "name": "Thessaloniki JCT",
+      "name": "Balkan Interchange",
       "id": 41,
       "x": 7830.5,
       "z": -14900.5,
@@ -874,6 +874,7 @@
     },
     {
       "name": "Alexandria Interchange",
+      "type": "jct",
       "id": 53,
       "x": 10260.0,
       "z": -12715.0,
@@ -892,6 +893,7 @@
     },
     {
       "name": "Eastern Aegean Interchange",
+      "type": "jct",
       "id": 54,
       "x": 9419.0,
       "z": -12715.0,
@@ -946,6 +948,68 @@
           "Jakarta-Banana Kingdom": [
             "",
             "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Athens Interchange",
+      "type": "jct",
+      "id": 58,
+      "x": 8106.0,
+      "z": -12715.0,
+      "lines": {
+        "European Ice lines": {
+          "Eurasian": [
+            "",
+            "Main line to Athens branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Western Aegean Interchange",
+      "type": "jct",
+      "id": 59,
+      "x": 7831.0,
+      "z": -12715.0,
+      "lines": {
+        "European Ice lines": {
+          "Western Aegean": [
+            "",
+            "Main line"
+          ],
+          "Eurasian": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cilicia",
+      "id": 60,
+      "x": 12019.0,
+      "z": -12715.0,
+      "lines": {
+        "European Ice lines": {
+          "Eurasian": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Athens",
+      "id": 61,
+      "x": 8106.0,
+      "z": -12922.0,
+      "lines": {
+        "European Ice lines": {
+          "Eurasian": [
+            "",
+            "Athens branch"
           ]
         }
       }
@@ -1326,6 +1390,7 @@
             "stations": [
               18.0,
               17.0,
+              39,
               19.0
             ]
           }
@@ -1556,14 +1621,15 @@
               ],
               [
                 7830.5,
-                -13460.5
+                -12715.5
               ]
             ],
             "stations": [
               42.0,
               41.0,
               37.0,
-              38.0
+              38.0,
+              59
             ]
           }
         }
@@ -1625,22 +1691,28 @@
           "Main line": {
             "vertices": [
               [
-                10260.0,
+                12019.0,
                 -12715.0
               ],
               [
-                9419.0,
+                7831.0,
                 -12715.0
               ]
             ],
             "stations": [
+              60,
               53.0,
-              54.0
+              54.0,
+              [58, "Athens branch"],
+              59
             ]
           },
           "Athens branch": {
-            "vertices": [],
-            "stations": []
+            "vertices": [
+              [8106, -12705],
+              [8106, -12922]
+            ],
+            "stations": [[58, "Main line"], 61]
           }
         }
       }
