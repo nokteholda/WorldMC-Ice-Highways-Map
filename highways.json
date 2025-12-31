@@ -463,18 +463,25 @@
                 }
             }
         },
-        {
-            "name": "Britain-Belgium JCT",
-            "type": "jct",
-            "id": 39,
-            "x": -430.5,
-            "z": -17313.5,
-            "lines": {
-                "European Ice lines": {
-                    "Brussels Highway": ["", "Main line"]
-                }
-            }
-        },
+    {
+      "name": "Britain-Belgium JCT",
+      "id": 39,
+      "x": -430.5,
+      "z": -17313.5,
+      "type": "jct",
+      "lines": {
+        "European Ice lines": {
+          "Britain Main": [
+            "",
+            "Main line"
+          ],
+          "Brussels Highway": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
         {
             "name": "Berlin JCT",
             "type": "jct",
@@ -1199,3 +1206,4 @@
         }
     }
 }
+
