@@ -921,6 +921,34 @@
           ]
         }
       }
+    },
+    {
+      "name": "Jakarta",
+      "id": 56,
+      "x": 36478.0,
+      "z": 2180.0,
+      "lines": {
+        "Indonesian Ice Lines": {
+          "Jakarta-Banana Kingdom": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Banana Kingdom",
+      "id": 57,
+      "x": 38056.0,
+      "z": 2749.0,
+      "lines": {
+        "Indonesian Ice Lines": {
+          "Jakarta-Banana Kingdom": [
+            "",
+            "Main line"
+          ]
+        }
+      }
     }
   ],
   "lines": {
@@ -1895,6 +1923,36 @@
             "stations": [
               33.0,
               34.0
+            ]
+          }
+        }
+      }
+    },
+    "Indonesian Ice Lines": {
+      "Jakarta-Banana Kingdom": {
+        "prefix": "",
+        "code": "JKT-BNK",
+        "color": "ff3333",
+        "y": -40,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                36478.0,
+                2180.0
+              ],
+              [
+                38056.0,
+                2180.0
+              ],
+              [
+                38056.0,
+                2749.0
+              ]
+            ],
+            "stations": [
+              56,
+              57
             ]
           }
         }
