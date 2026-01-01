@@ -70,7 +70,7 @@
       "z": -16656.0,
       "lines": {
         "European Ice lines": {
-          "Paris-Monaco-Rome": [
+          "Paris-Monaco": [
             "",
             "Main line"
           ]
@@ -85,7 +85,7 @@
       "type": "jct",
       "lines": {
         "European Ice lines": {
-          "Paris-Monaco-Rome": [
+          "Paris-Monaco": [
             "",
             "Main line to Taurinorum branch"
           ]
@@ -99,7 +99,7 @@
       "z": -15353.0,
       "lines": {
         "European Ice lines": {
-          "Paris-Monaco-Rome": [
+          "Paris-Monaco": [
             "",
             "Taurinorum branch"
           ]
@@ -113,11 +113,15 @@
       "z": -14901.0,
       "lines": {
         "European Ice lines": {
-          "Paris-Monaco-Rome": [
+          "Paris-Monaco": [
             "",
             "Main line"
           ],
           "Monaco South": [
+            "",
+            "Main line"
+          ],
+          "Trans-Adriatic": [
             "",
             "Main line"
           ]
@@ -131,9 +135,9 @@
       "z": -14417.5,
       "lines": {
         "European Ice lines": {
-          "Paris-Monaco-Rome": [
+          "Trans-Adriatic": [
             "",
-            "Main line"
+            "Rome branch"
           ]
         }
       }
@@ -264,7 +268,7 @@
             "",
             "Monaco connector branch"
           ],
-          "Paris-Monaco-Rome": [
+          "Paris-Monaco": [
             "",
             "Main line"
           ]
@@ -583,20 +587,16 @@
       }
     },
     {
-      "name": "Roman JCT",
+      "name": "Roman Interchange",
       "id": 36,
       "x": 4400.5,
-      "z": -14900.5,
+      "z": -14901,
       "type": "jct",
       "lines": {
         "European Ice lines": {
-          "Paris-Monaco-Rome": [
+          "Trans-Adriatic": [
             "",
-            "Main line"
-          ],
-          "Monaco-Thessaloniki-Volos": [
-            "",
-            "Main line"
+            "Main line to Rome branch"
           ]
         }
       }
@@ -679,11 +679,11 @@
       "name": "Balkan Interchange",
       "id": 41,
       "x": 7830.5,
-      "z": -14900.5,
+      "z": -14901,
       "type": "jct",
       "lines": {
         "European Ice lines": {
-          "Monaco-Thessaloniki-Volos": [
+          "Trans-Adriatic": [
             "",
             "Main line"
           ],
@@ -1013,7 +1013,86 @@
           ]
         }
       }
+    },
+    {
+      "name": "Samos Interchange",
+      "type": "jct",
+      "id": 62,
+      "x": 9419.0,
+      "z": -12875.0,
+      "lines": {
+        "European Ice lines": {
+          "Eastern Aegean": [
+            "",
+            "Main line to Samos branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Izmir Interchange",
+      "type": "jct",
+      "id": 63,
+      "x": 9419.0,
+      "z": -13042.0,
+      "lines": {
+        "European Ice lines": {
+          "Eastern Aegean": [
+            "",
+            "Main line to Izmir branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Samos",
+      "id": 64,
+      "x": 9240.0,
+      "z": -12875.0,
+      "lines": {
+        "European Ice lines": {
+          "Eastern Aegean": [
+            "",
+            "Samos branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Izmir",
+      "id": 65,
+      "x": 9170.0,
+      "z": -13042.0,
+      "lines": {
+        "European Ice lines": {
+          "Eastern Aegean": [
+            "",
+            "Izmir branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Northen Anatolian Interchange",
+      "type": "jct",
+      "id": 66,
+      "x": 10260.0,
+      "z": -14901.0,
+      "lines": {
+        "European Ice lines": {
+          "Alexandria-Anatolia": [
+            "",
+            "Main line"
+          ]
+        },
+        "EE-WA-NA": {
+          "Trans-Anatolia": [
+            "", "Main line"
+          ]
+        }
+      }
     }
+
   ],
   "lines": {
     "TNIH": {
@@ -1094,7 +1173,7 @@
       }
     },
     "European Ice lines": {
-      "Paris-Monaco-Rome": {
+      "Paris-Monaco": {
         "prefix": "",
         "code": "MN",
         "color": "ff0000",
@@ -1125,14 +1204,6 @@
               [
                 2468.5,
                 -14900.5
-              ],
-              [
-                4400.5,
-                -14900.5
-              ],
-              [
-                4400.5,
-                -14416.5
               ]
             ],
             "stations": [
@@ -1142,9 +1213,7 @@
                 5.0,
                 "Taurinorum branch"
               ],
-              7.0,
-              36.0,
-              8.0
+              7.0
             ]
           },
           "Taurinorum branch": {
@@ -1559,26 +1628,43 @@
           }
         }
       },
-      "Monaco-Thessaloniki-Volos": {
+      "Trans-Adriatic": {
         "prefix": "",
-        "code": "MON-TSL-VOL",
+        "code": "AD",
         "color": "fba34e",
         "y": -60,
         "branches": {
           "Main line": {
             "vertices": [
               [
-                4400.5,
-                -14900.5
+                2468.5,
+                -14901
               ],
               [
                 7830.5,
-                -14900.5
+                -14901
               ]
             ],
             "stations": [
-              36.0,
+              7.0,
+              [36.0, "Rome branch"],
               41.0
+            ]
+          },
+          "Rome branch": {
+            "vertices": [
+              [
+                4400.5,
+                -14901
+              ],
+              [
+                4400.5,
+                -14416.5
+              ]
+            ],
+            "stations": [
+              [36.0, "Main line"],
+              8.0
             ]
           }
         }
@@ -1648,13 +1734,29 @@
               ],
               [
                 9419.0,
-                -13000.0
+                -13042.0
               ]
             ],
             "stations": [
               55.0,
-              54.0
+              54.0,
+              [62, "Samos branch"],
+              [63, "Izmir branch"]
             ]
+          },
+          "Samos branch": {
+            "vertices": [
+              [9419, -12875],
+              [9240, -12875]
+            ],
+            "stations": [[62, "Main line"], 64]
+          },
+          "Izmir branch": {
+            "vertices": [
+              [9419, -13042],
+              [9170, -13042]
+            ],
+            "stations": [[63, "Main line"], 65]
           }
         }
       },
@@ -1672,12 +1774,13 @@
               ],
               [
                 10260.0,
-                -12715.0
+                -14901.0
               ]
             ],
             "stations": [
               52.0,
-              53.0
+              53.0,
+              66
             ]
           }
         }
@@ -1713,6 +1816,23 @@
               [8106, -12922]
             ],
             "stations": [[58, "Main line"], 61]
+          }
+        }
+      }
+    },
+    "EE-WA-NA": {
+      "Trans-Anatolia": {
+        "prefix": "",
+        "code": "TA",
+        "color": "f0f0f0",
+        "y": -60,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [10200, -14901],
+              [10300, -14901]
+            ],
+            "stations": [66]
           }
         }
       }
