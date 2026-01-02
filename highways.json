@@ -1077,7 +1077,7 @@
       "type": "jct",
       "id": 66,
       "x": 10260.0,
-      "z": -14901.0,
+      "z": -14001.0,
       "lines": {
         "European Ice lines": {
           "Alexandria-Anatolia": [
@@ -1774,7 +1774,7 @@
               ],
               [
                 10260.0,
-                -14901.0
+                -14001.0
               ]
             ],
             "stations": [
@@ -1823,14 +1823,14 @@
     "EE-WA-NA": {
       "Trans-Anatolia": {
         "prefix": "",
-        "code": "TA",
+        "code": "AN",
         "color": "f0f0f0",
         "y": -60,
         "branches": {
           "Main line": {
             "vertices": [
-              [10200, -14901],
-              [10300, -14901]
+              [10200, -14001],
+              [10300, -14001]
             ],
             "stations": [66]
           }
