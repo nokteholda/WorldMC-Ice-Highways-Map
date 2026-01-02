@@ -590,7 +590,7 @@
       "name": "Roman Interchange",
       "id": 36,
       "x": 4400.5,
-      "z": -14901,
+      "z": -14901.0,
       "type": "jct",
       "lines": {
         "European Ice lines": {
@@ -679,7 +679,7 @@
       "name": "Balkan Interchange",
       "id": 41,
       "x": 7830.5,
-      "z": -14901,
+      "z": -14901.0,
       "type": "jct",
       "lines": {
         "European Ice lines": {
@@ -874,10 +874,10 @@
     },
     {
       "name": "Alexandria Interchange",
-      "type": "jct",
       "id": 53,
       "x": 10260.0,
       "z": -12715.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Alexandria-Anatolia": [
@@ -893,10 +893,10 @@
     },
     {
       "name": "Eastern Aegean Interchange",
-      "type": "jct",
       "id": 54,
       "x": 9419.0,
       "z": -12715.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Eastern Aegean": [
@@ -954,10 +954,10 @@
     },
     {
       "name": "Athens Interchange",
-      "type": "jct",
       "id": 58,
       "x": 8106.0,
       "z": -12715.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Eurasian": [
@@ -969,10 +969,10 @@
     },
     {
       "name": "Western Aegean Interchange",
-      "type": "jct",
       "id": 59,
       "x": 7831.0,
       "z": -12715.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Western Aegean": [
@@ -1016,10 +1016,10 @@
     },
     {
       "name": "Samos Interchange",
-      "type": "jct",
       "id": 62,
       "x": 9419.0,
       "z": -12875.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Eastern Aegean": [
@@ -1031,10 +1031,10 @@
     },
     {
       "name": "Izmir Interchange",
-      "type": "jct",
       "id": 63,
       "x": 9419.0,
       "z": -13042.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Eastern Aegean": [
@@ -1074,10 +1074,10 @@
     },
     {
       "name": "Northen Anatolian Interchange",
-      "type": "jct",
       "id": 66,
       "x": 10260.0,
       "z": -14001.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Alexandria-Anatolia": [
@@ -1087,12 +1087,12 @@
         },
         "EE-WA-NA": {
           "Trans-Anatolia": [
-            "", "Main line"
+            "",
+            "Main line"
           ]
         }
       }
     }
-
   ],
   "lines": {
     "TNIH": {
@@ -1459,7 +1459,7 @@
             "stations": [
               18.0,
               17.0,
-              39,
+              39.0,
               19.0
             ]
           }
@@ -1638,16 +1638,19 @@
             "vertices": [
               [
                 2468.5,
-                -14901
+                -14901.0
               ],
               [
                 7830.5,
-                -14901
+                -14901.0
               ]
             ],
             "stations": [
               7.0,
-              [36.0, "Rome branch"],
+              [
+                36.0,
+                "Rome branch"
+              ],
               41.0
             ]
           },
@@ -1655,7 +1658,7 @@
             "vertices": [
               [
                 4400.5,
-                -14901
+                -14901.0
               ],
               [
                 4400.5,
@@ -1663,7 +1666,10 @@
               ]
             ],
             "stations": [
-              [36.0, "Main line"],
+              [
+                36.0,
+                "Main line"
+              ],
               8.0
             ]
           }
@@ -1715,7 +1721,7 @@
               41.0,
               37.0,
               38.0,
-              59
+              59.0
             ]
           }
         }
@@ -1740,23 +1746,53 @@
             "stations": [
               55.0,
               54.0,
-              [62, "Samos branch"],
-              [63, "Izmir branch"]
+              [
+                62.0,
+                "Samos branch"
+              ],
+              [
+                63.0,
+                "Izmir branch"
+              ]
             ]
           },
           "Samos branch": {
             "vertices": [
-              [9419, -12875],
-              [9240, -12875]
+              [
+                9419.0,
+                -12875.0
+              ],
+              [
+                9240.0,
+                -12875.0
+              ]
             ],
-            "stations": [[62, "Main line"], 64]
+            "stations": [
+              [
+                62.0,
+                "Main line"
+              ],
+              64.0
+            ]
           },
           "Izmir branch": {
             "vertices": [
-              [9419, -13042],
-              [9170, -13042]
+              [
+                9419.0,
+                -13042.0
+              ],
+              [
+                9170.0,
+                -13042.0
+              ]
             ],
-            "stations": [[63, "Main line"], 65]
+            "stations": [
+              [
+                63.0,
+                "Main line"
+              ],
+              65.0
+            ]
           }
         }
       },
@@ -1780,7 +1816,7 @@
             "stations": [
               52.0,
               53.0,
-              66
+              66.0
             ]
           }
         }
@@ -1803,19 +1839,34 @@
               ]
             ],
             "stations": [
-              60,
+              60.0,
               53.0,
               54.0,
-              [58, "Athens branch"],
-              59
+              [
+                58.0,
+                "Athens branch"
+              ],
+              59.0
             ]
           },
           "Athens branch": {
             "vertices": [
-              [8106, -12705],
-              [8106, -12922]
+              [
+                8106.0,
+                -12705.0
+              ],
+              [
+                8106.0,
+                -12922.0
+              ]
             ],
-            "stations": [[58, "Main line"], 61]
+            "stations": [
+              [
+                58.0,
+                "Main line"
+              ],
+              61.0
+            ]
           }
         }
       }
@@ -1829,10 +1880,18 @@
         "branches": {
           "Main line": {
             "vertices": [
-              [10200, -14001],
-              [10300, -14001]
+              [
+                10200.0,
+                -14001.0
+              ],
+              [
+                10300.0,
+                -14001.0
+              ]
             ],
-            "stations": [66]
+            "stations": [
+              66.0
+            ]
           }
         }
       }
@@ -2125,7 +2184,7 @@
         "prefix": "",
         "code": "JKT-BNK",
         "color": "ff3333",
-        "y": -40,
+        "y": 40,
         "branches": {
           "Main line": {
             "vertices": [
@@ -2143,8 +2202,8 @@
               ]
             ],
             "stations": [
-              56,
-              57
+              56.0,
+              57.0
             ]
           }
         }
