@@ -759,7 +759,7 @@
       }
     },
     {
-      "name": "Bogota",
+      "name": "Bogotá",
       "id": 45,
       "x": -25405.0,
       "z": -1417.0,
@@ -1150,6 +1150,39 @@
             "Main line"
           ],
           "Bogota": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Panama Route JCT",
+      "id": 70,
+      "x": -25544.0,
+      "z": -3094.0,
+      "type": "jct",
+      "lines": {
+        "Bolivar Ice lines": {
+          "Bogota-Barranquilla": [
+            "",
+            "Main line"
+          ],
+          "Panama": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Panama",
+      "id": 71,
+      "x": -26956.0,
+      "z": -3094.0,
+      "lines": {
+        "Bolivar Ice lines": {
+          "Panama": [
             "",
             "Main line"
           ]
@@ -2088,6 +2121,30 @@
             "stations": [
               67.0,
               51.0
+            ]
+          }
+        }
+      },
+      "Panama": {
+        "prefix": "",
+        "code": "BGT",
+        "color": "00e9ff",
+        "y": 35,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -25544.0,
+                -3094.0
+              ],
+              [
+                -26956.0,
+                -3094.0
+              ]
+            ],
+            "stations": [
+              70.0,
+              71.0
             ]
           }
         }
