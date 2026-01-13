@@ -369,7 +369,7 @@
           ],
           "Brussels-Karlsruhe": [
             "",
-            "Main line"
+            ""
           ]
         }
       }
@@ -397,7 +397,7 @@
         "European Ice lines": {
           "Brussels-Karlsruhe": [
             "",
-            "Main line"
+            ""
           ]
         }
       }
@@ -674,7 +674,7 @@
           ],
           "Berlin": [
             "",
-            "Main line"
+            ""
           ]
         }
       }
@@ -1233,7 +1233,7 @@
                 -14440.0
               ],
               [
-                39763.0,
+                41791.0,
                 -14440.0
               ]
             ],
@@ -1462,7 +1462,7 @@
         "color": "458c00",
         "y": -60,
         "branches": {
-          "Main line": {
+          "": {
             "vertices": [
               [
                 4608.0,
@@ -1604,7 +1604,7 @@
         "color": "90d5ff",
         "y": -60,
         "branches": {
-          "Main line": {
+          "": {
             "vertices": [
               [
                 2906.5,
