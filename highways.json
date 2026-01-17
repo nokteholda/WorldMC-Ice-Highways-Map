@@ -1193,10 +1193,10 @@
     },
     {
       "name": "Cyprus Interchange",
-      "type": "jct",
       "id": 72,
       "x": 11481.0,
       "z": -12715.0,
+      "type": "jct",
       "lines": {
         "IceWay": {
           "Eurasian": [
@@ -1284,7 +1284,7 @@
           "Main line": {
             "vertices": [
               [
-                27565.0,
+                25265.0,
                 -14440.0
               ],
               [
@@ -1390,7 +1390,10 @@
             ],
             "stations": [
               4.0,
-              [16.0, "Main line"]
+              [
+                16.0,
+                "Main line"
+              ]
             ]
           }
         }
@@ -1434,9 +1437,15 @@
                 "Cologne branch"
               ],
               13.0,
-              [22.0, "Karlsruhe branch"],
+              [
+                22.0,
+                "Karlsruhe branch"
+              ],
               14.0,
-              [40.0, "Berlin branch"],
+              [
+                40.0,
+                "Berlin branch"
+              ],
               42.0,
               43.0
             ]
@@ -1471,7 +1480,10 @@
               ]
             ],
             "stations": [
-              [22.0, "Main line"],
+              [
+                22.0,
+                "Main line"
+              ],
               24.0
             ]
           },
@@ -1853,7 +1865,10 @@
             ],
             "stations": [
               60.0,
-			  [72, "Cyprus branch"],
+              [
+                72.0,
+                "Cyprus branch"
+              ],
               53.0,
               54.0,
               [
@@ -1885,17 +1900,20 @@
           "Cyprus branch": {
             "vertices": [
               [
-                11481,
-                -12715
+                11481.0,
+                -12715.0
               ],
               [
-                11481,
-                -12016
+                11481.0,
+                -12016.0
               ]
             ],
             "stations": [
-				[72, "Main line"],
-				73
+              [
+                72.0,
+                "Main line"
+              ],
+              73.0
             ]
           }
         }
