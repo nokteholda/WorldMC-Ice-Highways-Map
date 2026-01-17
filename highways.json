@@ -70,9 +70,9 @@
       "z": -16656.0,
       "lines": {
         "European Ice lines": {
-          "Paris-Monaco": [
+          "Monaco": [
             "",
-            "Main line"
+            "Paris branch"
           ]
         }
       }
@@ -85,7 +85,7 @@
       "type": "jct",
       "lines": {
         "European Ice lines": {
-          "Paris-Monaco": [
+          "Monaco": [
             "",
             "Main line to Taurinorum branch"
           ]
@@ -99,7 +99,7 @@
       "z": -15353.0,
       "lines": {
         "European Ice lines": {
-          "Paris-Monaco": [
+          "Monaco": [
             "",
             "Taurinorum branch"
           ]
@@ -113,11 +113,7 @@
       "z": -14901.0,
       "lines": {
         "European Ice lines": {
-          "Paris-Monaco": [
-            "",
-            "Main line"
-          ],
-          "Monaco South": [
+          "Monaco": [
             "",
             "Main line"
           ],
@@ -168,9 +164,9 @@
             "",
             "Main line"
           ],
-          "Brussels-Amsterdam-Britain": [
+          "Amsterdam": [
             "",
-            "Main line"
+            ""
           ]
         }
       }
@@ -219,6 +215,10 @@
           "Brussels Highway": [
             "",
             "Main line"
+          ],
+          "Monaco": [
+            "",
+            "Main line"
           ]
         }
       }
@@ -235,7 +235,7 @@
             "",
             "Main line"
           ],
-          "Brussels-Aarhus": [
+          "Aarhus": [
             "",
             "Main line"
           ]
@@ -249,9 +249,9 @@
       "z": -17865.5,
       "lines": {
         "European Ice lines": {
-          "Brussels-Amsterdam-Britain": [
+          "Amsterdam": [
             "",
-            "Main line"
+            ""
           ]
         }
       }
@@ -264,13 +264,9 @@
       "type": "jct",
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Monaco": [
             "",
-            "Monaco connector branch"
-          ],
-          "Paris-Monaco": [
-            "",
-            "Main line"
+            "Main line to Paris branch"
           ]
         }
       }
@@ -283,11 +279,11 @@
       "type": "jct",
       "lines": {
         "European Ice lines": {
-          "Brussels-Amsterdam-Britain": [
+          "Amsterdam": [
             "",
-            "Main line"
+            ""
           ],
-          "Britain Main": [
+          "York": [
             "",
             "Main line"
           ]
@@ -301,11 +297,11 @@
       "z": -18421.5,
       "lines": {
         "European Ice lines": {
-          "Britain Main": [
+          "York": [
             "",
             "Main line"
           ],
-          "York-Isle-Inverness": [
+          "Isle": [
             "",
             "Main line"
           ]
@@ -319,7 +315,7 @@
       "z": -16730.5,
       "lines": {
         "European Ice lines": {
-          "Britain Main": [
+          "York": [
             "",
             "Main line"
           ]
@@ -356,7 +352,7 @@
       }
     },
     {
-      "name": "Karlsruhe Way JCT",
+      "name": "Karlsruhe Interchange",
       "id": 22,
       "x": 2906.5,
       "z": -17313.0,
@@ -365,11 +361,7 @@
         "European Ice lines": {
           "Brussels Highway": [
             "",
-            "Main line"
-          ],
-          "Brussels-Karlsruhe": [
-            "",
-            ""
+            "Main line to Karlsruhe branch"
           ]
         }
       }
@@ -381,7 +373,7 @@
       "z": -19157.5,
       "lines": {
         "European Ice lines": {
-          "Brussels-Aarhus": [
+          "Aarhus": [
             "",
             "Main line"
           ]
@@ -395,9 +387,9 @@
       "z": -16793.5,
       "lines": {
         "European Ice lines": {
-          "Brussels-Karlsruhe": [
+          "Brussels Highway": [
             "",
-            ""
+            "Karlsruhe branch"
           ]
         }
       }
@@ -518,7 +510,7 @@
       "z": -18499.5,
       "lines": {
         "European Ice lines": {
-          "York-Isle-Inverness": [
+          "Isle": [
             "",
             "Main line"
           ]
@@ -532,7 +524,7 @@
       "z": -19650.0,
       "lines": {
         "European Ice lines": {
-          "York-Isle-Inverness": [
+          "Isle": [
             "",
             "Main line"
           ]
@@ -649,7 +641,7 @@
       "type": "jct",
       "lines": {
         "European Ice lines": {
-          "Britain Main": [
+          "York": [
             "",
             "Main line"
           ],
@@ -670,11 +662,7 @@
         "European Ice lines": {
           "Brussels Highway": [
             "",
-            "Main line"
-          ],
-          "Berlin": [
-            "",
-            ""
+            "Main line to Berlin branch"
           ]
         }
       }
@@ -1188,6 +1176,49 @@
           ]
         }
       }
+    },
+    {
+      "name": "Cyprus Interchange",
+      "id": 72,
+      "x": -26956.0,
+      "z": -3094.0,
+      "lines": {
+        "IceWay": {
+          "Eurasian": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cyprus Interchange",
+      "type": "jct",
+      "id": 72,
+      "x": 11481.0,
+      "z": -12715.0,
+      "lines": {
+        "IceWay": {
+          "Eurasian": [
+            "",
+            "Main line to Cyprus branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cyprus",
+      "id": 73,
+      "x": 11481.0,
+      "z": -12016.0,
+      "lines": {
+        "IceWay": {
+          "Eurasian": [
+            "",
+            "Cyprus branch"
+          ]
+        }
+      }
     }
   ],
   "lines": {
@@ -1233,7 +1264,7 @@
                 -14440.0
               ],
               [
-                41791.0,
+                42815.0,
                 -14440.0
               ]
             ],
@@ -1269,7 +1300,7 @@
       }
     },
     "European Ice lines": {
-      "Paris-Monaco": {
+      "Monaco": {
         "prefix": "",
         "code": "MN",
         "color": "ff0000",
@@ -1278,8 +1309,8 @@
           "Main line": {
             "vertices": [
               [
-                899.0,
-                -16656.0
+                2461.0,
+                -17313.0
               ],
               [
                 2461.0,
@@ -1300,10 +1331,25 @@
               [
                 2468.5,
                 -14900.5
+              ],
+              [
+                2468.5,
+                -14892.5
+              ],
+              [
+                2460.5,
+                -14892.5
+              ],
+              [
+                2460.5,
+                -14418.5
+              ],
+              [
+                2530.5,
+                -14418.5
               ]
             ],
             "stations": [
-              4.0,
               16.0,
               [
                 5.0,
@@ -1330,47 +1376,28 @@
               ],
               6.0
             ]
-          }
-        }
-      },
-      "Monaco South": {
-        "prefix": "",
-        "code": "MON.s",
-        "color": "ff00e3",
-        "y": -60,
-        "branches": {
-          "Main line": {
+          },
+          "Paris branch": {
             "vertices": [
               [
-                2468.5,
-                -14901.0
+                899.0,
+                -16656.0
               ],
               [
-                2468.5,
-                -14892.5
-              ],
-              [
-                2460.5,
-                -14892.5
-              ],
-              [
-                2460.5,
-                -14418.5
-              ],
-              [
-                2530.5,
-                -14418.5
+                2461.0,
+                -16656.0
               ]
             ],
             "stations": [
-              7.0
+              4.0,
+              [16.0, "Main line"]
             ]
           }
         }
       },
       "Brussels Highway": {
         "prefix": "",
-        "code": "BR-BE",
+        "code": "",
         "color": "008c45",
         "y": -60,
         "branches": {
@@ -1406,34 +1433,12 @@
                 12.0,
                 "Cologne branch"
               ],
-              [
-                13.0,
-                "Monaco connector branch"
-              ],
-              22.0,
+              13.0,
+              [22.0, "Karlsruhe branch"],
               14.0,
-              40.0,
+              [40.0, "Berlin branch"],
               42.0,
               43.0
-            ]
-          },
-          "Monaco connector branch": {
-            "vertices": [
-              [
-                2461.0,
-                -17313.0
-              ],
-              [
-                2461.0,
-                -16656.0
-              ]
-            ],
-            "stations": [
-              [
-                13.0,
-                "Main line"
-              ],
-              16.0
             ]
           },
           "Cologne branch": {
@@ -1453,16 +1458,24 @@
                 "Main line"
               ]
             ]
-          }
-        }
-      },
-      "Berlin": {
-        "prefix": "",
-        "code": "BER",
-        "color": "458c00",
-        "y": -60,
-        "branches": {
-          "": {
+          },
+          "Karlsruhe branch": {
+            "vertices": [
+              [
+                2906.5,
+                -17313.5
+              ],
+              [
+                2906.5,
+                -16793.5
+              ]
+            ],
+            "stations": [
+              [22.0, "Main line"],
+              24.0
+            ]
+          },
+          "Berlin branch": {
             "vertices": [
               [
                 4608.0,
@@ -1502,13 +1515,13 @@
           }
         }
       },
-      "Brussels-Amsterdam-Britain": {
+      "Amsterdam": {
         "prefix": "",
-        "code": "BR-AM-GBR",
+        "code": "",
         "color": "000080",
         "y": -60,
         "branches": {
-          "Main line": {
+          "": {
             "vertices": [
               [
                 1600.5,
@@ -1531,9 +1544,9 @@
           }
         }
       },
-      "Britain Main": {
+      "York": {
         "prefix": "",
-        "code": "GBR.main",
+        "code": "",
         "color": "90d5ff",
         "y": -60,
         "branches": {
@@ -1561,9 +1574,9 @@
           }
         }
       },
-      "York-Isle-Inverness": {
+      "Isle": {
         "prefix": "",
-        "code": "YRK-ISL-INV",
+        "code": "",
         "color": "095dff",
         "y": -60,
         "branches": {
@@ -1594,30 +1607,6 @@
               18.0,
               31.0,
               32.0
-            ]
-          }
-        }
-      },
-      "Brussels-Karlsruhe": {
-        "prefix": "",
-        "code": "",
-        "color": "90d5ff",
-        "y": -60,
-        "branches": {
-          "": {
-            "vertices": [
-              [
-                2906.5,
-                -17313.5
-              ],
-              [
-                2906.5,
-                -16793.5
-              ]
-            ],
-            "stations": [
-              22.0,
-              24.0
             ]
           }
         }
@@ -1700,7 +1689,7 @@
           }
         }
       },
-      "Brussels-Aarhus": {
+      "Aarhus": {
         "prefix": "",
         "code": "",
         "color": "0032de",
@@ -1858,12 +1847,13 @@
                 -12715.0
               ],
               [
-                7831.0,
+                5200.0,
                 -12715.0
               ]
             ],
             "stations": [
               60.0,
+			  [72, "Cyprus branch"],
               53.0,
               54.0,
               [
@@ -1890,6 +1880,22 @@
                 "Main line"
               ],
               61.0
+            ]
+          },
+          "Cyprus branch": {
+            "vertices": [
+              [
+                11481,
+                -12715
+              ],
+              [
+                11481,
+                -12016
+              ]
+            ],
+            "stations": [
+				[72, "Main line"],
+				73
             ]
           }
         }
