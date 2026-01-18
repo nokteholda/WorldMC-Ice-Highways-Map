@@ -1192,21 +1192,6 @@
       }
     },
     {
-      "name": "Cyprus Interchange",
-      "id": 72,
-      "x": 11481.0,
-      "z": -12715.0,
-      "type": "jct",
-      "lines": {
-        "IceWay": {
-          "Eurasian": [
-            "",
-            "Main line to Cyprus branch"
-          ]
-        }
-      }
-    },
-    {
       "name": "Cyprus",
       "id": 73,
       "x": 11481.0,
@@ -1216,6 +1201,49 @@
           "Eurasian": [
             "",
             "Cyprus branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "New York",
+      "id": 74,
+      "x": -25323.0,
+      "z": -13873.0,
+      "lines": {
+        "American Ice lines": {
+          "United States": [
+            "",
+            "New York branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Chicago JCT",
+      "id": 75,
+      "x": -29985.5,
+      "z": -13904.5,
+      "type": "jct",
+      "lines": {
+        "American Ice lines": {
+          "United States": [
+            "",
+            "New York branch to Chicago branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Salt Lake City",
+      "id": 76,
+      "x": -38196.5,
+      "z": -13904.5,
+      "lines": {
+        "American Ice lines": {
+          "United States": [
+            "",
+            "New York branch"
           ]
         }
       }
@@ -1264,7 +1292,7 @@
                 -14440.0
               ],
               [
-                42815.0,
+                44000.0,
                 -14440.0
               ]
             ],
@@ -2359,6 +2387,39 @@
             "stations": [
               33.0,
               34.0
+            ]
+          }
+        }
+      }
+    },
+    "American Ice lines": {
+      "United States": {
+        "prefix": "",
+        "code": "",
+        "color": "ff00bd",
+        "y": 9,
+        "branches": {
+          "New York branch": {
+            "vertices": [
+              [-25314, -13890],
+              [-25314, -13873],
+              [-25323, -13873],
+              [-25323, -13903.5],
+              [-38196, -13903.5]
+            ],
+            "stations": [
+				74,
+				[75, "Chicago branch"],
+				76
+            ]
+          },
+          "Chicago branch": {
+            "vertices": [
+              [-29985.5, -13904.5],
+              [-29985.5, -14175.5]
+            ],
+            "stations": [
+				[75, "New York branch"]
             ]
           }
         }
