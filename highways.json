@@ -329,7 +329,7 @@
       "z": -20535.5,
       "lines": {
         "European Ice lines": {
-          "Greater Southern Iceroads": [
+          "Helsinki": [
             "",
             "Estonian line"
           ]
@@ -344,7 +344,7 @@
       "type": "jct",
       "lines": {
         "European Ice lines": {
-          "Greater Southern Iceroads": [
+          "Helsinki": [
             "",
             "Estonian line"
           ]
@@ -721,7 +721,7 @@
             "",
             "Main line"
           ],
-          "Saint Petersburg": [
+          "Kyiv-Petersburg": [
             "",
             "Main line"
           ]
@@ -735,11 +735,11 @@
       "z": -20460.0,
       "lines": {
         "European Ice lines": {
-          "Greater Southern Iceroads": [
+          "Helsinki": [
             "",
             "St. Petersburg line"
           ],
-          "Saint Petersburg": [
+          "Kyiv-Petersburg": [
             "",
             "Main line"
           ]
@@ -1247,6 +1247,81 @@
           ]
         }
       }
+    },
+    {
+      "name": "Japanese Sea 1st JCT",
+      "id": 77,
+      "x": 46321.5,
+      "z": -14440,
+      "type": "jct",
+      "lines": {
+        "X-ICE": {
+          "Aqua": [
+            "",
+            "Main line to Kyoto branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Japanese 1st Elevator",
+      "id": 78,
+      "y1": 10,
+      "y2": 16,
+      "x": 46323.5,
+      "z": -14300,
+      "type": "elev-we",
+      "lines": {
+        "X-ICE": {
+          "Aqua": [
+            "",
+            "Kyoto branch"
+          ]
+        },
+        "Japanese Ice lines": {
+          "Kyoto-Niigata-Tokyo": ["", "X-ICE branch"]
+        }
+      }
+    },
+    {
+      "name": "X-ICE JCT",
+      "id": 79,
+      "x": 46325.5,
+      "z": -12919.5,
+      "type": "jct",
+      "lines": {
+        "Japanese Ice lines": {
+          "Kyoto-Niigata-Tokyo": ["", "Main line to X-ICE branch"]
+        }
+      }
+    },
+    {
+      "name": "Liege",
+      "id": 80,
+      "x": 2014.0,
+      "z": -17313.5,
+      "lines": {
+        "European Ice lines": {
+          "Brussels Highway": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kyiv",
+      "id": 81,
+      "x": 10319.0,
+      "z": -17208.0,
+      "lines": {
+        "European Ice lines": {
+          "Kyiv-Petersburg": [
+            "",
+            "Main line"
+          ]
+        }
+      }
     }
   ],
   "lines": {
@@ -1292,14 +1367,32 @@
                 -14440.0
               ],
               [
-                44000.0,
+                46323,
                 -14440.0
               ]
             ],
             "stations": [
               11.0,
-              3.0
+              3.0,
+              [77.0, "Kyoto branch"]
             ]
+          },
+          "Kyoto branch": {
+            "vertices": [
+              [
+                46321.5,
+                -14440.0
+              ],
+              [
+                46321.5,
+                -14300.0
+              ],
+              [
+                46323.5,
+                -14300.0
+              ]
+            ],
+            "stations": [[77.0, "Main line"], 78]
           }
         }
       },
@@ -1312,7 +1405,7 @@
           "Main line": {
             "vertices": [
               [
-                25265.0,
+                24353.0,
                 -14440.0
               ],
               [
@@ -1460,6 +1553,7 @@
               35.0,
               9.0,
               10.0,
+			  80.0,
               [
                 12.0,
                 "Cologne branch"
@@ -1651,7 +1745,7 @@
           }
         }
       },
-      "Greater Southern Iceroads": {
+      "Helsinki": {
         "prefix": "",
         "code": "GSI",
         "color": "abff32",
@@ -1705,7 +1799,7 @@
           }
         }
       },
-      "Saint Petersburg": {
+      "Kyiv-Petersburg": {
         "prefix": "",
         "code": "",
         "color": "ff00ff",
@@ -1719,12 +1813,13 @@
               ],
               [
                 10319.0,
-                -17313.0
+                -17200.0
               ]
             ],
             "stations": [
+              44.0,
               43.0,
-              44.0
+			  81.0
             ]
           }
         }
@@ -2229,8 +2324,16 @@
               ]
             ],
             "stations": [
-              25.0
+              25.0, [79, "X-ICE branch"]
             ]
+          },
+          "X-ICE branch": {
+            "vertices": [
+              [46323.5, -14300],
+              [46325.5, -14300],
+              [46325.5, -12919.5]
+            ],
+            "stations": [[79, "Main line"], 78]
           }
         }
       },
