@@ -2001,7 +2001,7 @@
                 -12715.0
               ]
             ],
-            "stations": [82, 59.0, [58.0, 'Athens branch'], 54.0, 53.0, [72.0, 'Cyprus branch'], 60.0]
+            "stations": [82, 59.0, [58.0, "Athens branch"], 54.0, 53.0, [72.0, "Cyprus branch"], 60.0]
           },
           "Athens branch": {
             "vertices": [
