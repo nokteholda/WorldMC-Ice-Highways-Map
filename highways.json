@@ -1180,8 +1180,9 @@
     {
       "name": "Cyprus Interchange",
       "id": 72,
-      "x": -26956.0,
-      "z": -3094.0,
+      "x": 11481.0,
+      "z": -12715.0,
+      "type": "jct",
       "lines": {
         "IceWay": {
           "Eurasian": [
@@ -1317,6 +1318,20 @@
       "lines": {
         "European Ice lines": {
           "Kyiv-Petersburg": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Syracusa",
+      "id": 82,
+      "x": 5169.0,
+      "z": -12715.0,
+      "lines": {
+        "IceWay": {
+          "Eurasian": [
             "",
             "Main line"
           ]
@@ -1982,24 +1997,11 @@
                 -12715.0
               ],
               [
-                5200.0,
+                5169.0,
                 -12715.0
               ]
             ],
-            "stations": [
-              60.0,
-              [
-                72.0,
-                "Cyprus branch"
-              ],
-              53.0,
-              54.0,
-              [
-                58.0,
-                "Athens branch"
-              ],
-              59.0
-            ]
+            "stations": [82, 59.0, [58.0, 'Athens branch'], 54.0, 53.0, [72.0, 'Cyprus branch'], 60.0]
           },
           "Athens branch": {
             "vertices": [
