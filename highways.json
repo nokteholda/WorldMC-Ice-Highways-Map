@@ -532,13 +532,13 @@
       }
     },
     {
-      "name": "New York City",
+      "name": "New York (Mansel Station)",
       "id": 33,
-      "x": -25258.5,
-      "z": -13895.5,
+      "x": -25258,
+      "z": -13895,
       "lines": {
-        "Transatlantic": {
-          "Monaco-New York City": [
+        "American Ice lines": {
+          "Mansel": [
             "",
             "Main line"
           ]
@@ -546,7 +546,7 @@
       }
     },
     {
-      "name": "Monaco 2",
+      "name": "Monaco (New York Station)",
       "id": 34,
       "x": 2431.5,
       "z": -14950.5,
@@ -826,6 +826,8 @@
       "id": 50,
       "x": -25544.0,
       "z": -3745.0,
+      "y1": 35,
+      "y2": 10,
       "type": "elev-we",
       "lines": {
         "Bolivar Ice lines": {
@@ -1207,7 +1209,7 @@
       }
     },
     {
-      "name": "New York",
+      "name": "New York (Salt Lake Station)",
       "id": 74,
       "x": -25323.0,
       "z": -13873.0,
@@ -1337,6 +1339,41 @@
           ]
         }
       }
+    },
+    {
+      "name": "Transatlantic JCT",
+      "id": 83,
+      "x": -25258.0,
+      "z": -14950.5,
+      "type": "jct",
+      "lines": {
+        "American Ice lines": {
+          "Mansel": [
+            "",
+            "Main line"
+          ]
+        },
+        "Transatlantic": {
+          "Monaco-New York City": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mansel",
+      "id": 84,
+      "x": -27152.0,
+      "z": -21148.0,
+      "lines": {
+        "American Ice lines": {
+          "Mansel": [
+            "",
+            "Main line"
+          ]
+        }
+      }
     }
   ],
   "lines": {
@@ -1420,7 +1457,7 @@
           "Main line": {
             "vertices": [
               [
-                24353.0,
+                21473.0,
                 -14440.0
               ],
               [
@@ -2193,12 +2230,7 @@
                 -3745.0
               ]
             ],
-            "stations": [
-              69.0,
-              68.0,
-              49.0,
-              50.0
-            ]
+            "stations": [50.0, 70.0, 49.0, 68.0, 69.0]
           }
         }
       },
@@ -2292,8 +2324,8 @@
               ]
             ],
             "stations": [
-              70.0,
-              71.0
+              71.0,
+              70.0
             ]
           }
         }
@@ -2477,11 +2509,7 @@
           "Main line": {
             "vertices": [
               [
-                -25258.5,
-                -13885.0
-              ],
-              [
-                -25258.5,
+                -25258,
                 -14950.5
               ],
               [
@@ -2490,7 +2518,7 @@
               ]
             ],
             "stations": [
-              33.0,
+              83.0,
               34.0
             ]
           }
@@ -2528,6 +2556,23 @@
             ]
           }
         }
+      },
+      "Mansel": {
+        "prefix": "",
+        "code": "",
+        "color": "00bfff",
+        "y": 9,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [-25258, -13883],
+              [-25258, -21146],
+              [-27152, -21146]
+            ],
+            "stations": [33, 83, 84]
+          }
+        }
+
       }
     },
     "Indonesian Ice Lines": {
