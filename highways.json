@@ -1374,6 +1374,57 @@
           ]
         }
       }
+    },
+    {
+      "name": "Caribbean Sea 1st Elevator",
+      "id": 85,
+      "x": -24833.0,
+      "z": -7935.0,
+      "y1": 10,
+      "y2": 0,
+      "type": "elev-we",
+      "lines": {
+        "Bolivar Ice lines": {
+          "Jamaica-Hispanola": [
+            "",
+            "Main line"
+          ]
+        },
+        "American Ice lines": {
+          "Caribbean": ["", ""]
+        }
+      }
+    },
+    {
+      "name": "Caribbean Sea 2nd Elevator",
+      "id": 86,
+      "x": -24833.0,
+      "z": -14933.0,
+      "y1": 8,
+      "y2": 0,
+      "type": "elev-we",
+      "lines": {
+        "Transatlantic": {
+          "Monaco-New York City": ["", "Bolivar branch"]
+        },
+        "American Ice lines": {
+          "Caribbean": ["", ""]
+        }
+      }
+    },
+    {
+      "name": "Transatlantic 2nd JCT",
+      "id": 87,
+      "x": -24833.0,
+      "z": -14950.0,
+      "y1": 8,
+      "y2": 0,
+      "type": "jct",
+      "lines": {
+        "Transatlantic": {
+          "Monaco-New York City": ["", "Main line to Bolivar branch"]
+        }
+      }
     }
   ],
   "lines": {
@@ -1457,7 +1508,7 @@
           "Main line": {
             "vertices": [
               [
-                21473.0,
+                19557.0,
                 -14440.0
               ],
               [
@@ -2295,13 +2346,18 @@
                 -6425.0
               ],
               [
-                -24978.0,
+                -24833.0,
                 -6425.0
+              ],
+              [
+                -24833.0,
+                -7935.0
               ]
             ],
             "stations": [
               67.0,
-              51.0
+              51.0,
+			  85.0
             ]
           }
         }
@@ -2519,8 +2575,16 @@
             ],
             "stations": [
               83.0,
+			  [87.0, "Bolivar branch"],
               34.0
             ]
+          },
+          "Bolivar branch": {
+            "vertices": [
+              [-24833, -14933],
+              [-24833, -14950]
+            ],
+            "stations": [[87.0, "Main line"], 86]
           }
         }
       }
@@ -2572,7 +2636,21 @@
             "stations": [33, 83, 84]
           }
         }
-
+      },
+      "Caribbean": {
+        "prefix": "",
+        "code": "",
+        "color": "1b1e33",
+        "y": 0,
+        "branches": {
+          "": {
+            "vertices": [
+              [-24833, -7935],
+              [-24833, -14933]
+            ],
+            "stations": [85, 86]
+          }
+        }
       }
     },
     "Indonesian Ice Lines": {
