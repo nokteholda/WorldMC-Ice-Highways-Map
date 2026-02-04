@@ -283,7 +283,7 @@
             "",
             ""
           ],
-          "York": [
+          "Yorkshire": [
             "",
             "Main line"
           ]
@@ -297,7 +297,7 @@
       "z": -18421.5,
       "lines": {
         "European Ice lines": {
-          "York": [
+          "Yorkshire": [
             "",
             "Main line"
           ],
@@ -315,7 +315,7 @@
       "z": -16730.5,
       "lines": {
         "European Ice lines": {
-          "York": [
+          "Yorkshire": [
             "",
             "Main line"
           ]
@@ -641,7 +641,7 @@
       "type": "jct",
       "lines": {
         "European Ice lines": {
-          "York": [
+          "Yorkshire": [
             "",
             "Main line"
           ],
@@ -1425,6 +1425,38 @@
           "Monaco-New York City": ["", "Main line to Bolivar branch"]
         }
       }
+    },
+    {
+      "name": "Mogawa JCT",
+      "id": 88,
+      "x": 44616.5,
+      "z": -11750.5,
+      "type": "jct",
+      "lines": {
+        "Japanese Ice lines": {
+          "Kyoto-Niigata-Tokyo": [
+            "",
+            "Main line to Mogawa branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Tsushima",
+      "id": 89,
+      "x": 44156.5,
+      "z": -11750.5,
+      "lines": {
+        "Japanese Ice lines": {
+          "Kyoto-Niigata-Tokyo": [
+            "",
+            "Main line to Mogawa branch"
+          ]
+        }
+      },
+      "areas": [
+        [[44157, -11748], [44108, -11753]]
+      ]
     }
   ],
   "lines": {
@@ -1508,7 +1540,7 @@
           "Main line": {
             "vertices": [
               [
-                19557.0,
+                18241.0,
                 -14440.0
               ],
               [
@@ -1769,7 +1801,7 @@
                 -17865.5
               ],
               [
-                -430.5,
+                -601.5,
                 -17865.5
               ]
             ],
@@ -1781,7 +1813,7 @@
           }
         }
       },
-      "York": {
+      "Yorkshire": {
         "prefix": "",
         "code": "",
         "color": "90d5ff",
@@ -2303,8 +2335,9 @@
               ]
             ],
             "stations": [
-              45.0,
-              46.0
+              46.0,
+              69.0,
+              45.0
             ]
           }
         }
@@ -2410,12 +2443,22 @@
               ],
               [
                 46325.5,
-                -11916.5
-              ]
+                -11750.5
+              ],
+              [44156, -11750.5]
             ],
             "stations": [
-              25.0, [79, "X-ICE branch"]
+              25.0, [79, "X-ICE branch"], [88, "Mogawa branch"], 89
             ]
+          },
+          "Mogawa branch": {
+            "vertices": [
+              [44616.5, -11750.5],
+              [44616.5, -10770.5]
+            ],
+			"stations": [
+				[88, "Main line"]
+			]
           },
           "X-ICE branch": {
             "vertices": [
