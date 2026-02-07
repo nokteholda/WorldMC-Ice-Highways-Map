@@ -534,8 +534,8 @@
     {
       "name": "New York (Mansel Station)",
       "id": 33,
-      "x": -25258,
-      "z": -13895,
+      "x": -25258.0,
+      "z": -13895.0,
       "lines": {
         "American Ice lines": {
           "Mansel": [
@@ -826,9 +826,9 @@
       "id": 50,
       "x": -25544.0,
       "z": -3745.0,
+      "type": "elev-we",
       "y1": 35,
       "y2": 10,
-      "type": "elev-we",
       "lines": {
         "Bolivar Ice lines": {
           "Bogota-Barranquilla": [
@@ -1255,7 +1255,7 @@
       "name": "Japanese Sea 1st JCT",
       "id": 77,
       "x": 46321.5,
-      "z": -14440,
+      "z": -14440.0,
       "type": "jct",
       "lines": {
         "X-ICE": {
@@ -1269,11 +1269,11 @@
     {
       "name": "Japanese 1st Elevator",
       "id": 78,
+      "x": 46323.5,
+      "z": -14300.0,
+      "type": "elev-we",
       "y1": 10,
       "y2": 16,
-      "x": 46323.5,
-      "z": -14300,
-      "type": "elev-we",
       "lines": {
         "X-ICE": {
           "Aqua": [
@@ -1282,7 +1282,10 @@
           ]
         },
         "Japanese Ice lines": {
-          "Kyoto-Niigata-Tokyo": ["", "X-ICE branch"]
+          "Kyoto-Niigata-Tokyo": [
+            "",
+            "X-ICE branch"
+          ]
         }
       }
     },
@@ -1294,7 +1297,10 @@
       "type": "jct",
       "lines": {
         "Japanese Ice lines": {
-          "Kyoto-Niigata-Tokyo": ["", "Main line to X-ICE branch"]
+          "Kyoto-Niigata-Tokyo": [
+            "",
+            "Main line to X-ICE branch"
+          ]
         }
       }
     },
@@ -1380,9 +1386,9 @@
       "id": 85,
       "x": -24833.0,
       "z": -7935.0,
+      "type": "elev-we",
       "y1": 10,
       "y2": 0,
-      "type": "elev-we",
       "lines": {
         "Bolivar Ice lines": {
           "Jamaica-Hispanola": [
@@ -1391,7 +1397,10 @@
           ]
         },
         "American Ice lines": {
-          "Caribbean": ["", ""]
+          "Caribbean": [
+            "",
+            ""
+          ]
         }
       }
     },
@@ -1400,15 +1409,21 @@
       "id": 86,
       "x": -24833.0,
       "z": -14933.0,
+      "type": "elev-we",
       "y1": 8,
       "y2": 0,
-      "type": "elev-we",
       "lines": {
         "Transatlantic": {
-          "Monaco-New York City": ["", "Bolivar branch"]
+          "Monaco-New York City": [
+            "",
+            "Bolivar branch"
+          ]
         },
         "American Ice lines": {
-          "Caribbean": ["", ""]
+          "Caribbean": [
+            "",
+            ""
+          ]
         }
       }
     },
@@ -1417,12 +1432,15 @@
       "id": 87,
       "x": -24833.0,
       "z": -14950.0,
+      "type": "jct",
       "y1": 8,
       "y2": 0,
-      "type": "jct",
       "lines": {
         "Transatlantic": {
-          "Monaco-New York City": ["", "Main line to Bolivar branch"]
+          "Monaco-New York City": [
+            "",
+            "Main line to Bolivar branch"
+          ]
         }
       }
     },
@@ -1455,8 +1473,78 @@
         }
       },
       "areas": [
-        [[44157, -11748], [44108, -11753]]
+        [
+          [
+            44157.0,
+            -11748.0
+          ],
+          [
+            44108.0,
+            -11753.0
+          ]
+        ]
       ]
+    },
+    {
+      "name": "Brest",
+      "id": 90,
+      "x": -1500.0,
+      "z": -16526.0,
+      "lines": {
+        "French Rail": {
+          "Paris-Brest": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nantes-Paris-Brest JCT",
+      "id": 91,
+      "x": -448.0,
+      "z": -16526.0,
+      "type": "jct",
+      "lines": {
+        "French Rail": {
+          "Nantes": [
+            "",
+            "Main line"
+          ],
+          "Paris-Brest": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Paris French Rail",
+      "id": 92,
+      "x": 760.0,
+      "z": -16678.0,
+      "lines": {
+        "French Rail": {
+          "Paris-Brest": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nantes",
+      "id": 93,
+      "x": -448.0,
+      "z": -16204.0,
+      "lines": {
+        "French Rail": {
+          "Nantes": [
+            "",
+            "Main line"
+          ]
+        }
+      }
     }
   ],
   "lines": {
@@ -1502,14 +1590,17 @@
                 -14440.0
               ],
               [
-                46323,
+                46323.0,
                 -14440.0
               ]
             ],
             "stations": [
               11.0,
               3.0,
-              [77.0, "Kyoto branch"]
+              [
+                77.0,
+                "Kyoto branch"
+              ]
             ]
           },
           "Kyoto branch": {
@@ -1527,7 +1618,13 @@
                 -14300.0
               ]
             ],
-            "stations": [[77.0, "Main line"], 78]
+            "stations": [
+              [
+                77.0,
+                "Main line"
+              ],
+              78.0
+            ]
           }
         }
       },
@@ -1688,7 +1785,7 @@
               35.0,
               9.0,
               10.0,
-			  80.0,
+              80.0,
               [
                 12.0,
                 "Cologne branch"
@@ -1954,7 +2051,7 @@
             "stations": [
               44.0,
               43.0,
-			  81.0
+              81.0
             ]
           }
         }
@@ -2121,7 +2218,21 @@
                 -12715.0
               ]
             ],
-            "stations": [82, 59.0, [58.0, "Athens branch"], 54.0, 53.0, [72.0, "Cyprus branch"], 60.0]
+            "stations": [
+              82.0,
+              59.0,
+              [
+                58.0,
+                "Athens branch"
+              ],
+              54.0,
+              53.0,
+              [
+                72.0,
+                "Cyprus branch"
+              ],
+              60.0
+            ]
           },
           "Athens branch": {
             "vertices": [
@@ -2313,7 +2424,13 @@
                 -3745.0
               ]
             ],
-            "stations": [50.0, 70.0, 49.0, 68.0, 69.0]
+            "stations": [
+              50.0,
+              70.0,
+              49.0,
+              68.0,
+              69.0
+            ]
           }
         }
       },
@@ -2390,7 +2507,7 @@
             "stations": [
               67.0,
               51.0,
-			  85.0
+              85.0
             ]
           }
         }
@@ -2445,28 +2562,64 @@
                 46325.5,
                 -11750.5
               ],
-              [44156, -11750.5]
+              [
+                44156.0,
+                -11750.5
+              ]
             ],
             "stations": [
-              25.0, [79, "X-ICE branch"], [88, "Mogawa branch"], 89
+              25.0,
+              [
+                79.0,
+                "X-ICE branch"
+              ],
+              [
+                88.0,
+                "Mogawa branch"
+              ],
+              89.0
             ]
           },
           "Mogawa branch": {
             "vertices": [
-              [44616.5, -11750.5],
-              [44616.5, -10770.5]
+              [
+                44616.5,
+                -11750.5
+              ],
+              [
+                44616.5,
+                -10770.5
+              ]
             ],
-			"stations": [
-				[88, "Main line"]
-			]
+            "stations": [
+              [
+                88.0,
+                "Main line"
+              ]
+            ]
           },
           "X-ICE branch": {
             "vertices": [
-              [46323.5, -14300],
-              [46325.5, -14300],
-              [46325.5, -12919.5]
+              [
+                46323.5,
+                -14300.0
+              ],
+              [
+                46325.5,
+                -14300.0
+              ],
+              [
+                46325.5,
+                -12919.5
+              ]
             ],
-            "stations": [[79, "Main line"], 78]
+            "stations": [
+              [
+                79.0,
+                "Main line"
+              ],
+              78.0
+            ]
           }
         }
       },
@@ -2608,7 +2761,7 @@
           "Main line": {
             "vertices": [
               [
-                -25258,
+                -25258.0,
                 -14950.5
               ],
               [
@@ -2618,16 +2771,31 @@
             ],
             "stations": [
               83.0,
-			  [87.0, "Bolivar branch"],
+              [
+                87.0,
+                "Bolivar branch"
+              ],
               34.0
             ]
           },
           "Bolivar branch": {
             "vertices": [
-              [-24833, -14933],
-              [-24833, -14950]
+              [
+                -24833.0,
+                -14933.0
+              ],
+              [
+                -24833.0,
+                -14950.0
+              ]
             ],
-            "stations": [[87.0, "Main line"], 86]
+            "stations": [
+              [
+                87.0,
+                "Main line"
+              ],
+              86.0
+            ]
           }
         }
       }
@@ -2641,25 +2809,52 @@
         "branches": {
           "New York branch": {
             "vertices": [
-              [-25314, -13890],
-              [-25314, -13873],
-              [-25323, -13873],
-              [-25323, -13903.5],
-              [-38196, -13903.5]
+              [
+                -25314.0,
+                -13890.0
+              ],
+              [
+                -25314.0,
+                -13873.0
+              ],
+              [
+                -25323.0,
+                -13873.0
+              ],
+              [
+                -25323.0,
+                -13903.5
+              ],
+              [
+                -38196.0,
+                -13903.5
+              ]
             ],
             "stations": [
-				74,
-				[75, "Chicago branch"],
-				76
+              74.0,
+              [
+                75.0,
+                "Chicago branch"
+              ],
+              76.0
             ]
           },
           "Chicago branch": {
             "vertices": [
-              [-29985.5, -13904.5],
-              [-29985.5, -14175.5]
+              [
+                -29985.5,
+                -13904.5
+              ],
+              [
+                -29985.5,
+                -14175.5
+              ]
             ],
             "stations": [
-				[75, "New York branch"]
+              [
+                75.0,
+                "New York branch"
+              ]
             ]
           }
         }
@@ -2672,11 +2867,24 @@
         "branches": {
           "Main line": {
             "vertices": [
-              [-25258, -13883],
-              [-25258, -21146],
-              [-27152, -21146]
+              [
+                -25258.0,
+                -13883.0
+              ],
+              [
+                -25258.0,
+                -21146.0
+              ],
+              [
+                -27152.0,
+                -21146.0
+              ]
             ],
-            "stations": [33, 83, 84]
+            "stations": [
+              33.0,
+              83.0,
+              84.0
+            ]
           }
         }
       },
@@ -2688,10 +2896,19 @@
         "branches": {
           "": {
             "vertices": [
-              [-24833, -7935],
-              [-24833, -14933]
+              [
+                -24833.0,
+                -7935.0
+              ],
+              [
+                -24833.0,
+                -14933.0
+              ]
             ],
-            "stations": [85, 86]
+            "stations": [
+              85.0,
+              86.0
+            ]
           }
         }
       }
@@ -2725,7 +2942,65 @@
           }
         }
       }
+    },
+    "French Rail": {
+      "Nantes": {
+        "prefix": "",
+        "code": "",
+        "color": "009999",
+        "y": 0,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -448.0,
+                -16526.0
+              ],
+              [
+                -448.0,
+                -16204.0
+              ]
+            ],
+            "stations": [
+              91,
+              93
+            ]
+          }
+        }
+      },
+      "Paris-Brest": {
+        "prefix": "",
+        "code": "",
+        "color": "ffcc00",
+        "y": 0,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -1500.0,
+                -16526.0
+              ],
+              [
+                -448.0,
+                -16526.0
+              ],
+              [
+                760.0,
+                -16526.0
+              ],
+              [
+                760.0,
+                -16678.0
+              ]
+            ],
+            "stations": [
+              90,
+              91,
+              92
+            ]
+          }
+        }
+      }
     }
   }
 }
-
