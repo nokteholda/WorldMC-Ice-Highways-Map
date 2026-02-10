@@ -1545,6 +1545,56 @@
           ]
         }
       }
+    },
+    {
+      "name": "Corsica Interchange",
+      "id": 94,
+      "x": 2460.5,
+      "z": -14418.0,
+      "type": "jct",
+      "lines": {
+        "European Ice lines": {
+          "Monaco": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mediterranean Interchange",
+      "id": 95,
+      "x": 2460.5,
+      "z": -12715.0,
+      "type": "jct",
+      "lines": {
+        "European Ice lines": {
+          "Monaco": [
+            "",
+            "Main line"
+          ]
+        },
+        "IceWay": {
+          "Eurasian": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Algeria",
+      "id": 96,
+      "x": 2460.5,
+      "z": -12000.0,
+      "lines": {
+        "European Ice lines": {
+          "Monaco": [
+            "",
+            "Main line"
+          ]
+        }
+      }
     }
   ],
   "lines": {
@@ -1695,11 +1745,7 @@
               ],
               [
                 2460.5,
-                -14418.5
-              ],
-              [
-                2530.5,
-                -14418.5
+                -12000.5
               ]
             ],
             "stations": [
@@ -1708,7 +1754,10 @@
                 5.0,
                 "Taurinorum branch"
               ],
-              7.0
+              7.0,
+			  94,
+			  95,
+			  96
             ]
           },
           "Taurinorum branch": {
@@ -1748,6 +1797,19 @@
                 "Main line"
               ]
             ]
+          },
+          "Corsica branch": {
+            "vertices": [
+              [
+                2460.5,
+                -14418.5
+              ],
+              [
+                2530.5,
+                -14418.5
+              ]
+            ],
+            "stations": []
           }
         }
       },
@@ -2214,12 +2276,13 @@
                 -12715.0
               ],
               [
-                5169.0,
+                2460.5,
                 -12715.0
               ]
             ],
-            "stations": [
-              82.0,
+            "stations": [			
+              95.0,
+			  82.0,
               59.0,
               [
                 58.0,
