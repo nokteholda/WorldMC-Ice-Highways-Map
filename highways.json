@@ -317,7 +317,7 @@
         "European Ice lines": {
           "Yorkshire": [
             "",
-            "Main line"
+            "Evreux branch"
           ]
         }
       }
@@ -1509,7 +1509,7 @@
         "French Rail": {
           "Nantes": [
             "",
-            "Main line"
+            "Rail line to Ice line"
           ],
           "Paris-Brest": [
             "",
@@ -1541,7 +1541,7 @@
         "French Rail": {
           "Nantes": [
             "",
-            "Main line"
+            "Rail line"
           ]
         }
       }
@@ -1592,6 +1592,44 @@
           "Monaco": [
             "",
             "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Evreux West elevator",
+      "id": 97,
+      "y1": -60,
+      "y2": -54,
+      "x": -435.5,
+      "z": -16730.5,
+      "type": "elev-we",
+      "lines": {
+        "European Ice lines": {
+          "Yorkshire": [
+            "",
+            "Evreux branch"
+          ]
+        },
+        "French Rail": {
+          "Nantes": [
+            "",
+            "Ice line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Evreux West JCT",
+      "id": 98,
+      "x": -430.5,
+      "z": -16730.5,
+      "type": "jct",
+      "lines": {
+        "European Ice lines": {
+          "Yorkshire": [
+            "",
+            "Main line to Evreux branch"
           ]
         }
       }
@@ -1687,7 +1725,7 @@
           "Main line": {
             "vertices": [
               [
-                15104.0,
+                13000.0,
                 -14440.0
               ],
               [
@@ -1986,19 +2024,36 @@
               ],
               [
                 -430.5,
-                -16730.5
+                -16208.5
               ],
               [
-                377.5,
-                -16730.5
-              ]
+                -413.5,
+                -16208.5
+              ],
+              [-413.5,-16142.5],
+              [-430.5,-16142.5],
+              [-430.5,-14598.5]
+
             ],
             "stations": [
               18.0,
               17.0,
               39.0,
-              19.0
+			  [98, "Evreux branch"]
             ]
+          },
+          "Evreux branch": {
+            "vertices": [
+              [
+                377.5,
+                -16730.5
+              ],
+              [
+                -435.5,
+                -16730.5
+              ]
+            ],
+            "stations": [97, [98, "Main line"], 19]
           }
         }
       },
@@ -2392,7 +2447,13 @@
                 63.0,
                 "Izmir branch"
               ]
-            ]
+            ],
+            "concurrencies": {
+              "European Ice lines.Y=10 Thessaloniki-Volos": [
+                [7830.5, -13461.5],
+                [7830.5, -13851.5]
+              ]
+            }
           },
           "Samos branch": {
             "vertices": [
@@ -3013,7 +3074,7 @@
         "color": "009999",
         "y": 0,
         "branches": {
-          "Main line": {
+          "Rail line": {
             "vertices": [
               [
                 -448.0,
@@ -3025,8 +3086,28 @@
               ]
             ],
             "stations": [
-              91,
+              [91, "Ice line"],
               93
+            ]
+          },
+          "Ice line": {
+            "vertices": [
+              [
+                -435.5,
+                -16730.5
+              ],
+              [
+                -448.0,
+                -16730.5
+              ],
+              [
+                -448.0,
+                -16526.0
+              ]
+            ],
+            "stations": [
+              97,
+              [91, "Rail line"]
             ]
           }
         }
@@ -3035,7 +3116,7 @@
         "prefix": "",
         "code": "",
         "color": "ffcc00",
-        "y": 0,
+        "y": -54,
         "branches": {
           "Main line": {
             "vertices": [
