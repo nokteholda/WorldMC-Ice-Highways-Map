@@ -1633,6 +1633,38 @@
           ]
         }
       }
+    },
+    {
+      "name": "Polish JCT",
+      "id": 99,
+      "x": 5523,
+      "z": -17313,
+      "type": "jct",
+      "lines": {
+        "European Ice lines": {
+          "Polish Rail": [
+            "",
+            ""
+          ],
+          "Brussels Highway": [
+            "", "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Poland Town",
+      "id": 100,
+      "x": 5523,
+      "z": -18476,
+      "lines": {
+        "European Ice lines": {
+          "Polish Rail": [
+            "",
+            ""
+          ]
+        }
+      }
     }
   ],
   "lines": {
@@ -1900,6 +1932,7 @@
                 40.0,
                 "Berlin branch"
               ],
+              99,
               42.0,
               43.0
             ]
@@ -2054,6 +2087,21 @@
               ]
             ],
             "stations": [97, [98, "Main line"], 19]
+          }
+        }
+      },
+      "Polish Rail": {
+        "prefix": "",
+        "code": "",
+        "color": "dc143c",
+        "y": -60,
+        "branches": {
+          "": {
+            "vertices": [
+              [5523, -17313],
+              [5523, -18476]
+            ],
+            "stations": [100, 99]
           }
         }
       },
