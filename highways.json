@@ -1665,6 +1665,52 @@
           ]
         }
       }
+    },
+    {
+      "name": "Y=35 to Y=18 Elevator",
+      "id": 101,
+      "type": "elev-ew",
+      "y1": 35,
+      "y2": 18,
+      "x": -27582,
+      "z": -3094,
+      "lines": {
+        "American Ice lines": {
+          "Ozark-Panama": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lakamha Interchange",
+      "id": 102,
+      "type": "jct",
+      "x": -31842,
+      "z": -5982,
+      "lines": {
+        "American Ice lines": {
+          "Ozark-Panama": [
+            "",
+            "Main line to Lakamha branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ozark",
+      "id": 103,
+      "x": -31840,
+      "z": -12723,
+      "lines": {
+        "American Ice lines": {
+          "Ozark-Panama": [
+            "",
+            "Main line to Lakamha branch"
+          ]
+        }
+      }
     }
   ],
   "lines": {
@@ -2686,7 +2732,7 @@
       },
       "Panama": {
         "prefix": "",
-        "code": "BGT",
+        "code": "PAN",
         "color": "00e9ff",
         "y": 35,
         "branches": {
@@ -2697,7 +2743,7 @@
                 -3094.0
               ],
               [
-                -26956.0,
+                -27582.0,
                 -3094.0
               ]
             ],
@@ -3081,6 +3127,46 @@
               85.0,
               86.0
             ]
+          }
+        }
+      },
+      "Ozark-Panama": {
+        "prefix": "",
+        "code": "OZK-PAN",
+        "color": "00747f",
+        "y": 18,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -31840.0,
+                -12723.0
+              ],
+              [
+                -31840.0,
+                -11274.0
+              ],
+              [
+                -31842.0,
+                -11274.0
+              ],
+              [
+                -31842.0,
+                -3094.0
+              ],
+              [
+                -27582.0,
+                -3094.0
+              ]
+            ],
+            "stations": [103, [102, "Lakamha branch"], 101]
+          },
+          "Lakamha branch": {
+            "vertices": [
+              [-31842, -5982],
+              [-31430, -5982]
+            ],
+            "stations": [[102, "Main line"]]
           }
         }
       }
