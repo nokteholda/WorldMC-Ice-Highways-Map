@@ -1711,6 +1711,34 @@
           ]
         }
       }
+    },
+    {
+      "name": "Accra",
+      "id": 104,
+      "x": -147,
+      "z": -1861,
+      "lines": {
+        "African": {
+          "Great West African Ice Highway": [
+            "",
+            "Accra - Bata line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bata",
+      "id": 105,
+      "x": 3372,
+      "z": -656,
+      "lines": {
+        "African": {
+          "Great West African Ice Highway": [
+            "",
+            "Accra - Bata line"
+          ]
+        }
+      }
     }
   ],
   "lines": {
@@ -2359,6 +2387,26 @@
               37.0,
               38.0
             ]
+          }
+        }
+      }
+    },
+    "African": {
+      "Great West African Ice Highway": {
+        "prefix": "",
+        "code": "",
+        "color": "006400",
+        "y": 73,
+        "branches": {
+          "Accra - Bata line": {
+            "vertices": [
+              [-147, -1861],
+              [-147, -765],
+              [3347, -765],
+              [3347, -656],
+              [3372, -656]
+            ],
+            "stations": []
           }
         }
       }
