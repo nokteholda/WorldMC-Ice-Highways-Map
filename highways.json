@@ -859,11 +859,15 @@
     {
       "name": "Alexandria",
       "id": 52,
-      "x": 10260.0,
-      "z": -10682.0,
+      "x": 10320.0,
+      "z": -10602.0,
       "lines": {
         "IceWay": {
           "Alexandria-Anatolia": [
+            "",
+            "Main line"
+          ],
+          "Afro-Asiatic": [
             "",
             "Main line"
           ]
@@ -1599,11 +1603,11 @@
     {
       "name": "Evreux West elevator",
       "id": 97,
-      "y1": -60,
-      "y2": -54,
       "x": -435.5,
       "z": -16730.5,
       "type": "elev-we",
+      "y1": -60,
+      "y2": -54,
       "lines": {
         "European Ice lines": {
           "Yorkshire": [
@@ -1637,8 +1641,8 @@
     {
       "name": "Polish JCT",
       "id": 99,
-      "x": 5523,
-      "z": -17313,
+      "x": 5523.0,
+      "z": -17313.0,
       "type": "jct",
       "lines": {
         "European Ice lines": {
@@ -1647,7 +1651,8 @@
             ""
           ],
           "Brussels Highway": [
-            "", "Main line"
+            "",
+            "Main line"
           ]
         }
       }
@@ -1655,8 +1660,8 @@
     {
       "name": "Poland Town",
       "id": 100,
-      "x": 5523,
-      "z": -18476,
+      "x": 5523.0,
+      "z": -18476.0,
       "lines": {
         "European Ice lines": {
           "Polish Rail": [
@@ -1669,11 +1674,11 @@
     {
       "name": "Y=35 to Y=18 Elevator",
       "id": 101,
+      "x": -27582.0,
+      "z": -3094.0,
       "type": "elev-ew",
       "y1": 35,
       "y2": 18,
-      "x": -27582,
-      "z": -3094,
       "lines": {
         "American Ice lines": {
           "Ozark-Panama": [
@@ -1686,9 +1691,9 @@
     {
       "name": "Lakamha Interchange",
       "id": 102,
+      "x": -31842.0,
+      "z": -5982.0,
       "type": "jct",
-      "x": -31842,
-      "z": -5982,
       "lines": {
         "American Ice lines": {
           "Ozark-Panama": [
@@ -1701,8 +1706,8 @@
     {
       "name": "Ozark",
       "id": 103,
-      "x": -31840,
-      "z": -12723,
+      "x": -31840.0,
+      "z": -12723.0,
       "lines": {
         "American Ice lines": {
           "Ozark-Panama": [
@@ -1715,8 +1720,8 @@
     {
       "name": "Accra",
       "id": 104,
-      "x": -147,
-      "z": -1861,
+      "x": -147.0,
+      "z": -1861.0,
       "lines": {
         "African": {
           "Great West African Ice Highway": [
@@ -1729,13 +1734,27 @@
     {
       "name": "Bata",
       "id": 105,
-      "x": 3372,
-      "z": -656,
+      "x": 3372.0,
+      "z": -656.0,
       "lines": {
         "African": {
           "Great West African Ice Highway": [
             "",
             "Accra - Bata line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jerusalem",
+      "id": 106,
+      "x": 12015.0,
+      "z": -10694.0,
+      "lines": {
+        "IceWay": {
+          "Afro-Asiatic": [
+            "",
+            "Main line"
           ]
         }
       }
@@ -1899,9 +1918,9 @@
                 "Taurinorum branch"
               ],
               7.0,
-			  94,
-			  95,
-			  96
+              94.0,
+              95.0,
+              96.0
             ]
           },
           "Taurinorum branch": {
@@ -2006,7 +2025,7 @@
                 40.0,
                 "Berlin branch"
               ],
-              99,
+              99.0,
               42.0,
               43.0
             ]
@@ -2137,16 +2156,27 @@
                 -413.5,
                 -16208.5
               ],
-              [-413.5,-16142.5],
-              [-430.5,-16142.5],
-              [-430.5,-14598.5]
-
+              [
+                -413.5,
+                -16142.5
+              ],
+              [
+                -430.5,
+                -16142.5
+              ],
+              [
+                -430.5,
+                -14598.5
+              ]
             ],
             "stations": [
               18.0,
               17.0,
               39.0,
-			  [98, "Evreux branch"]
+              [
+                98.0,
+                "Evreux branch"
+              ]
             ]
           },
           "Evreux branch": {
@@ -2160,7 +2190,14 @@
                 -16730.5
               ]
             ],
-            "stations": [97, [98, "Main line"], 19]
+            "stations": [
+              97.0,
+              [
+                98.0,
+                "Main line"
+              ],
+              19.0
+            ]
           }
         }
       },
@@ -2172,10 +2209,19 @@
         "branches": {
           "": {
             "vertices": [
-              [5523, -17313],
-              [5523, -18476]
+              [
+                5523.0,
+                -17313.0
+              ],
+              [
+                5523.0,
+                -18476.0
+              ]
             ],
-            "stations": [100, 99]
+            "stations": [
+              100.0,
+              99.0
+            ]
           }
         }
       },
@@ -2400,13 +2446,31 @@
         "branches": {
           "Accra - Bata line": {
             "vertices": [
-              [-147, -1861],
-              [-147, -765],
-              [3347, -765],
-              [3347, -656],
-              [3372, -656]
+              [
+                -147.0,
+                -1861.0
+              ],
+              [
+                -147.0,
+                -765.0
+              ],
+              [
+                3347.0,
+                -765.0
+              ],
+              [
+                3347.0,
+                -656.0
+              ],
+              [
+                3372.0,
+                -656.0
+              ]
             ],
-            "stations": [104, 105]
+            "stations": [
+              104.0,
+              105.0
+            ]
           }
         }
       }
@@ -2450,12 +2514,17 @@
               [
                 10260.0,
                 -14001.0
+              ],
+              [
+                10320.0,
+                -10602.0
               ]
             ],
             "stations": [
               52.0,
               53.0,
-              66.0
+              66.0,
+              52.0
             ]
           }
         }
@@ -2477,9 +2546,9 @@
                 -12715.0
               ]
             ],
-            "stations": [			
+            "stations": [
               95.0,
-			  82.0,
+              82.0,
               59.0,
               [
                 58.0,
@@ -2589,13 +2658,7 @@
                 63.0,
                 "Izmir branch"
               ]
-            ],
-            "concurrencies": {
-              "European Ice lines.Y=10 Thessaloniki-Volos": [
-                [7830.5, -13461.5],
-                [7830.5, -13851.5]
-              ]
-            }
+            ]
           },
           "Samos branch": {
             "vertices": [
@@ -2633,6 +2696,30 @@
                 "Main line"
               ],
               65.0
+            ]
+          }
+        }
+      },
+      "Afro-Asiatic": {
+        "prefix": "",
+        "code": "AF",
+        "color": "0d72b6",
+        "y": -60,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                12015.0,
+                -10694.0
+              ],
+              [
+                10320.0,
+                -10694.0
+              ]
+            ],
+            "stations": [
+              106.0,
+              52.0
             ]
           }
         }
@@ -3207,14 +3294,32 @@
                 -3094.0
               ]
             ],
-            "stations": [103, [102, "Lakamha branch"], 101]
+            "stations": [
+              103.0,
+              [
+                102.0,
+                "Lakamha branch"
+              ],
+              101.0
+            ]
           },
           "Lakamha branch": {
             "vertices": [
-              [-31842, -5982],
-              [-31430, -5982]
+              [
+                -31842.0,
+                -5982.0
+              ],
+              [
+                -31430.0,
+                -5982.0
+              ]
             ],
-            "stations": [[102, "Main line"]]
+            "stations": [
+              [
+                102.0,
+                "Main line"
+              ]
+            ]
           }
         }
       }
@@ -3268,8 +3373,11 @@
               ]
             ],
             "stations": [
-              [91, "Ice line"],
-              93
+              [
+                91.0,
+                "Ice line"
+              ],
+              93.0
             ]
           },
           "Ice line": {
@@ -3288,8 +3396,11 @@
               ]
             ],
             "stations": [
-              97,
-              [91, "Rail line"]
+              97.0,
+              [
+                91.0,
+                "Rail line"
+              ]
             ]
           }
         }
@@ -3320,9 +3431,9 @@
               ]
             ],
             "stations": [
-              90,
-              91,
-              92
+              90.0,
+              91.0,
+              92.0
             ]
           }
         }
