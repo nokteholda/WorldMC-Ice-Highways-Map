@@ -1849,8 +1849,8 @@
     "European Ice lines": {
       "Monaco": {
         "prefix": "",
-        "code": "MN",
-        "color": "ff0000",
+        "code": "M",
+        "color": "e91e79",
         "y": -60,
         "branches": {
           "Main line": {
@@ -1958,9 +1958,9 @@
         }
       },
       "Brussels Highway": {
-        "prefix": "",
+        "prefix": "B",
         "code": "",
-        "color": "008c45",
+        "color": "d5dc25",
         "y": -60,
         "branches": {
           "Main line": {
@@ -2119,8 +2119,8 @@
       },
       "Yorkshire": {
         "prefix": "",
-        "code": "",
-        "color": "90d5ff",
+        "code": "Y",
+        "color": "6fc8d9",
         "y": -60,
         "branches": {
           "Main line": {
@@ -2322,7 +2322,7 @@
       "Trans-Adriatic": {
         "prefix": "",
         "code": "AD",
-        "color": "fba34e",
+        "color": "3bb14a",
         "y": -60,
         "branches": {
           "Main line": {
@@ -2438,7 +2438,7 @@
       "Alexandria-Anatolia": {
         "prefix": "",
         "code": "AA",
-        "color": "c01c1c",
+        "color": "bf1c1c",
         "y": -60,
         "branches": {
           "Main line": {
@@ -2463,7 +2463,7 @@
       "Eurasian": {
         "prefix": "",
         "code": "EA",
-        "color": "f49020",
+        "color": "f38f20",
         "y": -60,
         "branches": {
           "Main line": {
@@ -2537,7 +2537,7 @@
       "Western Aegean": {
         "prefix": "",
         "code": "AG",
-        "color": "b6529b",
+        "color": "b5529b",
         "y": -60,
         "branches": {
           "Main line": {
