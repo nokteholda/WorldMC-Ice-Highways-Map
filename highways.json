@@ -111,6 +111,7 @@
       "id": 7,
       "x": 2468.5,
       "z": -14901.0,
+      "type": "inter",
       "lines": {
         "European Ice lines": {
           "Monaco": [
@@ -352,7 +353,7 @@
       }
     },
     {
-      "name": "Karlsruhe Interchange",
+      "name": "Karlsruhe JCT",
       "id": 22,
       "x": 2906.5,
       "z": -17313.0,
@@ -565,7 +566,7 @@
       }
     },
     {
-      "name": "Roman Interchange",
+      "name": "Roman JCT",
       "id": 36,
       "x": 4400.5,
       "z": -14901.0,
@@ -654,20 +655,20 @@
       }
     },
     {
-      "name": "Balkan Interchange",
+      "name": "Balkan JCT",
       "id": 41,
       "x": 7830.5,
       "z": -14901.0,
       "type": "jct",
       "lines": {
-        "European Ice lines": {
-          "Trans-Adriatic": [
+        "IceWay": {
+          "Western Aegean": [
             "",
             "Main line"
           ]
         },
-        "IceWay": {
-          "Western Aegean": [
+        "European Ice lines": {
+          "Trans-Adriatic": [
             "",
             "Main line"
           ]
@@ -696,18 +697,18 @@
       }
     },
     {
-      "name": "St. Petersburg Highwhay JCT",
+      "name": "St. Petersburg JCT",
       "id": 43,
       "x": 10319.0,
       "z": -17313.5,
       "type": "jct",
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Kyiv-Petersburg": [
             "",
             "Main line"
           ],
-          "Kyiv-Petersburg": [
+          "Brussels Highway": [
             "",
             "Main line"
           ]
@@ -834,6 +835,7 @@
       "id": 52,
       "x": 10260.0,
       "z": -10694.0,
+      "type": "inter",
       "lines": {
         "IceWay": {
           "Alexandria-Anatolia": [
@@ -848,7 +850,7 @@
       }
     },
     {
-      "name": "Alexandria Interchange",
+      "name": "Alexandria JCT",
       "id": 53,
       "x": 10260.0,
       "z": -12715.0,
@@ -867,7 +869,7 @@
       }
     },
     {
-      "name": "Eastern Aegean Interchange",
+      "name": "Eastern Aegean JCT",
       "id": 54,
       "x": 9419.0,
       "z": -12715.0,
@@ -943,7 +945,7 @@
       }
     },
     {
-      "name": "Western Aegean Interchange",
+      "name": "Western Aegean JCT",
       "id": 59,
       "x": 7831.0,
       "z": -12715.0,
@@ -990,7 +992,7 @@
       }
     },
     {
-      "name": "Samos Interchange",
+      "name": "Samos JCT",
       "id": 62,
       "x": 9419.0,
       "z": -12875.0,
@@ -1005,7 +1007,7 @@
       }
     },
     {
-      "name": "Izmir Interchange",
+      "name": "Izmir JCT",
       "id": 63,
       "x": 9419.0,
       "z": -13042.0,
@@ -1048,7 +1050,7 @@
       }
     },
     {
-      "name": "Northen Anatolian Interchange",
+      "name": "Northen Anatolian JCT",
       "id": 66,
       "x": 10260.0,
       "z": -14001.0,
@@ -1151,7 +1153,7 @@
       }
     },
     {
-      "name": "Cyprus Interchange",
+      "name": "Cyprus JCT",
       "id": 72,
       "x": 11481.0,
       "z": -12715.0,
@@ -1506,7 +1508,7 @@
       }
     },
     {
-      "name": "Corsica Interchange",
+      "name": "Corsica JCT",
       "id": 94,
       "x": 2460.5,
       "z": -14418.0,
@@ -1521,20 +1523,20 @@
       }
     },
     {
-      "name": "Mediterranean Interchange",
+      "name": "Mediterranean JCT",
       "id": 95,
       "x": 2460.5,
       "z": -12715.0,
       "type": "jct",
       "lines": {
-        "European Ice lines": {
-          "Monaco": [
+        "IceWay": {
+          "Eurasian": [
             "",
             "Main line"
           ]
         },
-        "IceWay": {
-          "Eurasian": [
+        "European Ice lines": {
+          "Monaco": [
             "",
             "Main line"
           ]
@@ -1963,6 +1965,18 @@
               [
                 2460.5,
                 -12000.5
+              ],
+              [
+                2460.5,
+                -12715.0
+              ],
+              [
+                2460.5,
+                -14418.0
+              ],
+              [
+                2468.5,
+                -14901.0
               ]
             ],
             "stations": [
@@ -1974,7 +1988,10 @@
               7.0,
               94.0,
               95.0,
-              96.0
+              96.0,
+              95,
+              94,
+              7
             ]
           },
           "Taurinorum branch": {
@@ -2057,6 +2074,10 @@
               [
                 10324.0,
                 -17313.0
+              ],
+              [
+                10319.0,
+                -17313.5
               ]
             ],
             "stations": [
@@ -2081,7 +2102,8 @@
               ],
               99.0,
               42.0,
-              43.0
+              43.0,
+              43
             ]
           },
           "Cologne branch": {
@@ -2134,6 +2156,17 @@
             ],
             "stations": [
               40.0
+            ]
+          },
+          "Main line to Karlsruhe branch": {
+            "vertices": [
+              [
+                2906.5,
+                -17313.0
+              ]
+            ],
+            "stations": [
+              22
             ]
           }
         }
@@ -2385,12 +2418,17 @@
               [
                 10319.0,
                 -17200.0
+              ],
+              [
+                10319.0,
+                -17313.5
               ]
             ],
             "stations": [
               44.0,
               43.0,
-              81.0
+              81.0,
+              43
             ]
           }
         }
@@ -2442,7 +2480,9 @@
                 36.0,
                 "Rome branch"
               ],
-              41.0
+              41.0,
+              41,
+              7
             ]
           },
           "Rome branch": {
@@ -2462,6 +2502,17 @@
                 "Main line"
               ],
               8.0
+            ]
+          },
+          "Main line to Rome branch": {
+            "vertices": [
+              [
+                4400.5,
+                -14901.0
+              ]
+            ],
+            "stations": [
+              36
             ]
           }
         }
@@ -2554,7 +2605,8 @@
             "stations": [
               66.0,
               66.0,
-              66.0
+              66.0,
+              66
             ]
           }
         }
@@ -2578,6 +2630,18 @@
               [
                 10260.0,
                 -12715.0
+              ],
+              [
+                7831.0,
+                -12715.0
+              ],
+              [
+                9419.0,
+                -12715.0
+              ],
+              [
+                11481.0,
+                -12715.0
               ]
             ],
             "stations": [
@@ -2596,7 +2660,12 @@
               ],
               60.0,
               53.0,
-              53.0
+              53.0,
+              95,
+              59,
+              54,
+              53,
+              72
             ]
           },
           "Athens branch": {
@@ -2654,6 +2723,14 @@
               [
                 7830.5,
                 -12715.5
+              ],
+              [
+                7831.0,
+                -12715.0
+              ],
+              [
+                7830.5,
+                -14901.0
               ]
             ],
             "stations": [
@@ -2661,7 +2738,9 @@
               41.0,
               37.0,
               38.0,
-              59.0
+              59.0,
+              59,
+              41
             ]
           }
         }
@@ -2681,6 +2760,10 @@
               [
                 9419.0,
                 -13042.0
+              ],
+              [
+                9419.0,
+                -12715.0
               ]
             ],
             "stations": [
@@ -2693,7 +2776,8 @@
               [
                 63.0,
                 "Izmir branch"
-              ]
+              ],
+              54
             ]
           },
           "Samos branch": {
@@ -2733,6 +2817,28 @@
               ],
               65.0
             ]
+          },
+          "Main line to Samos branch": {
+            "vertices": [
+              [
+                9419.0,
+                -12875.0
+              ]
+            ],
+            "stations": [
+              62
+            ]
+          },
+          "Main line to Izmir branch": {
+            "vertices": [
+              [
+                9419.0,
+                -13042.0
+              ]
+            ],
+            "stations": [
+              63
+            ]
           }
         }
       },
@@ -2756,7 +2862,8 @@
             "stations": [
               106.0,
               52.0,
-              52.0
+              52.0,
+              52
             ]
           }
         }
@@ -2785,7 +2892,10 @@
             "stations": [
               66.0,
               53.0,
-              52.0
+              52.0,
+              66,
+              53,
+              52
             ]
           }
         }
