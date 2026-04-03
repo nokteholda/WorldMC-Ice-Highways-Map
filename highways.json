@@ -3387,7 +3387,7 @@
         "prefix": "",
         "code": "PAN",
         "color": "66ccff",
-        "y": 0,
+        "y": 35,
         "branches": {
           "Main line": {
             "vertices": [
@@ -3416,7 +3416,7 @@
         "prefix": "",
         "code": "MED",
         "color": "33FF66",
-        "y": 0,
+        "y": 35,
         "branches": {
           "Main line": {
             "vertices": [
@@ -3450,7 +3450,7 @@
         "prefix": "",
         "code": "BOG",
         "color": "33ff66",
-        "y": 0,
+        "y": 35,
         "branches": {
           "Medellín South branch": {
             "vertices": [
