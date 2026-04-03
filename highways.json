@@ -1212,7 +1212,7 @@
         "American Ice lines": {
           "United States": [
             "",
-            "Chicago branch"
+            "Main line"
           ]
         }
       }
@@ -3054,7 +3054,8 @@
               ]
             ],
             "stations": [
-              75.0
+              75.0,
+              75
             ]
           },
           "Main line": {
@@ -3075,7 +3076,8 @@
             "stations": [
               76.0,
               75.0,
-              74.0
+              74.0,
+              75
             ]
           }
         }
