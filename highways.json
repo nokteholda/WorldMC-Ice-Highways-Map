@@ -3097,7 +3097,7 @@
       },
       "Ozark": {
         "prefix": "",
-        "code": "",
+        "code": "OZ",
         "color": "0000ff",
         "y": 0,
         "branches": {
@@ -3208,7 +3208,7 @@
       },
       "Caribbean": {
         "prefix": "",
-        "code": "",
+        "code": "CB",
         "color": "ff0033",
         "y": 10,
         "branches": {
@@ -3561,7 +3561,7 @@
       "Transatlantic": {
         "prefix": "",
         "code": "TA",
-        "color": "ffffff",
+        "color": "33ff33",
         "y": 9,
         "branches": {
           "Main line": {
