@@ -882,11 +882,11 @@
       "type": "jct",
       "lines": {
         "IceWay": {
-          "Alexandria-Anatolia": [
+          "Eurasian": [
             "",
             "Main line"
           ],
-          "Eurasian": [
+          "Alexandria-Anatolia": [
             "",
             "Main line"
           ]
@@ -1758,6 +1758,70 @@
           ]
         }
       }
+    },
+    {
+      "name": "Lakamha",
+      "id": 107,
+      "x": -31380.0,
+      "z": -5982.0,
+      "lines": {
+        "American Ice lines": {
+          "Ozark-Panama": [
+            "",
+            "Lakamha branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Y=18 to Y=10 Elevator",
+      "id": 108,
+      "x": -29706.0,
+      "z": -5982.0,
+      "type": "elev-we",
+      "y1": 18,
+      "y2": 10,
+      "lines": {
+        "American Ice lines": {
+          "Ozark-Panama": [
+            "",
+            "Lakamha branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jamaica",
+      "id": 109,
+      "x": -26365.0,
+      "z": -5982.0,
+      "lines": {
+        "American Ice lines": {
+          "Ozark-Panama": [
+            "",
+            "Lakamha branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jamaica Interchange",
+      "id": 110,
+      "x": -26365.0,
+      "z": -6425.0,
+      "type": "jct",
+      "lines": {
+        "American Ice lines": {
+          "Ozark-Panama": [
+            "",
+            "Lakamha branch"
+          ],
+          "Caribbean": [
+            "",
+            "Main line"
+          ]
+        }
+      }
     }
   ],
   "lines": {
@@ -2499,6 +2563,7 @@
             ],
             "stations": [
               66.0,
+              66.0,
               66
             ]
           }
@@ -2540,6 +2605,7 @@
                 "Cyprus branch"
               ],
               60.0,
+              53.0,
               53
             ]
           },
@@ -2698,7 +2764,8 @@
               ]
             ],
             "stations": [
-              106,
+              106.0,
+              52.0,
               52
             ]
           }
@@ -2718,11 +2785,16 @@
               ],
               [
                 10260.0,
+                -12715.0
+              ],
+              [
+                10260.0,
                 -10694.0
               ]
             ],
             "stations": [
               66,
+              53,
               52
             ]
           }
@@ -3266,6 +3338,22 @@
               85.0,
               86.0
             ]
+          },
+          "Main line": {
+            "vertices": [
+              [
+                -26365.0,
+                -5982.0
+              ],
+              [
+                -26365.0,
+                -6425.0
+              ]
+            ],
+            "stations": [
+              109,
+              110
+            ]
           }
         }
       },
@@ -3316,13 +3404,33 @@
               [
                 -31430.0,
                 -5982.0
+              ],
+              [
+                -31380.0,
+                -5982.0
+              ],
+              [
+                -29706.0,
+                -5982.0
+              ],
+              [
+                -26365.0,
+                -5982.0
+              ],
+              [
+                -26365.0,
+                -6425.0
               ]
             ],
             "stations": [
               [
                 102.0,
                 "Main line"
-              ]
+              ],
+              107,
+              108,
+              109,
+              110
             ]
           }
         }
