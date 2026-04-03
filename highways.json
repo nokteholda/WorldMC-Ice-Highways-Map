@@ -1791,20 +1791,6 @@
       }
     },
     {
-      "name": "Jamaica",
-      "id": 109,
-      "x": -26365.0,
-      "z": -5982.0,
-      "lines": {
-        "American Ice lines": {
-          "Ozark-Panama": [
-            "",
-            "Lakamha branch"
-          ]
-        }
-      }
-    },
-    {
       "name": "Jamaica Interchange",
       "id": 110,
       "x": -26365.0,
