@@ -111,7 +111,6 @@
       "id": 7,
       "x": 2468.5,
       "z": -14901.0,
-      "type": "inter",
       "lines": {
         "European Ice lines": {
           "Monaco": [
@@ -353,7 +352,7 @@
       }
     },
     {
-      "name": "Karlsruhe JCT",
+      "name": "Karlsruhe Interchange",
       "id": 22,
       "x": 2906.5,
       "z": -17313.0,
@@ -533,13 +532,27 @@
       }
     },
     {
-      "name": "Monaco (Transatlantic Station)",
+      "name": "New York (Mansel Station)",
+      "id": 33,
+      "x": -25258.0,
+      "z": -13895.0,
+      "lines": {
+        "American Ice lines": {
+          "Mansel": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Monaco (New York Station)",
       "id": 34,
       "x": 2431.5,
       "z": -14950.5,
       "lines": {
         "Transatlantic": {
-          "Transatlantic": [
+          "Monaco-New York City": [
             "",
             "Main line"
           ]
@@ -566,7 +579,7 @@
       }
     },
     {
-      "name": "Roman JCT",
+      "name": "Roman Interchange",
       "id": 36,
       "x": 4400.5,
       "z": -14901.0,
@@ -655,20 +668,20 @@
       }
     },
     {
-      "name": "Balkan JCT",
+      "name": "Balkan Interchange",
       "id": 41,
       "x": 7830.5,
       "z": -14901.0,
       "type": "jct",
       "lines": {
-        "IceWay": {
-          "Western Aegean": [
+        "European Ice lines": {
+          "Trans-Adriatic": [
             "",
             "Main line"
           ]
         },
-        "European Ice lines": {
-          "Trans-Adriatic": [
+        "IceWay": {
+          "Western Aegean": [
             "",
             "Main line"
           ]
@@ -697,18 +710,18 @@
       }
     },
     {
-      "name": "St. Petersburg JCT",
+      "name": "St. Petersburg Highwhay JCT",
       "id": 43,
       "x": 10319.0,
       "z": -17313.5,
       "type": "jct",
       "lines": {
         "European Ice lines": {
-          "Kyiv-Petersburg": [
+          "Brussels Highway": [
             "",
             "Main line"
           ],
-          "Brussels Highway": [
+          "Kyiv-Petersburg": [
             "",
             "Main line"
           ]
@@ -739,8 +752,8 @@
       "x": -25405.0,
       "z": -1417.0,
       "lines": {
-        "Bolívar": {
-          "Bogotá": [
+        "Bolivar Ice lines": {
+          "Bogota": [
             "",
             "Main line"
           ]
@@ -748,20 +761,20 @@
       }
     },
     {
-      "name": "Bogotá-Medellín JCT",
+      "name": "Bogota West JCT",
       "id": 46,
       "x": -25752.0,
       "z": -1417.0,
       "type": "jct",
       "lines": {
-        "Bolívar": {
-          "Medellín": [
+        "Bolivar Ice lines": {
+          "Bogota": [
             "",
             "Main line"
           ],
-          "Bogotá": [
+          "Cali-Medellin": [
             "",
-            "Medellín South branch"
+            "Main line"
           ]
         }
       }
@@ -772,8 +785,8 @@
       "x": -26091.0,
       "z": -1192.0,
       "lines": {
-        "Bolívar": {
-          "Medellín": [
+        "Bolivar Ice lines": {
+          "Cali-Medellin": [
             "",
             "Main line"
           ]
@@ -786,14 +799,10 @@
       "x": -25752.0,
       "z": -2072.0,
       "lines": {
-        "Bolívar": {
-          "Medellín": [
+        "Bolivar Ice lines": {
+          "Cali-Medellin": [
             "",
             "Main line"
-          ],
-          "Bogotá": [
-            "",
-            "Medellín North branch"
           ]
         }
       }
@@ -804,12 +813,29 @@
       "x": -25544.0,
       "z": -3739.0,
       "lines": {
-        "Bolívar": {
-          "Bogotá": [
+        "Bolivar Ice lines": {
+          "Bogota-Barranquilla": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Barranquilla Elevator",
+      "id": 50,
+      "x": -25544.0,
+      "z": -3745.0,
+      "type": "elev-we",
+      "y1": 35,
+      "y2": 10,
+      "lines": {
+        "Bolivar Ice lines": {
+          "Bogota-Barranquilla": [
             "",
             "Main line"
           ],
-          "Barranquilla": [
+          "Barranquilla-Hispanola": [
             "",
             "Main line"
           ]
@@ -822,8 +848,8 @@
       "x": -24978.0,
       "z": -6425.0,
       "lines": {
-        "American Ice lines": {
-          "Caribbean": [
+        "Bolivar Ice lines": {
+          "Jamaica-Hispanola": [
             "",
             "Main line"
           ]
@@ -835,7 +861,6 @@
       "id": 52,
       "x": 10260.0,
       "z": -10694.0,
-      "type": "inter",
       "lines": {
         "IceWay": {
           "Alexandria-Anatolia": [
@@ -850,7 +875,7 @@
       }
     },
     {
-      "name": "Alexandria JCT",
+      "name": "Alexandria Interchange",
       "id": 53,
       "x": 10260.0,
       "z": -12715.0,
@@ -869,7 +894,7 @@
       }
     },
     {
-      "name": "Eastern Aegean JCT",
+      "name": "Eastern Aegean Interchange",
       "id": 54,
       "x": 9419.0,
       "z": -12715.0,
@@ -945,7 +970,7 @@
       }
     },
     {
-      "name": "Western Aegean JCT",
+      "name": "Western Aegean Interchange",
       "id": 59,
       "x": 7831.0,
       "z": -12715.0,
@@ -992,7 +1017,7 @@
       }
     },
     {
-      "name": "Samos JCT",
+      "name": "Samos Interchange",
       "id": 62,
       "x": 9419.0,
       "z": -12875.0,
@@ -1007,7 +1032,7 @@
       }
     },
     {
-      "name": "Izmir JCT",
+      "name": "Izmir Interchange",
       "id": 63,
       "x": 9419.0,
       "z": -13042.0,
@@ -1050,7 +1075,7 @@
       }
     },
     {
-      "name": "Northen Anatolian JCT",
+      "name": "Northen Anatolian Interchange",
       "id": 66,
       "x": 10260.0,
       "z": -14001.0,
@@ -1069,20 +1094,18 @@
       }
     },
     {
-      "name": "Barranquilla JCT",
+      "name": "Hispanola-Caribbean JCT",
       "id": 67,
       "x": -25544.0,
       "z": -6425.0,
       "type": "jct",
       "lines": {
-        "American Ice lines": {
-          "Caribbean": [
+        "Bolivar Ice lines": {
+          "Barranquilla-Hispanola": [
             "",
             "Main line"
-          ]
-        },
-        "Bolívar": {
-          "Barranquilla": [
+          ],
+          "Jamaica-Hispanola": [
             "",
             "Main line"
           ]
@@ -1090,48 +1113,56 @@
       }
     },
     {
-      "name": "Medellín JCT",
+      "name": "Medellin East JCT",
       "id": 68,
       "x": -25544.0,
       "z": -2072.0,
       "type": "jct",
       "lines": {
-        "Bolívar": {
-          "Bogotá": [
+        "Bolivar Ice lines": {
+          "Bogota-Barranquilla": [
             "",
-            "Medellín North branch"
+            "Main line"
+          ],
+          "Cali-Medellin": [
+            "",
+            "Main line"
           ]
         }
       }
     },
     {
-      "name": "Bogotá JCT",
+      "name": "Bogota JCT",
       "id": 69,
       "x": -25544.0,
       "z": -1417.0,
       "type": "jct",
       "lines": {
-        "Bolívar": {
-          "Bogotá": [
+        "Bolivar Ice lines": {
+          "Bogota-Barranquilla": [
             "",
-            "Medellín South branch"
+            "Main line"
+          ],
+          "Bogota": [
+            "",
+            "Main line"
           ]
         }
       }
     },
     {
-      "name": "Panama JCT",
+      "name": "Panama Route JCT",
       "id": 70,
       "x": -25544.0,
       "z": -3094.0,
       "type": "jct",
       "lines": {
-        "Bolívar": {
-          "Panama": [
+        "Bolivar Ice lines": {
+          "Bogota-Barranquilla": [
             "",
             "Main line"
           ],
-          "Bogotá": [
+          "Panama": [
             "",
             "Main line"
           ]
@@ -1144,7 +1175,7 @@
       "x": -26956.0,
       "z": -3094.0,
       "lines": {
-        "Bolívar": {
+        "Bolivar Ice lines": {
           "Panama": [
             "",
             "Main line"
@@ -1153,7 +1184,7 @@
       }
     },
     {
-      "name": "Cyprus JCT",
+      "name": "Cyprus Interchange",
       "id": 72,
       "x": 11481.0,
       "z": -12715.0,
@@ -1182,24 +1213,15 @@
       }
     },
     {
-      "name": "New York (Liberty City)",
+      "name": "New York (Salt Lake Station)",
       "id": 74,
-      "x": -25258.0,
-      "z": -13904.0,
-      "type": "inter",
+      "x": -25323.0,
+      "z": -13873.0,
       "lines": {
         "American Ice lines": {
           "United States": [
             "",
-            "Main line"
-          ],
-          "Atlantic": [
-            "",
             "New York branch"
-          ],
-          "Mansel": [
-            "",
-            "Main line"
           ]
         }
       }
@@ -1207,14 +1229,14 @@
     {
       "name": "Chicago JCT",
       "id": 75,
-      "x": -29985.0,
-      "z": -13904.0,
+      "x": -29985.5,
+      "z": -13904.5,
       "type": "jct",
       "lines": {
         "American Ice lines": {
           "United States": [
             "",
-            "Main line"
+            "New York branch to Chicago branch"
           ]
         }
       }
@@ -1222,13 +1244,13 @@
     {
       "name": "Salt Lake City",
       "id": 76,
-      "x": -38173.31,
-      "z": -13813.24,
+      "x": -38196.5,
+      "z": -13904.5,
       "lines": {
         "American Ice lines": {
           "United States": [
             "",
-            "Main line"
+            "New York branch"
           ]
         }
       }
@@ -1335,14 +1357,14 @@
       "z": -14950.5,
       "type": "jct",
       "lines": {
-        "Transatlantic": {
-          "Transatlantic": [
+        "American Ice lines": {
+          "Mansel": [
             "",
             "Main line"
           ]
         },
-        "American Ice lines": {
-          "Mansel": [
+        "Transatlantic": {
+          "Monaco-New York City": [
             "",
             "Main line"
           ]
@@ -1364,43 +1386,64 @@
       }
     },
     {
-      "name": "Y=10 to Y=0 Elevator",
+      "name": "Caribbean Sea 1st Elevator",
       "id": 85,
       "x": -24833.0,
-      "z": -7804.0,
+      "z": -7935.0,
       "type": "elev-we",
       "y1": 10,
       "y2": 0,
       "lines": {
-        "American Ice lines": {
-          "Caribbean": [
-            "",
-            "Main line"
-          ],
-          "Atlantic": [
-            "",
-            "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Carribean JCT",
-      "id": 87,
-      "x": -24833.0,
-      "z": -14950.5,
-      "type": "jct",
-      "lines": {
-        "Transatlantic": {
-          "Transatlantic": [
+        "Bolivar Ice lines": {
+          "Jamaica-Hispanola": [
             "",
             "Main line"
           ]
         },
         "American Ice lines": {
-          "Atlantic": [
+          "Caribbean": [
             "",
-            "Main line"
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "name": "Caribbean Sea 2nd Elevator",
+      "id": 86,
+      "x": -24833.0,
+      "z": -14933.0,
+      "type": "elev-we",
+      "y1": 8,
+      "y2": 0,
+      "lines": {
+        "Transatlantic": {
+          "Monaco-New York City": [
+            "",
+            "Bolivar branch"
+          ]
+        },
+        "American Ice lines": {
+          "Caribbean": [
+            "",
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "name": "Transatlantic 2nd JCT",
+      "id": 87,
+      "x": -24833.0,
+      "z": -14950.0,
+      "type": "jct",
+      "y1": 8,
+      "y2": 0,
+      "lines": {
+        "Transatlantic": {
+          "Monaco-New York City": [
+            "",
+            "Main line to Bolivar branch"
           ]
         }
       }
@@ -1508,7 +1551,7 @@
       }
     },
     {
-      "name": "Corsica JCT",
+      "name": "Corsica Interchange",
       "id": 94,
       "x": 2460.5,
       "z": -14418.0,
@@ -1523,20 +1566,20 @@
       }
     },
     {
-      "name": "Mediterranean JCT",
+      "name": "Mediterranean Interchange",
       "id": 95,
       "x": 2460.5,
       "z": -12715.0,
       "type": "jct",
       "lines": {
-        "IceWay": {
-          "Eurasian": [
+        "European Ice lines": {
+          "Monaco": [
             "",
             "Main line"
           ]
         },
-        "European Ice lines": {
-          "Monaco": [
+        "IceWay": {
+          "Eurasian": [
             "",
             "Main line"
           ]
@@ -1638,13 +1681,7 @@
       "y2": 18,
       "lines": {
         "American Ice lines": {
-          "Ozark": [
-            "",
-            "Panama branch"
-          ]
-        },
-        "Bolívar": {
-          "Panama": [
+          "Ozark-Panama": [
             "",
             "Main line"
           ]
@@ -1652,16 +1689,16 @@
       }
     },
     {
-      "name": "Lakamha JCT",
+      "name": "Lakamha Interchange",
       "id": 102,
       "x": -31842.0,
       "z": -5982.0,
       "type": "jct",
       "lines": {
         "American Ice lines": {
-          "Ozark": [
+          "Ozark-Panama": [
             "",
-            "Lakamha branch"
+            "Main line to Lakamha branch"
           ]
         }
       }
@@ -1669,13 +1706,13 @@
     {
       "name": "Ozark",
       "id": 103,
-      "x": -31842.0,
+      "x": -31840.0,
       "z": -12723.0,
       "lines": {
         "American Ice lines": {
-          "Ozark": [
+          "Ozark-Panama": [
             "",
-            "Main line"
+            "Main line to Lakamha branch"
           ]
         }
       }
@@ -1729,7 +1766,7 @@
       "z": -5982.0,
       "lines": {
         "American Ice lines": {
-          "Ozark": [
+          "Ozark-Panama": [
             "",
             "Lakamha branch"
           ]
@@ -1746,11 +1783,7 @@
       "y2": 10,
       "lines": {
         "American Ice lines": {
-          "Caribbean": [
-            "",
-            "Main line"
-          ],
-          "Ozark": [
+          "Ozark-Panama": [
             "",
             "Lakamha branch"
           ]
@@ -1758,59 +1791,20 @@
       }
     },
     {
-      "name": "Jamaica",
-      "id": 111,
+      "name": "Jamaica Interchange",
+      "id": 110,
       "x": -26365.0,
-      "z": -6260.0,
+      "z": -6425.0,
+      "type": "jct",
       "lines": {
         "American Ice lines": {
+          "Ozark-Panama": [
+            "",
+            "Lakamha branch"
+          ],
           "Caribbean": [
             "",
             "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "name": "New York JCT",
-      "id": 113,
-      "x": -24833.0,
-      "z": -13904.0,
-      "type": "jct",
-      "lines": {
-        "American Ice lines": {
-          "Atlantic": [
-            "",
-            "New York branch"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Parrotsville JCT",
-      "id": 115,
-      "x": -26365.0,
-      "z": -6135.0,
-      "type": "jct",
-      "lines": {
-        "American Ice lines": {
-          "Caribbean": [
-            "",
-            "Parrotsville branch"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Parrotsville",
-      "id": 117,
-      "x": -26548.0,
-      "z": -6135.0,
-      "lines": {
-        "American Ice lines": {
-          "Caribbean": [
-            "",
-            "Parrotsville branch"
           ]
         }
       }
@@ -1965,18 +1959,6 @@
               [
                 2460.5,
                 -12000.5
-              ],
-              [
-                2460.5,
-                -12715.0
-              ],
-              [
-                2460.5,
-                -14418.0
-              ],
-              [
-                2468.5,
-                -14901.0
               ]
             ],
             "stations": [
@@ -1988,10 +1970,7 @@
               7.0,
               94.0,
               95.0,
-              96.0,
-              95,
-              94,
-              7
+              96.0
             ]
           },
           "Taurinorum branch": {
@@ -2074,10 +2053,6 @@
               [
                 10324.0,
                 -17313.0
-              ],
-              [
-                10319.0,
-                -17313.5
               ]
             ],
             "stations": [
@@ -2102,8 +2077,7 @@
               ],
               99.0,
               42.0,
-              43.0,
-              43
+              43.0
             ]
           },
           "Cologne branch": {
@@ -2156,17 +2130,6 @@
             ],
             "stations": [
               40.0
-            ]
-          },
-          "Main line to Karlsruhe branch": {
-            "vertices": [
-              [
-                2906.5,
-                -17313.0
-              ]
-            ],
-            "stations": [
-              22
             ]
           }
         }
@@ -2418,17 +2381,12 @@
               [
                 10319.0,
                 -17200.0
-              ],
-              [
-                10319.0,
-                -17313.5
               ]
             ],
             "stations": [
               44.0,
               43.0,
-              81.0,
-              43
+              81.0
             ]
           }
         }
@@ -2480,9 +2438,7 @@
                 36.0,
                 "Rome branch"
               ],
-              41.0,
-              41,
-              7
+              41.0
             ]
           },
           "Rome branch": {
@@ -2502,17 +2458,6 @@
                 "Main line"
               ],
               8.0
-            ]
-          },
-          "Main line to Rome branch": {
-            "vertices": [
-              [
-                4400.5,
-                -14901.0
-              ]
-            ],
-            "stations": [
-              36
             ]
           }
         }
@@ -2605,8 +2550,7 @@
             "stations": [
               66.0,
               66.0,
-              66.0,
-              66
+              66.0
             ]
           }
         }
@@ -2630,18 +2574,6 @@
               [
                 10260.0,
                 -12715.0
-              ],
-              [
-                7831.0,
-                -12715.0
-              ],
-              [
-                9419.0,
-                -12715.0
-              ],
-              [
-                11481.0,
-                -12715.0
               ]
             ],
             "stations": [
@@ -2660,12 +2592,7 @@
               ],
               60.0,
               53.0,
-              53.0,
-              95,
-              59,
-              54,
-              53,
-              72
+              53.0
             ]
           },
           "Athens branch": {
@@ -2723,14 +2650,6 @@
               [
                 7830.5,
                 -12715.5
-              ],
-              [
-                7831.0,
-                -12715.0
-              ],
-              [
-                7830.5,
-                -14901.0
               ]
             ],
             "stations": [
@@ -2738,9 +2657,7 @@
               41.0,
               37.0,
               38.0,
-              59.0,
-              59,
-              41
+              59.0
             ]
           }
         }
@@ -2760,10 +2677,6 @@
               [
                 9419.0,
                 -13042.0
-              ],
-              [
-                9419.0,
-                -12715.0
               ]
             ],
             "stations": [
@@ -2776,8 +2689,7 @@
               [
                 63.0,
                 "Izmir branch"
-              ],
-              54
+              ]
             ]
           },
           "Samos branch": {
@@ -2817,28 +2729,6 @@
               ],
               65.0
             ]
-          },
-          "Main line to Samos branch": {
-            "vertices": [
-              [
-                9419.0,
-                -12875.0
-              ]
-            ],
-            "stations": [
-              62
-            ]
-          },
-          "Main line to Izmir branch": {
-            "vertices": [
-              [
-                9419.0,
-                -13042.0
-              ]
-            ],
-            "stations": [
-              63
-            ]
           }
         }
       },
@@ -2862,8 +2752,7 @@
             "stations": [
               106.0,
               52.0,
-              52.0,
-              52
+              52.0
             ]
           }
         }
@@ -2892,10 +2781,172 @@
             "stations": [
               66.0,
               53.0,
-              52.0,
-              66,
-              53,
-              52
+              52.0
+            ]
+          }
+        }
+      }
+    },
+    "Bolivar Ice lines": {
+      "Cali-Medellin": {
+        "prefix": "",
+        "code": "CAL-MDL-BRQ",
+        "color": "00e9ff",
+        "y": 35,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -26091.0,
+                -1192.0
+              ],
+              [
+                -25752.0,
+                -1192.0
+              ],
+              [
+                -25752.0,
+                -2072.0
+              ],
+              [
+                -25544.0,
+                -2072.0
+              ]
+            ],
+            "stations": [
+              47.0,
+              46.0,
+              48.0,
+              68.0
+            ]
+          }
+        }
+      },
+      "Bogota-Barranquilla": {
+        "prefix": "",
+        "code": "BGT-BRQ",
+        "color": "00e9ff",
+        "y": 35,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -25544.0,
+                -1417.0
+              ],
+              [
+                -25544.0,
+                -3745.0
+              ]
+            ],
+            "stations": [
+              50.0,
+              70.0,
+              49.0,
+              68.0,
+              69.0
+            ]
+          }
+        }
+      },
+      "Bogota": {
+        "prefix": "",
+        "code": "BGT",
+        "color": "00e9ff",
+        "y": 35,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -25405.0,
+                -1417.0
+              ],
+              [
+                -25752.0,
+                -1417.0
+              ]
+            ],
+            "stations": [
+              46.0,
+              69.0,
+              45.0
+            ]
+          }
+        }
+      },
+      "Barranquilla-Hispanola": {
+        "prefix": "",
+        "code": "BRQ-HSP",
+        "color": "ffd800",
+        "y": 10,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -25544.0,
+                -3745.0
+              ],
+              [
+                -25544.0,
+                -6425.0
+              ]
+            ],
+            "stations": [
+              50.0,
+              67.0
+            ]
+          }
+        }
+      },
+      "Jamaica-Hispanola": {
+        "prefix": "",
+        "code": "JAM-HSP",
+        "color": "ffd800",
+        "y": 10,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -26365.0,
+                -6425.0
+              ],
+              [
+                -24833.0,
+                -6425.0
+              ],
+              [
+                -24833.0,
+                -7935.0
+              ]
+            ],
+            "stations": [
+              67.0,
+              51.0,
+              85.0
+            ]
+          }
+        }
+      },
+      "Panama": {
+        "prefix": "",
+        "code": "PAN",
+        "color": "00e9ff",
+        "y": 35,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -25544.0,
+                -3094.0
+              ],
+              [
+                -27582.0,
+                -3094.0
+              ]
+            ],
+            "stations": [
+              71.0,
+              70.0
             ]
           }
         }
@@ -3115,92 +3166,203 @@
         }
       }
     },
-    "American Ice lines": {
-      "Mansel": {
+    "Transatlantic": {
+      "Monaco-New York City": {
         "prefix": "",
-        "code": "ML",
-        "color": "ccffff",
+        "code": "MON-NYC",
+        "color": "0af20d",
         "y": 9,
         "branches": {
           "Main line": {
             "vertices": [
               [
-                -27152.0,
-                -21148.0
-              ],
-              [
-                -25258.0,
-                -21148.0
-              ],
-              [
                 -25258.0,
                 -14950.5
               ],
               [
-                -25258.0,
-                -13904.0
+                2431.5,
+                -14950.5
               ]
             ],
             "stations": [
-              84.0,
-              114.0,
               83.0,
+              [
+                87.0,
+                "Bolivar branch"
+              ],
+              34.0
+            ]
+          },
+          "Bolivar branch": {
+            "vertices": [
+              [
+                -24833.0,
+                -14933.0
+              ],
+              [
+                -24833.0,
+                -14950.0
+              ]
+            ],
+            "stations": [
+              [
+                87.0,
+                "Main line"
+              ],
+              86.0
+            ]
+          }
+        }
+      }
+    },
+    "American Ice lines": {
+      "United States": {
+        "prefix": "",
+        "code": "",
+        "color": "ff00bd",
+        "y": 9,
+        "branches": {
+          "New York branch": {
+            "vertices": [
+              [
+                -25314.0,
+                -13890.0
+              ],
+              [
+                -25314.0,
+                -13873.0
+              ],
+              [
+                -25323.0,
+                -13873.0
+              ],
+              [
+                -25323.0,
+                -13903.5
+              ],
+              [
+                -38196.0,
+                -13903.5
+              ]
+            ],
+            "stations": [
               74.0,
-              74
+              [
+                75.0,
+                "Chicago branch"
+              ],
+              76.0
+            ]
+          },
+          "Chicago branch": {
+            "vertices": [
+              [
+                -29985.5,
+                -13904.5
+              ],
+              [
+                -29985.5,
+                -14175.5
+              ]
+            ],
+            "stations": [
+              [
+                75.0,
+                "New York branch"
+              ]
             ]
           }
         }
       },
-      "Ozark": {
+      "Mansel": {
         "prefix": "",
-        "code": "OZ",
-        "color": "0000ff",
-        "y": 0,
+        "code": "",
+        "color": "00bfff",
+        "y": 9,
         "branches": {
-          "Lakamha branch": {
+          "Main line": {
             "vertices": [
               [
-                -31842.0,
-                -5982.0
+                -25258.0,
+                -13883.0
               ],
               [
-                -31380.0,
-                -5982.0
+                -25258.0,
+                -21146.0
               ],
               [
-                -29706.0,
-                -5982.0
+                -27152.0,
+                -21146.0
               ]
             ],
             "stations": [
-              102.0,
-              107.0,
-              108.0
+              33.0,
+              83.0,
+              84.0
+            ]
+          }
+        }
+      },
+      "Caribbean": {
+        "prefix": "",
+        "code": "",
+        "color": "1b1e33",
+        "y": 0,
+        "branches": {
+          "": {
+            "vertices": [
+              [
+                -24833.0,
+                -7935.0
+              ],
+              [
+                -24833.0,
+                -14933.0
+              ]
+            ],
+            "stations": [
+              85.0,
+              86.0
             ]
           },
           "Main line": {
             "vertices": [
               [
-                -31842.0,
-                -12723.0
-              ],
-              [
-                -31842.0,
+                -26365.0,
                 -5982.0
               ],
               [
-                -31842.0,
-                -3094.0
+                -26365.0,
+                -6425.0
               ]
             ],
             "stations": [
-              103.0,
-              102.0,
-              116.0
+              109.0,
+              110.0
             ]
-          },
-          "Panama branch": {
+          }
+        }
+      },
+      "Ozark-Panama": {
+        "prefix": "",
+        "code": "OZK-PAN",
+        "color": "00747f",
+        "y": 18,
+        "branches": {
+          "Main line": {
             "vertices": [
+              [
+                -31840.0,
+                -12723.0
+              ],
+              [
+                -31840.0,
+                -11274.0
+              ],
+              [
+                -31842.0,
+                -11274.0
+              ],
               [
                 -31842.0,
                 -3094.0
@@ -3211,158 +3373,50 @@
               ]
             ],
             "stations": [
-              116.0,
+              103.0,
+              [
+                102.0,
+                "Lakamha branch"
+              ],
               101.0
             ]
-          }
-        }
-      },
-      "Atlantic": {
-        "prefix": "",
-        "code": "AT",
-        "color": "ccccff",
-        "y": 0,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                -24833.0,
-                -14950.5
-              ],
-              [
-                -24833.0,
-                -13904.0
-              ],
-              [
-                -24833.0,
-                -7804.0
-              ]
-            ],
-            "stations": [
-              87.0,
-              113.0,
-              85.0
-            ]
           },
-          "New York branch": {
+          "Lakamha branch": {
             "vertices": [
               [
-                -24833.0,
-                -13904.0
+                -31842.0,
+                -5982.0
               ],
               [
-                -25258.0,
-                -13904.0
-              ]
-            ],
-            "stations": [
-              113.0,
-              74.0,
-              74
-            ]
-          }
-        }
-      },
-      "Caribbean": {
-        "prefix": "",
-        "code": "CB",
-        "color": "ff0033",
-        "y": 10,
-        "branches": {
-          "Parrotsville branch": {
-            "vertices": [
-              [
-                -26365.0,
-                -6135.0
+                -31430.0,
+                -5982.0
               ],
               [
-                -26548.0,
-                -6135.0
-              ]
-            ],
-            "stations": [
-              115.0,
-              117.0
-            ]
-          },
-          "Main line": {
-            "vertices": [
-              [
-                -24833.0,
-                -7804.0
-              ],
-              [
-                -24833.0,
-                -6425.0
-              ],
-              [
-                -24978.0,
-                -6425.0
-              ],
-              [
-                -25544.0,
-                -6425.0
-              ],
-              [
-                -26365.0,
-                -6425.0
-              ],
-              [
-                -26365.0,
-                -6260.0
-              ],
-              [
-                -26365.0,
-                -6135.0
-              ],
-              [
-                -26365.0,
+                -31380.0,
                 -5982.0
               ],
               [
                 -29706.0,
                 -5982.0
+              ],
+              [
+                -26365.0,
+                -5982.0
+              ],
+              [
+                -26365.0,
+                -6425.0
               ]
             ],
             "stations": [
-              85.0,
-              114.0,
-              51.0,
-              67.0,
-              110.0,
-              111.0,
-              115.0,
-              112.0,
-              108.0
-            ]
-          }
-        }
-      },
-      "United States": {
-        "prefix": "",
-        "code": "US",
-        "color": "ff66ff",
-        "y": 9,
-        "branches": {
-          "Main line": {
-            "vertices": [
               [
-                -38173.31,
-                -13813.24
+                102.0,
+                "Main line"
               ],
-              [
-                -29985.0,
-                -13904.0
-              ],
-              [
-                -25258.0,
-                -13904.0
-              ]
-            ],
-            "stations": [
-              76,
-              75,
-              74
+              107.0,
+              108.0,
+              109.0,
+              110.0
             ]
           }
         }
@@ -3478,201 +3532,6 @@
               90.0,
               91.0,
               92.0
-            ]
-          }
-        }
-      }
-    },
-    "Bolívar": {
-      "Panama": {
-        "prefix": "",
-        "code": "PAN",
-        "color": "66ccff",
-        "y": 35,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                -27582.0,
-                -3094.0
-              ],
-              [
-                -26956.0,
-                -3094.0
-              ],
-              [
-                -25544.0,
-                -3094.0
-              ]
-            ],
-            "stations": [
-              101.0,
-              71.0,
-              70.0
-            ]
-          }
-        }
-      },
-      "Medellín": {
-        "prefix": "",
-        "code": "MED",
-        "color": "33FF66",
-        "y": 35,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                -25752.0,
-                -2072.0
-              ],
-              [
-                -25752.0,
-                -1417.0
-              ],
-              [
-                -25752.0,
-                -1192.0
-              ],
-              [
-                -26091.0,
-                -1192.0
-              ]
-            ],
-            "stations": [
-              48.0,
-              46.0,
-              118.0,
-              47.0
-            ]
-          }
-        }
-      },
-      "Bogotá": {
-        "prefix": "",
-        "code": "BOG",
-        "color": "33ff66",
-        "y": 35,
-        "branches": {
-          "Medellín South branch": {
-            "vertices": [
-              [
-                -25544.0,
-                -1417.0
-              ],
-              [
-                -25752.0,
-                -1417.0
-              ]
-            ],
-            "stations": [
-              69.0,
-              46.0
-            ]
-          },
-          "Medellín North branch": {
-            "vertices": [
-              [
-                -25544.0,
-                -2072.0
-              ],
-              [
-                -25752.0,
-                -2072.0
-              ]
-            ],
-            "stations": [
-              68.0,
-              48.0
-            ]
-          },
-          "Main line": {
-            "vertices": [
-              [
-                -25544.0,
-                -3739.0
-              ],
-              [
-                -25544.0,
-                -3094.0
-              ],
-              [
-                -25544.0,
-                -2072.0
-              ],
-              [
-                -25544.0,
-                -1417.0
-              ],
-              [
-                -25405.0,
-                -1417.0
-              ]
-            ],
-            "stations": [
-              49.0,
-              70.0,
-              68.0,
-              69.0,
-              45.0
-            ]
-          }
-        }
-      },
-      "Barranquilla": {
-        "prefix": "",
-        "code": "BQL",
-        "color": "ffcc33",
-        "y": 10,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                -25544.0,
-                -3739.0
-              ],
-              [
-                -25544.0,
-                -6425.0
-              ]
-            ],
-            "stations": [
-              49.0,
-              67.0
-            ]
-          }
-        }
-      }
-    },
-    "Transatlantic": {
-      "Transatlantic": {
-        "prefix": "",
-        "code": "TA",
-        "color": "33ff33",
-        "y": 9,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                -25258.0,
-                -14950.5
-              ],
-              [
-                -24833.0,
-                -14950.5
-              ],
-              [
-                2431.5,
-                -14950.5
-              ],
-              [
-                -24852.43,
-                -14950.5
-              ]
-            ],
-            "stations": [
-              83.0,
-              87.0,
-              34.0
             ]
           }
         }
