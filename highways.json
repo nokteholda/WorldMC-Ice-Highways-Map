@@ -158,7 +158,7 @@
         "European Ice lines": {
           "Brussels": [
             "",
-            "Main line and Amsterdam"
+            "Main line and Amsterdam branch"
           ]
         }
       },
@@ -244,7 +244,7 @@
           ],
           "Brussels": [
             "",
-            "Amsterdam"
+            "Amsterdam branch"
           ]
         }
       },
@@ -1483,7 +1483,7 @@
       },
       "name": "Corsica JCT",
       "id": 90,
-      "x": 2460.5,
+      "x": 2461,
       "z": -14418,
       "type": "jct"
     },
@@ -1504,7 +1504,7 @@
       },
       "name": "Eurasia-Monaco Interchange",
       "id": 91,
-      "x": 2460.5,
+      "x": 2461,
       "z": -12715,
       "type": "inter"
     },
@@ -1519,7 +1519,7 @@
       },
       "name": "Algeria",
       "id": 92,
-      "x": 2460.5,
+      "x": 2461,
       "z": -12000
     },
     {
@@ -1944,7 +1944,7 @@
                 -17313
               ],
               [
-                2460.5,
+                2461,
                 -12000
               ]
             ],
@@ -2405,24 +2405,8 @@
               ]
             ],
             "stations": [
-              23,
-              14
-            ]
-          },
-          "Amsterdam": {
-            "vertices": [
-              [
-                1600.5,
-                -17313
-              ],
-              [
-                1600.5,
-                -17865.5
-              ]
-            ],
-            "stations": [
-              15,
-              10
+              14,
+              23
             ]
           },
           "Paris branch": {
@@ -2437,6 +2421,22 @@
               ]
             ],
             "stations": []
+          },
+          "Amsterdam branch": {
+            "vertices": [
+              [
+                1600.5,
+                -17313
+              ],
+              [
+                1600.5,
+                -17865.5
+              ]
+            ],
+            "stations": [
+              10,
+              15
+            ]
           }
         }
       }
