@@ -57,7 +57,7 @@
           ]
         }
       },
-      "name": "Keisha JCT",
+      "name": "Aqua-Keisha Interchange",
       "id": 3,
       "x": 31680,
       "z": -14400,
@@ -72,7 +72,7 @@
           ]
         }
       },
-      "name": "Paris",
+      "name": "Paris (Central Station)",
       "id": 4,
       "x": 899,
       "z": -16656
@@ -121,7 +121,7 @@
       },
       "name": "Monaco (Central Station)",
       "id": 7,
-      "x": 2468.5,
+      "x": 2461,
       "z": -14901,
       "notes": "Transfers: Monaco Ice Highway; Trans-Adriatic Ice Highway"
     },
@@ -162,7 +162,7 @@
           ]
         }
       },
-      "name": "Burssels-Amsterdam JCT",
+      "name": "Amsterdam JCT",
       "id": 10,
       "x": 1600.5,
       "z": -17313,
@@ -195,7 +195,7 @@
           ]
         }
       },
-      "name": "Cologne Way JCT",
+      "name": "Cologne JCT",
       "id": 12,
       "x": 2376,
       "z": -17313,
@@ -204,17 +204,21 @@
     {
       "lines": {
         "European Ice lines": {
+          "Monaco": [
+            "",
+            "Main line"
+          ],
           "Brussels": [
             "",
             "Main line"
           ]
         }
       },
-      "name": "Monaco Way JCT",
+      "name": "Brussels-Monaco Interchange",
       "id": 13,
       "x": 2461,
       "z": -17313,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -225,7 +229,7 @@
           ]
         }
       },
-      "name": "Aarhus (Denmark) JCT",
+      "name": "Aarhus JCT",
       "id": 14,
       "x": 3477.5,
       "z": -17313,
@@ -258,7 +262,7 @@
           ]
         }
       },
-      "name": "France JCT",
+      "name": "Paris JCT",
       "id": 16,
       "x": 2461,
       "z": -16656,
@@ -273,7 +277,7 @@
           ]
         }
       },
-      "name": "Yorkshire-Amsterdam JCT",
+      "name": "Amsterdam JCT",
       "id": 17,
       "x": -430.5,
       "z": -17865.5,
@@ -284,11 +288,7 @@
         "European Ice lines": {
           "Yorkshire": [
             "",
-            "Main line"
-          ],
-          "Isles": [
-            "",
-            "Main line"
+            "Main line and Western branch"
           ]
         }
       },
@@ -495,9 +495,9 @@
     {
       "lines": {
         "European Ice lines": {
-          "Isles": [
+          "Yorkshire": [
             "",
-            "Main line"
+            "Western branch"
           ]
         }
       },
@@ -509,15 +509,15 @@
     {
       "lines": {
         "European Ice lines": {
-          "Isles": [
+          "Yorkshire": [
             "",
-            "Main line"
+            "Western branch"
           ]
         }
       },
       "name": "Inverness",
       "id": 32,
-      "x": -1459.5,
+      "x": -1458.5,
       "z": -19650
     },
     {
@@ -617,7 +617,7 @@
           ]
         }
       },
-      "name": "Britainnian JCT",
+      "name": "Brussels-Yorkshire JCT",
       "id": 38,
       "x": -430.5,
       "z": -17313.5,
@@ -653,11 +653,11 @@
           ]
         }
       },
-      "name": "Balkan JCT",
+      "name": "Transadriatic-Western Aegean Interchange",
       "id": 40,
       "x": 7830.5,
       "z": -14901,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -674,11 +674,11 @@
           ]
         }
       },
-      "name": "Greece Way JCT",
+      "name": "Brussels-Western Aegean Interchange",
       "id": 41,
       "x": 7830.5,
       "z": -17313.5,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -693,11 +693,11 @@
           ]
         }
       },
-      "name": "Saint Petersburg JCT",
+      "name": "Brussels-Saint Petersburg Interchange",
       "id": 42,
       "x": 10319,
       "z": -17313.5,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -842,11 +842,11 @@
           ]
         }
       },
-      "name": "Alexandria JCT",
+      "name": "Eurasia-Alexandria JCT",
       "id": 51,
       "x": 10260,
       "z": -12715,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -861,7 +861,7 @@
           ]
         }
       },
-      "name": "Eastern Aegean JCT",
+      "name": "Eurasia-Eastern Aegean JCT",
       "id": 52,
       "x": 9419,
       "z": -12715,
@@ -937,11 +937,11 @@
           ]
         }
       },
-      "name": "Western Aegean JCT",
+      "name": "Eurasia-Western Aegean Interchange",
       "id": 57,
       "x": 7831,
       "z": -12715,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -1042,11 +1042,11 @@
           ]
         }
       },
-      "name": "Northen Anatolian JCT",
+      "name": "Transanatolia-Alexandria Interchange",
       "id": 64,
       "x": 10260,
       "z": -14001,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -1063,11 +1063,11 @@
           ]
         }
       },
-      "name": "Barranquilla-Bolívar JCT",
+      "name": "Caribbean-Barranquilla Interchange",
       "id": 65,
       "x": -25544,
       "z": -6425,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -1120,11 +1120,11 @@
           ]
         }
       },
-      "name": "Panama JCT",
+      "name": "Panama-Bolívar Interchange",
       "id": 68,
       "x": -25544,
       "z": -3094,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -1308,11 +1308,11 @@
           ]
         }
       },
-      "name": "Transatlantic JCT",
+      "name": "Transatlantic-Mansel Interchange",
       "id": 80,
       "x": -25258,
       "z": -14950.5,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -1364,11 +1364,11 @@
           ]
         }
       },
-      "name": "Atlantic JCT",
+      "name": "Transatlantic-Atlantic JCT",
       "id": 83,
       "x": -24833,
       "z": -14950.5,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -1453,7 +1453,7 @@
           ]
         }
       },
-      "name": "Paris French Rail",
+      "name": "Paris (French Rail Station)",
       "id": 88,
       "x": 760,
       "z": -16678
@@ -1502,11 +1502,11 @@
           ]
         }
       },
-      "name": "Mediterranean JCT",
+      "name": "Eurasia-Monaco Interchange",
       "id": 91,
       "x": 2460.5,
       "z": -12715,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
@@ -1537,7 +1537,7 @@
           ]
         }
       },
-      "name": "Évreux West Eevator",
+      "name": "Évreux West Elevator",
       "id": 93,
       "x": -435.5,
       "z": -16730.5,
@@ -1961,53 +1961,18 @@
                 -17313
               ],
               [
-                2461,
-                -16656
-              ],
-              [
-                2461,
-                -15353
-              ],
-              [
-                2461,
-                -14908.5
-              ],
-              [
-                2468.5,
-                -14908.5
-              ],
-              [
-                2468.5,
-                -14900.5
-              ],
-              [
-                2468.5,
-                -14892.5
-              ],
-              [
                 2460.5,
-                -14892.5
-              ],
-              [
-                2460.5,
-                -12000.5
-              ],
-              [
-                2468.5,
-                -14901
+                -12000
               ]
             ],
             "stations": [
+              13,
               16,
-              [
-                5,
-                "Taurinorum branch"
-              ],
+              5,
               7,
               90,
               91,
-              92,
-              7
+              92
             ]
           },
           "Taurinorum branch": {
@@ -2141,6 +2106,35 @@
               17,
               15
             ]
+          },
+          "Western branch": {
+            "vertices": [
+              [
+                -430.5,
+                -18420.5
+              ],
+              [
+                -1594.5,
+                -18420.5
+              ],
+              [
+                -1594.5,
+                -18539.5
+              ],
+              [
+                -1458.5,
+                -18539.5
+              ],
+              [
+                -1458.5,
+                -19650
+              ]
+            ],
+            "stations": [
+              18,
+              31,
+              32
+            ]
           }
         }
       },
@@ -2153,7 +2147,7 @@
           "Main line": {
             "vertices": [
               [
-                2468.5,
+                2461,
                 -14901
               ],
               [
@@ -2291,43 +2285,6 @@
                 21,
                 "St. Petersburg line"
               ]
-            ]
-          }
-        }
-      },
-      "Isles": {
-        "prefix": "",
-        "code": "",
-        "color": "6fc8d9",
-        "y": -60,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                -430.5,
-                -18420.5
-              ],
-              [
-                -1594.5,
-                -18420.5
-              ],
-              [
-                -1594.5,
-                -18539.5
-              ],
-              [
-                -1458.5,
-                -18539.5
-              ],
-              [
-                -1458.5,
-                -19658.5
-              ]
-            ],
-            "stations": [
-              18,
-              31,
-              32
             ]
           }
         }
