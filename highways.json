@@ -796,10 +796,6 @@
     {
       "lines": {
         "Bolívar Ice lines": {
-          "Barranquilla": [
-            "",
-            "Main line"
-          ],
           "Bogotá": [
             "",
             "Main line"
@@ -1077,7 +1073,7 @@
           ]
         }
       },
-      "name": "Barranquilla JCT",
+      "name": "Hispanola-Caribbean JCT",
       "id": 65,
       "x": -25544,
       "z": -6425,
@@ -3393,8 +3389,7 @@
               ]
             ],
             "stations": [
-              65,
-              48
+              65
             ]
           }
         }
