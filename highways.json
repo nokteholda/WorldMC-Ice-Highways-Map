@@ -617,11 +617,11 @@
           ]
         }
       },
-      "name": "Brussels-Yorkshire JCT",
+      "name": "Brussels-Yorkshire Interchange",
       "id": 38,
       "x": -430.5,
       "z": -17313.5,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
