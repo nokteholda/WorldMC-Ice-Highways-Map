@@ -142,7 +142,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Brussels": [
             "",
             "Main line"
           ]
@@ -156,17 +156,13 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Brussels": [
             "",
-            "Main line"
-          ],
-          "Amsterdam": [
-            "",
-            ""
+            "Main line and Amsterdam"
           ]
         }
       },
-      "name": "Brussels JCT",
+      "name": "Burssels-Amsterdam JCT",
       "id": 10,
       "x": 1600.5,
       "z": -17313,
@@ -193,7 +189,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Brussels": [
             "",
             "Main line and Cologne branch"
           ]
@@ -208,7 +204,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Brussels": [
             "",
             "Main line"
           ]
@@ -223,17 +219,13 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Brussels": [
             "",
-            "Main line"
-          ],
-          "Aarhus": [
-            "",
-            "Main line"
+            "Main line and Aarhus branch"
           ]
         }
       },
-      "name": "Denmark Way JCT",
+      "name": "Aarhus (Denmark) JCT",
       "id": 14,
       "x": 3477.5,
       "z": -17313,
@@ -242,9 +234,13 @@
     {
       "lines": {
         "European Ice lines": {
-          "Amsterdam": [
+          "Yorkshire": [
             "",
-            ""
+            "Amsterdam branch"
+          ],
+          "Brussels": [
+            "",
+            "Amsterdam"
           ]
         }
       },
@@ -271,17 +267,13 @@
     {
       "lines": {
         "European Ice lines": {
-          "Amsterdam": [
-            "",
-            ""
-          ],
           "Yorkshire": [
             "",
-            "Main line"
+            "Main line and Amsterdam branch"
           ]
         }
       },
-      "name": "Britain JCT",
+      "name": "Yorkshire-Amsterdam JCT",
       "id": 17,
       "x": -430.5,
       "z": -17865.5,
@@ -294,7 +286,7 @@
             "",
             "Main line"
           ],
-          "Isle": [
+          "Isles": [
             "",
             "Main line"
           ]
@@ -310,7 +302,7 @@
         "European Ice lines": {
           "Yorkshire": [
             "",
-            "Evreux branch"
+            "Évreux branch"
           ]
         }
       },
@@ -322,7 +314,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Helsinki": [
+          "Baltic": [
             "",
             "Estonian line"
           ]
@@ -336,7 +328,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Helsinki": [
+          "Baltic": [
             "",
             "Estonian line and St. Petersburg line"
           ]
@@ -351,7 +343,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Brussels": [
             "",
             "Main line and Karlsruhe branch"
           ]
@@ -366,9 +358,9 @@
     {
       "lines": {
         "European Ice lines": {
-          "Aarhus": [
+          "Brussels": [
             "",
-            "Main line"
+            "Aarhus branch"
           ]
         }
       },
@@ -380,7 +372,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Brussels": [
             "",
             "Karlsruhe branch"
           ]
@@ -503,7 +495,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Isle": [
+          "Isles": [
             "",
             "Main line"
           ]
@@ -517,7 +509,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Isle": [
+          "Isles": [
             "",
             "Main line"
           ]
@@ -545,11 +537,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
-            "",
-            "Main line"
-          ],
-          "Paris-Brussels": [
+          "Brussels": [
             "",
             "Main line"
           ]
@@ -619,17 +607,17 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Yorkshire": [
             "",
             "Main line"
           ],
-          "Yorkshire": [
+          "Brussels": [
             "",
             "Main line"
           ]
         }
       },
-      "name": "Britain-Belgium JCT",
+      "name": "Britainnian JCT",
       "id": 38,
       "x": -430.5,
       "z": -17313.5,
@@ -638,7 +626,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Brussels": [
             "",
             "Main line and Berlin branch"
           ]
@@ -674,7 +662,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Brussels": [
             "",
             "Main line"
           ]
@@ -695,11 +683,11 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Saint Petersburg": [
             "",
             "Main line"
           ],
-          "Kyiv-Petersburg": [
+          "Brussels": [
             "",
             "Main line"
           ]
@@ -714,13 +702,13 @@
     {
       "lines": {
         "European Ice lines": {
-          "Helsinki": [
-            "",
-            "St. Petersburg line"
-          ],
-          "Kyiv-Petersburg": [
+          "Saint Petersburg": [
             "",
             "Main line"
+          ],
+          "Baltic": [
+            "",
+            "St. Petersburg line"
           ]
         }
       },
@@ -1266,7 +1254,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Brussels": [
             "",
             "Main line"
           ]
@@ -1280,7 +1268,7 @@
     {
       "lines": {
         "European Ice lines": {
-          "Kyiv-Petersburg": [
+          "Saint Petersburg": [
             "",
             "Main line"
           ]
@@ -1539,7 +1527,7 @@
         "European Ice lines": {
           "Yorkshire": [
             "",
-            "Evreux branch"
+            "Évreux branch"
           ]
         },
         "French Rail": {
@@ -1562,7 +1550,7 @@
         "European Ice lines": {
           "Yorkshire": [
             "",
-            "Main line and Evreux branch"
+            "Main line and Évreux branch"
           ]
         }
       },
@@ -1575,13 +1563,9 @@
     {
       "lines": {
         "European Ice lines": {
-          "Brussels Highway": [
+          "Brussels": [
             "",
-            "Main line"
-          ],
-          "Polish Rail": [
-            "",
-            ""
+            "Main line and Polish branch"
           ]
         }
       },
@@ -1594,9 +1578,9 @@
     {
       "lines": {
         "European Ice lines": {
-          "Polish Rail": [
+          "Brussels": [
             "",
-            ""
+            "Polish branch"
           ]
         }
       },
@@ -1856,6 +1840,13 @@
       "id": 112,
       "x": -147,
       "z": -4844
+    },
+    {
+      "lines": {},
+      "name": "Aarhus JCT",
+      "id": 113,
+      "x": 0,
+      "z": 0
     }
   ],
   "lines": {
@@ -2079,7 +2070,276 @@
           }
         }
       },
-      "Brussels Highway": {
+      "Yorkshire": {
+        "prefix": "",
+        "code": "Y",
+        "color": "6fc8d9",
+        "y": -60,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -430.5,
+                -24771
+              ],
+              [
+                -430.5,
+                -16208.5
+              ],
+              [
+                -413.5,
+                -16208.5
+              ],
+              [
+                -413.5,
+                -16142.5
+              ],
+              [
+                -430.5,
+                -16142.5
+              ],
+              [
+                -430.5,
+                -14598.5
+              ]
+            ],
+            "stations": [
+              18,
+              17,
+              38,
+              [
+                94,
+                "Evreux branch"
+              ]
+            ]
+          },
+          "Évreux branch": {
+            "vertices": [
+              [
+                377.5,
+                -16730.5
+              ],
+              [
+                -435.5,
+                -16730.5
+              ]
+            ],
+            "stations": [
+              93,
+              [
+                94,
+                "Main line"
+              ],
+              19
+            ]
+          },
+          "Amsterdam branch": {
+            "vertices": [
+              [
+                -750,
+                -17865.5
+              ],
+              [
+                1600.5,
+                -17865.5
+              ]
+            ],
+            "stations": [
+              17,
+              15
+            ]
+          }
+        }
+      },
+      "Trans-Adriatic": {
+        "prefix": "",
+        "code": "AD",
+        "color": "3bb14a",
+        "y": -60,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                2468.5,
+                -14901
+              ],
+              [
+                7830.5,
+                -14901
+              ]
+            ],
+            "stations": [
+              7,
+              [
+                35,
+                "Rome branch"
+              ],
+              40,
+              7
+            ]
+          },
+          "Rome branch": {
+            "vertices": [
+              [
+                4400.5,
+                -14901
+              ],
+              [
+                4400.5,
+                -14416.5
+              ]
+            ],
+            "stations": [
+              [
+                35,
+                "Main line"
+              ],
+              8
+            ]
+          }
+        }
+      },
+      "Y=10 Thessaloniki-Volos": {
+        "prefix": "Y=10",
+        "code": "Y=10.TSL-VOL",
+        "color": "09f8a4",
+        "y": 10,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                7830.5,
+                -13460.5
+              ],
+              [
+                7830.5,
+                -13859.5
+              ]
+            ],
+            "stations": [
+              36,
+              37
+            ]
+          }
+        }
+      },
+      "Saint Petersburg": {
+        "prefix": "",
+        "code": "",
+        "color": "ed5a26",
+        "y": -60,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                10319,
+                -20460
+              ],
+              [
+                10319,
+                -17200
+              ]
+            ],
+            "stations": [
+              43,
+              42,
+              78
+            ]
+          }
+        }
+      },
+      "Baltic": {
+        "prefix": "",
+        "code": "GSI",
+        "color": "ed5a26",
+        "y": -60,
+        "branches": {
+          "Estonian line": {
+            "vertices": [
+              [
+                8491.5,
+                -20535.5
+              ],
+              [
+                8491.5,
+                -20318.5
+              ]
+            ],
+            "stations": [
+              20,
+              [
+                21,
+                "St. Petersburg line"
+              ]
+            ]
+          },
+          "St. Petersburg line": {
+            "vertices": [
+              [
+                8491.5,
+                -20457.5
+              ],
+              [
+                8605.5,
+                -20457.5
+              ],
+              [
+                8605.5,
+                -20460
+              ],
+              [
+                10319,
+                -20460
+              ]
+            ],
+            "stations": [
+              [
+                21,
+                "Estonian line"
+              ],
+              43
+            ]
+          }
+        }
+      },
+      "Isles": {
+        "prefix": "",
+        "code": "",
+        "color": "6fc8d9",
+        "y": -60,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -430.5,
+                -18420.5
+              ],
+              [
+                -1594.5,
+                -18420.5
+              ],
+              [
+                -1594.5,
+                -18539.5
+              ],
+              [
+                -1458.5,
+                -18539.5
+              ],
+              [
+                -1458.5,
+                -19658.5
+              ]
+            ],
+            "stations": [
+              18,
+              31,
+              32
+            ]
+          }
+        }
+      },
+      "Brussels": {
         "prefix": "B",
         "code": "",
         "color": "d5dc25",
@@ -2184,133 +2444,8 @@
             "stations": [
               39
             ]
-          }
-        }
-      },
-      "Paris-Brussels": {
-        "prefix": "",
-        "code": "PAR-BRU",
-        "color": "aabbee",
-        "y": -60,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                898.5,
-                -17313.5
-              ],
-              [
-                898.5,
-                -16737.5
-              ]
-            ],
-            "stations": [
-              34
-            ]
-          }
-        }
-      },
-      "Amsterdam": {
-        "prefix": "",
-        "code": "",
-        "color": "000080",
-        "y": -60,
-        "branches": {
-          "": {
-            "vertices": [
-              [
-                1600.5,
-                -17313
-              ],
-              [
-                1600.5,
-                -17865.5
-              ],
-              [
-                -601.5,
-                -17865.5
-              ]
-            ],
-            "stations": [
-              10,
-              15,
-              17
-            ]
-          }
-        }
-      },
-      "Yorkshire": {
-        "prefix": "",
-        "code": "Y",
-        "color": "6fc8d9",
-        "y": -60,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                -430.5,
-                -24771
-              ],
-              [
-                -430.5,
-                -16208.5
-              ],
-              [
-                -413.5,
-                -16208.5
-              ],
-              [
-                -413.5,
-                -16142.5
-              ],
-              [
-                -430.5,
-                -16142.5
-              ],
-              [
-                -430.5,
-                -14598.5
-              ]
-            ],
-            "stations": [
-              18,
-              17,
-              38,
-              [
-                94,
-                "Evreux branch"
-              ]
-            ]
           },
-          "Evreux branch": {
-            "vertices": [
-              [
-                377.5,
-                -16730.5
-              ],
-              [
-                -435.5,
-                -16730.5
-              ]
-            ],
-            "stations": [
-              93,
-              [
-                94,
-                "Main line"
-              ],
-              19
-            ]
-          }
-        }
-      },
-      "Polish Rail": {
-        "prefix": "",
-        "code": "",
-        "color": "dc143c",
-        "y": -60,
-        "branches": {
-          "": {
+          "Polish branch": {
             "vertices": [
               [
                 5523,
@@ -2325,132 +2460,8 @@
               96,
               95
             ]
-          }
-        }
-      },
-      "Isle": {
-        "prefix": "",
-        "code": "",
-        "color": "095dff",
-        "y": -60,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                -430.5,
-                -18420.5
-              ],
-              [
-                -1594.5,
-                -18420.5
-              ],
-              [
-                -1594.5,
-                -18539.5
-              ],
-              [
-                -1458.5,
-                -18539.5
-              ],
-              [
-                -1458.5,
-                -19658.5
-              ]
-            ],
-            "stations": [
-              18,
-              31,
-              32
-            ]
-          }
-        }
-      },
-      "Helsinki": {
-        "prefix": "",
-        "code": "GSI",
-        "color": "abff32",
-        "y": -60,
-        "branches": {
-          "Estonian line": {
-            "vertices": [
-              [
-                8491.5,
-                -20535.5
-              ],
-              [
-                8491.5,
-                -20318.5
-              ]
-            ],
-            "stations": [
-              20,
-              [
-                21,
-                "St. Petersburg line"
-              ]
-            ]
           },
-          "St. Petersburg line": {
-            "vertices": [
-              [
-                8491.5,
-                -20457.5
-              ],
-              [
-                8605.5,
-                -20457.5
-              ],
-              [
-                8605.5,
-                -20460
-              ],
-              [
-                10319,
-                -20460
-              ]
-            ],
-            "stations": [
-              [
-                21,
-                "Estonian line"
-              ],
-              43
-            ]
-          }
-        }
-      },
-      "Kyiv-Petersburg": {
-        "prefix": "",
-        "code": "",
-        "color": "ed5a26",
-        "y": -60,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                10319,
-                -20460
-              ],
-              [
-                10319,
-                -17200
-              ]
-            ],
-            "stations": [
-              43,
-              42,
-              78
-            ]
-          }
-        }
-      },
-      "Aarhus": {
-        "prefix": "",
-        "code": "",
-        "color": "0032de",
-        "y": -60,
-        "branches": {
-          "Main line": {
+          "Aarhus branch": {
             "vertices": [
               [
                 3477.5,
@@ -2462,81 +2473,38 @@
               ]
             ],
             "stations": [
-              14,
-              23
-            ]
-          }
-        }
-      },
-      "Trans-Adriatic": {
-        "prefix": "",
-        "code": "AD",
-        "color": "3bb14a",
-        "y": -60,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                2468.5,
-                -14901
-              ],
-              [
-                7830.5,
-                -14901
-              ]
-            ],
-            "stations": [
-              7,
-              [
-                35,
-                "Rome branch"
-              ],
-              40,
-              7
+              23,
+              14
             ]
           },
-          "Rome branch": {
+          "Amsterdam": {
             "vertices": [
               [
-                4400.5,
-                -14901
+                1600.5,
+                -17313
               ],
               [
-                4400.5,
-                -14416.5
+                1600.5,
+                -17865.5
               ]
             ],
             "stations": [
-              [
-                35,
-                "Main line"
-              ],
-              8
+              15,
+              10
             ]
-          }
-        }
-      },
-      "Y=10 Thessaloniki-Volos": {
-        "prefix": "Y=10",
-        "code": "Y=10.TSL-VOL",
-        "color": "09f8a4",
-        "y": 10,
-        "branches": {
-          "Main line": {
+          },
+          "Paris branch": {
             "vertices": [
               [
-                7830.5,
-                -13460.5
+                898.5,
+                -17313
               ],
               [
-                7830.5,
-                -13859.5
+                898.5,
+                -16813
               ]
             ],
-            "stations": [
-              36,
-              37
-            ]
+            "stations": []
           }
         }
       }
