@@ -792,6 +792,10 @@
     {
       "lines": {
         "Bolívar Ice lines": {
+          "Barranquilla": [
+            "",
+            "Main line"
+          ],
           "Bolívar": [
             "",
             "Main line"
@@ -3392,7 +3396,8 @@
               ]
             ],
             "stations": [
-              65
+              65,
+              48
             ]
           }
         }
