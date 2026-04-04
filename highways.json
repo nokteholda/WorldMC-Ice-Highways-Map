@@ -122,8 +122,7 @@
       "name": "Monaco (Central Station)",
       "id": 7,
       "x": 2468.5,
-      "z": -14901,
-      "type": "terminal"
+      "z": -14901
     },
     {
       "lines": {
@@ -838,8 +837,7 @@
       "name": "Alexandria",
       "id": 50,
       "x": 10260,
-      "z": -10694,
-      "type": "terminal"
+      "z": -10694
     },
     {
       "lines": {
@@ -1608,7 +1606,7 @@
     {
       "lines": {
         "American Ice lines": {
-          "Ozark-Panama": [
+          "Ozark": [
             "",
             "Main line"
           ]
@@ -1625,7 +1623,7 @@
     {
       "lines": {
         "American Ice lines": {
-          "Ozark-Panama": [
+          "Ozark": [
             "",
             "Main line and Lakamha branch"
           ]
@@ -1640,7 +1638,7 @@
     {
       "lines": {
         "American Ice lines": {
-          "Ozark-Panama": [
+          "Ozark": [
             "",
             "Main line"
           ]
@@ -1696,7 +1694,7 @@
     {
       "lines": {
         "American Ice lines": {
-          "Ozark-Panama": [
+          "Ozark": [
             "",
             "Lakamha branch"
           ]
@@ -1710,13 +1708,13 @@
     {
       "lines": {
         "American Ice lines": {
-          "Ozark-Panama": [
-            "",
-            "Lakamha branch"
-          ],
           "Caribbean": [
             "",
             "Main line"
+          ],
+          "Ozark": [
+            "",
+            "Lakamha branch"
           ]
         }
       },
@@ -1748,8 +1746,7 @@
       "name": "New York (Liberty City)",
       "id": 105,
       "x": -25258,
-      "z": -13903.5,
-      "type": "terminal"
+      "z": -13903.5
     },
     {
       "lines": {
@@ -3044,7 +3041,7 @@
       },
       "Mansel": {
         "prefix": "",
-        "code": "",
+        "code": "ML",
         "color": "ccffff",
         "y": 9,
         "branches": {
@@ -3068,66 +3065,6 @@
               80,
               81,
               105
-            ]
-          }
-        }
-      },
-      "Ozark-Panama": {
-        "prefix": "",
-        "code": "OZK-PAN",
-        "color": "0000ff",
-        "y": 18,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                -31840,
-                -12723
-              ],
-              [
-                -31840,
-                -3094
-              ],
-              [
-                -27582,
-                -3094
-              ]
-            ],
-            "stations": [
-              99,
-              [
-                98,
-                "Lakamha branch"
-              ],
-              97
-            ]
-          },
-          "Lakamha branch": {
-            "vertices": [
-              [
-                -31842,
-                -5982
-              ],
-              [
-                -31430,
-                -5982
-              ],
-              [
-                -31380,
-                -5982
-              ],
-              [
-                -29706,
-                -5982
-              ]
-            ],
-            "stations": [
-              [
-                98,
-                "Main line"
-              ],
-              103,
-              104
             ]
           }
         }
@@ -3229,6 +3166,66 @@
             "stations": [
               107,
               109
+            ]
+          }
+        }
+      },
+      "Ozark": {
+        "prefix": "",
+        "code": "OZ",
+        "color": "0000ff",
+        "y": 18,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -31840,
+                -12723
+              ],
+              [
+                -31840,
+                -3094
+              ],
+              [
+                -27582,
+                -3094
+              ]
+            ],
+            "stations": [
+              99,
+              [
+                98,
+                "Lakamha branch"
+              ],
+              97
+            ]
+          },
+          "Lakamha branch": {
+            "vertices": [
+              [
+                -31842,
+                -5982
+              ],
+              [
+                -31430,
+                -5982
+              ],
+              [
+                -31380,
+                -5982
+              ],
+              [
+                -29706,
+                -5982
+              ]
+            ],
+            "stations": [
+              [
+                98,
+                "Main line"
+              ],
+              103,
+              104
             ]
           }
         }
