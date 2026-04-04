@@ -316,7 +316,7 @@
         "European Ice lines": {
           "Baltic": [
             "",
-            "Estonian line"
+            "Estonian branch"
           ]
         }
       },
@@ -330,7 +330,7 @@
         "European Ice lines": {
           "Baltic": [
             "",
-            "Estonian line and St. Petersburg line"
+            "St. Petersburg branch and Estonian branch"
           ]
         }
       },
@@ -708,7 +708,7 @@
           ],
           "Baltic": [
             "",
-            "St. Petersburg line"
+            "St. Petersburg branch"
           ]
         }
       },
@@ -1646,7 +1646,7 @@
         "African Ice lines": {
           "Great West African": [
             "",
-            "Accra-Bata line and Southern Sahara line"
+            "Southern Sahara branch and Accra-Bata branch"
           ]
         }
       },
@@ -1660,7 +1660,7 @@
         "African Ice lines": {
           "Great West African": [
             "",
-            "Accra-Bata line"
+            "Accra-Bata branch"
           ]
         }
       },
@@ -1832,7 +1832,7 @@
         "African Ice lines": {
           "Great West African": [
             "",
-            "Southern Sahara line"
+            "Southern Sahara branch"
           ]
         }
       },
@@ -2218,7 +2218,7 @@
       },
       "Saint Petersburg": {
         "prefix": "",
-        "code": "",
+        "code": "SP",
         "color": "ed5a26",
         "y": -60,
         "branches": {
@@ -2243,30 +2243,11 @@
       },
       "Baltic": {
         "prefix": "",
-        "code": "GSI",
+        "code": "BL",
         "color": "ed5a26",
         "y": -60,
         "branches": {
-          "Estonian line": {
-            "vertices": [
-              [
-                8491.5,
-                -20535.5
-              ],
-              [
-                8491.5,
-                -20318.5
-              ]
-            ],
-            "stations": [
-              20,
-              [
-                21,
-                "St. Petersburg line"
-              ]
-            ]
-          },
-          "St. Petersburg line": {
+          "St. Petersburg branch": {
             "vertices": [
               [
                 8491.5,
@@ -2291,6 +2272,25 @@
                 "Estonian line"
               ],
               43
+            ]
+          },
+          "Estonian branch": {
+            "vertices": [
+              [
+                8491.5,
+                -20535.5
+              ],
+              [
+                8491.5,
+                -20318.5
+              ]
+            ],
+            "stations": [
+              20,
+              [
+                21,
+                "St. Petersburg line"
+              ]
             ]
           }
         }
@@ -3520,7 +3520,23 @@
         "color": "006400",
         "y": 73,
         "branches": {
-          "Accra-Bata line": {
+          "Southern Sahara branch": {
+            "vertices": [
+              [
+                -147,
+                -4844
+              ],
+              [
+                -147,
+                -1861
+              ]
+            ],
+            "stations": [
+              112,
+              100
+            ]
+          },
+          "Accra-Bata branch": {
             "vertices": [
               [
                 -147,
@@ -3546,22 +3562,6 @@
             "stations": [
               100,
               101
-            ]
-          },
-          "Southern Sahara line": {
-            "vertices": [
-              [
-                -147,
-                -4844
-              ],
-              [
-                -147,
-                -1861
-              ]
-            ],
-            "stations": [
-              112,
-              100
             ]
           }
         }
