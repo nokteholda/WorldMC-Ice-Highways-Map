@@ -3075,7 +3075,7 @@
       "Ozark-Panama": {
         "prefix": "",
         "code": "OZK-PAN",
-        "color": "00747f",
+        "color": "0000ff",
         "y": 18,
         "branches": {
           "Main line": {
@@ -3218,12 +3218,12 @@
           "Parrotsville": {
             "vertices": [
               [
-                -24833,
-                -7935
+                -26548,
+                -6135
               ],
               [
-                -24683,
-                -7935
+                -26365,
+                -6135
               ]
             ],
             "stations": [
