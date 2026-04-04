@@ -1,20 +1,10 @@
 {
   "stations": [
     {
-      "lines": {
-        "TNIH": {
-          "Keisha": [
-            "",
-            "Main line"
-          ]
-        }
-      },
       "name": "Keisha",
       "id": 0,
-      "x": 31680,
-      "z": -14940
-    },
-    {
+      "x": 31680.0,
+      "z": -14940.0,
       "lines": {
         "TNIH": {
           "Keisha": [
@@ -22,13 +12,13 @@
             "Main line"
           ]
         }
-      },
+      }
+    },
+    {
       "name": "BigCowsIsWatching",
       "id": 1,
-      "x": 31680,
-      "z": -15303
-    },
-    {
+      "x": 31680.0,
+      "z": -15303.0,
       "lines": {
         "TNIH": {
           "Keisha": [
@@ -36,13 +26,28 @@
             "Main line"
           ]
         }
-      },
-      "name": "Keisha mine",
-      "id": 2,
-      "x": 31680,
-      "z": -14782
+      }
     },
     {
+      "name": "Keisha mine",
+      "id": 2,
+      "x": 31680.0,
+      "z": -14782.0,
+      "lines": {
+        "TNIH": {
+          "Keisha": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Keisha JCT",
+      "id": 3,
+      "x": 31680.0,
+      "z": -14400.0,
+      "type": "jct",
       "lines": {
         "TNIH": {
           "Keisha": [
@@ -56,14 +61,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Keisha JCT",
-      "id": 3,
-      "x": 31680,
-      "z": -14400,
-      "type": "jct"
+      }
     },
     {
+      "name": "Paris",
+      "id": 4,
+      "x": 899.0,
+      "z": -16656.0,
       "lines": {
         "European Ice lines": {
           "Monaco": [
@@ -71,13 +75,14 @@
             "Paris branch"
           ]
         }
-      },
-      "name": "Paris",
-      "id": 4,
-      "x": 899,
-      "z": -16656
+      }
     },
     {
+      "name": "Taurinorum JCT",
+      "id": 5,
+      "x": 2461.0,
+      "z": -15353.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Monaco": [
@@ -85,14 +90,13 @@
             "Main line and Taurinorum branch"
           ]
         }
-      },
-      "name": "Taurinorum JCT",
-      "id": 5,
-      "x": 2461,
-      "z": -15353,
-      "type": "jct"
+      }
     },
     {
+      "name": "Taurinorum",
+      "id": 6,
+      "x": 2575.0,
+      "z": -15353.0,
       "lines": {
         "European Ice lines": {
           "Monaco": [
@@ -100,13 +104,14 @@
             "Taurinorum branch"
           ]
         }
-      },
-      "name": "Taurinorum",
-      "id": 6,
-      "x": 2575,
-      "z": -15353
+      }
     },
     {
+      "name": "Monaco (Central Station)",
+      "id": 7,
+      "x": 2468.5,
+      "z": -14901.0,
+      "notes": "Transfers: Monaco Ice Highway; Trans-Adriatic Ice Highway",
       "lines": {
         "European Ice lines": {
           "Monaco": [
@@ -118,13 +123,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Monaco (Central Station)",
-      "id": 7,
-      "x": 2468.5,
-      "z": -14901
+      }
     },
     {
+      "name": "Rome",
+      "id": 8,
+      "x": 4400.5,
+      "z": -14417.5,
       "lines": {
         "European Ice lines": {
           "Trans-Adriatic": [
@@ -132,13 +137,13 @@
             "Rome branch"
           ]
         }
-      },
-      "name": "Rome",
-      "id": 8,
-      "x": 4400.5,
-      "z": -14417.5
+      }
     },
     {
+      "name": "Brussels",
+      "id": 9,
+      "x": 1464.0,
+      "z": -17313.5,
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -146,13 +151,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Brussels",
-      "id": 9,
-      "x": 1464,
-      "z": -17313.5
+      }
     },
     {
+      "name": "Brussels JCT",
+      "id": 10,
+      "x": 1600.5,
+      "z": -17313.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -164,14 +170,13 @@
             ""
           ]
         }
-      },
-      "name": "Brussels JCT",
-      "id": 10,
-      "x": 1600.5,
-      "z": -17313,
-      "type": "jct"
+      }
     },
     {
+      "name": "Taklamakan",
+      "id": 11,
+      "x": 29546.0,
+      "z": -14400.0,
       "lines": {
         "X-ICE": {
           "Aqua": [
@@ -183,13 +188,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Taklamakan",
-      "id": 11,
-      "x": 29546,
-      "z": -14400
+      }
     },
     {
+      "name": "Cologne Way JCT",
+      "id": 12,
+      "x": 2376.0,
+      "z": -17313.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -197,14 +203,14 @@
             "Main line and Cologne branch"
           ]
         }
-      },
-      "name": "Cologne Way JCT",
-      "id": 12,
-      "x": 2376,
-      "z": -17313,
-      "type": "jct"
+      }
     },
     {
+      "name": "Monaco Way JCT",
+      "id": 13,
+      "x": 2461.0,
+      "z": -17313.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -212,14 +218,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Monaco Way JCT",
-      "id": 13,
-      "x": 2461,
-      "z": -17313,
-      "type": "jct"
+      }
     },
     {
+      "name": "Denmark Way JCT",
+      "id": 14,
+      "x": 3477.5,
+      "z": -17313.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -231,14 +237,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Denmark Way JCT",
-      "id": 14,
-      "x": 3477.5,
-      "z": -17313,
-      "type": "jct"
+      }
     },
     {
+      "name": "Amsterdam",
+      "id": 15,
+      "x": 1600.5,
+      "z": -17865.5,
       "lines": {
         "European Ice lines": {
           "Amsterdam": [
@@ -246,13 +251,14 @@
             ""
           ]
         }
-      },
-      "name": "Amsterdam",
-      "id": 15,
-      "x": 1600.5,
-      "z": -17865.5
+      }
     },
     {
+      "name": "France JCT",
+      "id": 16,
+      "x": 2461.0,
+      "z": -16656.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Monaco": [
@@ -260,14 +266,14 @@
             "Main line and Paris branch"
           ]
         }
-      },
-      "name": "France JCT",
-      "id": 16,
-      "x": 2461,
-      "z": -16656,
-      "type": "jct"
+      }
     },
     {
+      "name": "Britain JCT",
+      "id": 17,
+      "x": -430.5,
+      "z": -17865.5,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Amsterdam": [
@@ -279,14 +285,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Britain JCT",
-      "id": 17,
-      "x": -430.5,
-      "z": -17865.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "York",
+      "id": 18,
+      "x": -430.5,
+      "z": -18421.5,
       "lines": {
         "European Ice lines": {
           "Yorkshire": [
@@ -298,13 +303,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "York",
-      "id": 18,
-      "x": -430.5,
-      "z": -18421.5
+      }
     },
     {
+      "name": "Évreux",
+      "id": 19,
+      "x": 377.5,
+      "z": -16730.5,
       "lines": {
         "European Ice lines": {
           "Yorkshire": [
@@ -312,13 +317,13 @@
             "Evreux branch"
           ]
         }
-      },
-      "name": "Évreux",
-      "id": 19,
-      "x": 377.5,
-      "z": -16730.5
+      }
     },
     {
+      "name": "Helsinki",
+      "id": 20,
+      "x": 8491.5,
+      "z": -20535.5,
       "lines": {
         "European Ice lines": {
           "Helsinki": [
@@ -326,13 +331,14 @@
             "Estonian line"
           ]
         }
-      },
-      "name": "Helsinki",
-      "id": 20,
-      "x": 8491.5,
-      "z": -20535.5
+      }
     },
     {
+      "name": "Finnish JCT",
+      "id": 21,
+      "x": 8491.5,
+      "z": -20457.5,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Helsinki": [
@@ -340,14 +346,14 @@
             "Estonian line and St. Petersburg line"
           ]
         }
-      },
-      "name": "Finnish JCT",
-      "id": 21,
-      "x": 8491.5,
-      "z": -20457.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "Karlsruhe JCT",
+      "id": 22,
+      "x": 2906.5,
+      "z": -17313.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -355,14 +361,13 @@
             "Main line and Karlsruhe branch"
           ]
         }
-      },
-      "name": "Karlsruhe JCT",
-      "id": 22,
-      "x": 2906.5,
-      "z": -17313,
-      "type": "jct"
+      }
     },
     {
+      "name": "Aarhus",
+      "id": 23,
+      "x": 3477.5,
+      "z": -19157.5,
       "lines": {
         "European Ice lines": {
           "Aarhus": [
@@ -370,13 +375,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Aarhus",
-      "id": 23,
-      "x": 3477.5,
-      "z": -19157.5
+      }
     },
     {
+      "name": "Karlsruhe",
+      "id": 24,
+      "x": 2906.5,
+      "z": -16793.5,
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -384,13 +389,13 @@
             "Karlsruhe branch"
           ]
         }
-      },
-      "name": "Karlsruhe",
-      "id": 24,
-      "x": 2906.5,
-      "z": -16793.5
+      }
     },
     {
+      "name": "Niigata",
+      "id": 25,
+      "x": 47223.5,
+      "z": -12919.5,
       "lines": {
         "Japanese Ice lines": {
           "Kyoto-Niigata-Tokyo": [
@@ -399,24 +404,24 @@
           ]
         }
       },
-      "name": "Niigata",
-      "id": 25,
-      "x": 47223.5,
-      "z": -12919.5,
       "areas": [
         [
           [
-            47216,
-            -12918
+            47216.0,
+            -12918.0
           ],
           [
-            47247,
-            -12928
+            47247.0,
+            -12928.0
           ]
         ]
       ]
     },
     {
+      "name": "Tokyo South",
+      "id": 26,
+      "x": 47618.0,
+      "z": -12118.5,
       "lines": {
         "Japanese Ice lines": {
           "Tokyo-Osaka cherry": [
@@ -424,13 +429,13 @@
             "Tokyo-Nagoya line"
           ]
         }
-      },
-      "name": "Tokyo South",
-      "id": 26,
-      "x": 47618,
-      "z": -12118.5
+      }
     },
     {
+      "name": "Nagoya",
+      "id": 27,
+      "x": 46710.5,
+      "z": -12007.5,
       "lines": {
         "Japanese Ice lines": {
           "Tokyo-Osaka cherry": [
@@ -439,24 +444,24 @@
           ]
         }
       },
-      "name": "Nagoya",
-      "id": 27,
-      "x": 46710.5,
-      "z": -12007.5,
       "areas": [
         [
           [
-            46719,
-            -12016
+            46719.0,
+            -12016.0
           ],
           [
-            46702,
-            -11999
+            46702.0,
+            -11999.0
           ]
         ]
       ]
     },
     {
+      "name": "Osaka",
+      "id": 28,
+      "x": 46305.0,
+      "z": -11865.0,
       "lines": {
         "Japanese Ice lines": {
           "Tokyo-Osaka cherry": [
@@ -464,13 +469,14 @@
             "Nagoya-Osaka line"
           ]
         }
-      },
-      "name": "Osaka",
-      "id": 28,
-      "x": 46305,
-      "z": -11865
+      }
     },
     {
+      "name": "Taiwan JCT",
+      "id": 29,
+      "x": 41592.0,
+      "z": -8594.0,
+      "type": "jct",
       "lines": {
         "Japanese Ice lines": {
           "Kagoshima-Taiwan cherry": [
@@ -478,14 +484,13 @@
             "Main line and Shanghai line"
           ]
         }
-      },
-      "name": "Taiwan JCT",
-      "id": 29,
-      "x": 41592,
-      "z": -8594,
-      "type": "jct"
+      }
     },
     {
+      "name": "Shanghai",
+      "id": 30,
+      "x": 41592.0,
+      "z": -10526.0,
       "lines": {
         "Japanese Ice lines": {
           "Kagoshima-Taiwan cherry": [
@@ -493,27 +498,13 @@
             "Shanghai line"
           ]
         }
-      },
-      "name": "Shanghai",
-      "id": 30,
-      "x": 41592,
-      "z": -10526
+      }
     },
     {
-      "lines": {
-        "European Ice lines": {
-          "Isle": [
-            "",
-            "Main line"
-          ]
-        }
-      },
       "name": "Isle",
       "id": 31,
       "x": -1594.5,
-      "z": -18499.5
-    },
-    {
+      "z": -18499.5,
       "lines": {
         "European Ice lines": {
           "Isle": [
@@ -521,13 +512,27 @@
             "Main line"
           ]
         }
-      },
+      }
+    },
+    {
       "name": "Inverness",
       "id": 32,
       "x": -1459.5,
-      "z": -19650
+      "z": -19650.0,
+      "lines": {
+        "European Ice lines": {
+          "Isle": [
+            "",
+            "Main line"
+          ]
+        }
+      }
     },
     {
+      "name": "Monaco (New York Station)",
+      "id": 33,
+      "x": 2431.5,
+      "z": -14950.5,
       "lines": {
         "Transatlantic": {
           "Transatlantic": [
@@ -535,13 +540,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Monaco (New York Station)",
-      "id": 33,
-      "x": 2431.5,
-      "z": -14950.5
+      }
     },
     {
+      "name": "Cookie JCT",
+      "id": 34,
+      "x": 898.5,
+      "z": -17313.5,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -553,14 +559,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Cookie JCT",
-      "id": 34,
-      "x": 898.5,
-      "z": -17313.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "Roman Interchange",
+      "id": 35,
+      "x": 4400.5,
+      "z": -14901.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Trans-Adriatic": [
@@ -568,34 +574,13 @@
             "Main line and Rome branch"
           ]
         }
-      },
-      "name": "Roman Interchange",
-      "id": 35,
-      "x": 4400.5,
-      "z": -14901,
-      "type": "jct"
+      }
     },
     {
-      "lines": {
-        "European Ice lines": {
-          "Y=10 Thessaloniki-Volos": [
-            "",
-            "Main line"
-          ]
-        },
-        "IceWay": {
-          "Western Aegean": [
-            "",
-            "Main line"
-          ]
-        }
-      },
       "name": "Thessaloniki",
       "id": 36,
       "x": 7830.5,
-      "z": -13851.5
-    },
-    {
+      "z": -13851.5,
       "lines": {
         "European Ice lines": {
           "Y=10 Thessaloniki-Volos": [
@@ -609,13 +594,34 @@
             "Main line"
           ]
         }
-      },
+      }
+    },
+    {
       "name": "Volos",
       "id": 37,
       "x": 7830.5,
-      "z": -13461.5
+      "z": -13461.5,
+      "lines": {
+        "European Ice lines": {
+          "Y=10 Thessaloniki-Volos": [
+            "",
+            "Main line"
+          ]
+        },
+        "IceWay": {
+          "Western Aegean": [
+            "",
+            "Main line"
+          ]
+        }
+      }
     },
     {
+      "name": "Britain-Belgium JCT",
+      "id": 38,
+      "x": -430.5,
+      "z": -17313.5,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -627,14 +633,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Britain-Belgium JCT",
-      "id": 38,
-      "x": -430.5,
-      "z": -17313.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "Berlin JCT",
+      "id": 39,
+      "x": 4608.5,
+      "z": -17313.5,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -642,14 +648,14 @@
             "Main line and Berlin branch"
           ]
         }
-      },
-      "name": "Berlin JCT",
-      "id": 39,
-      "x": 4608.5,
-      "z": -17313.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "Balkan JCT",
+      "id": 40,
+      "x": 7830.5,
+      "z": -14901.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Trans-Adriatic": [
@@ -663,14 +669,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Balkan JCT",
-      "id": 40,
-      "x": 7830.5,
-      "z": -14901,
-      "type": "jct"
+      }
     },
     {
+      "name": "Greece Way JCT",
+      "id": 41,
+      "x": 7830.5,
+      "z": -17313.5,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -684,14 +690,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Greece Way JCT",
-      "id": 41,
-      "x": 7830.5,
-      "z": -17313.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "Saint Petersburg JCT",
+      "id": 42,
+      "x": 10319.0,
+      "z": -17313.5,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -703,14 +709,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Saint Petersburg JCT",
-      "id": 42,
-      "x": 10319,
-      "z": -17313.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "Saint Petersburg",
+      "id": 43,
+      "x": 10319.0,
+      "z": -20460.0,
       "lines": {
         "European Ice lines": {
           "Helsinki": [
@@ -722,13 +727,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Saint Petersburg",
-      "id": 43,
-      "x": 10319,
-      "z": -20460
+      }
     },
     {
+      "name": "Bogotá",
+      "id": 44,
+      "x": -25405.0,
+      "z": -1417.0,
       "lines": {
         "Bolívar Ice lines": {
           "Bogotá": [
@@ -736,13 +741,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Bogotá",
-      "id": 44,
-      "x": -25405,
-      "z": -1417
+      }
     },
     {
+      "name": "Bogotá-Medellín JCT",
+      "id": 45,
+      "x": -25752.0,
+      "z": -1417.0,
+      "type": "jct",
       "lines": {
         "Bolívar Ice lines": {
           "Medellín": [
@@ -754,28 +760,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Bogotá-Medellín JCT",
-      "id": 45,
-      "x": -25752,
-      "z": -1417,
-      "type": "jct"
+      }
     },
     {
-      "lines": {
-        "Bolívar Ice lines": {
-          "Medellín": [
-            "",
-            "Main line"
-          ]
-        }
-      },
       "name": "Cali",
       "id": 46,
-      "x": -26091,
-      "z": -1192
-    },
-    {
+      "x": -26091.0,
+      "z": -1192.0,
       "lines": {
         "Bolívar Ice lines": {
           "Medellín": [
@@ -783,13 +774,27 @@
             "Main line"
           ]
         }
-      },
-      "name": "Medellín",
-      "id": 47,
-      "x": -25752,
-      "z": -2072
+      }
     },
     {
+      "name": "Medellín",
+      "id": 47,
+      "x": -25752.0,
+      "z": -2072.0,
+      "lines": {
+        "Bolívar Ice lines": {
+          "Medellín": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Barranquilla",
+      "id": 48,
+      "x": -25544.0,
+      "z": -3739.0,
       "lines": {
         "Bolívar Ice lines": {
           "Barranquilla": [
@@ -801,13 +806,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Barranquilla",
-      "id": 48,
-      "x": -25544,
-      "z": -3739
+      }
     },
     {
+      "name": "Hispanola",
+      "id": 49,
+      "x": -24978.0,
+      "z": -6425.0,
       "lines": {
         "American Ice lines": {
           "Caribbean": [
@@ -815,50 +820,52 @@
             "Main line"
           ]
         }
-      },
-      "name": "Hispanola",
-      "id": 49,
-      "x": -24978,
-      "z": -6425
+      }
     },
     {
+      "name": "Alexandria",
+      "id": 50,
+      "x": 10260.0,
+      "z": -10694.0,
+      "notes": "Transfers: Alexandria-Anatolia IceWay; Afro-Asiatic IceWay",
       "lines": {
         "IceWay": {
+          "Alexandria-Anatolia": [
+            "",
+            "Main line"
+          ],
           "Afro-Asiatic": [
             "",
             "Main line"
-          ],
-          "Alexandria-Anatolia": [
-            "",
-            "Main line"
           ]
         }
-      },
-      "name": "Alexandria",
-      "id": 50,
-      "x": 10260,
-      "z": -10694
+      }
     },
     {
-      "lines": {
-        "IceWay": {
-          "Eurasian": [
-            "",
-            "Main line"
-          ],
-          "Alexandria-Anatolia": [
-            "",
-            "Main line"
-          ]
-        }
-      },
       "name": "Alexandria JCT",
       "id": 51,
-      "x": 10260,
-      "z": -12715,
-      "type": "jct"
+      "x": 10260.0,
+      "z": -12715.0,
+      "type": "jct",
+      "lines": {
+        "IceWay": {
+          "Eurasian": [
+            "",
+            "Main line"
+          ],
+          "Alexandria-Anatolia": [
+            "",
+            "Main line"
+          ]
+        }
+      }
     },
     {
+      "name": "Eastern Aegean JCT",
+      "id": 52,
+      "x": 9419.0,
+      "z": -12715.0,
+      "type": "jct",
       "lines": {
         "IceWay": {
           "Eurasian": [
@@ -870,14 +877,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Eastern Aegean JCT",
-      "id": 52,
-      "x": 9419,
-      "z": -12715,
-      "type": "jct"
+      }
     },
     {
+      "name": "Bodrum",
+      "id": 53,
+      "x": 9419.0,
+      "z": -12648.0,
       "lines": {
         "IceWay": {
           "Eastern Aegean": [
@@ -885,27 +891,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Bodrum",
-      "id": 53,
-      "x": 9419,
-      "z": -12648
+      }
     },
     {
-      "lines": {
-        "Indonesian Ice Lines": {
-          "Jakarta-Banana Kingdom": [
-            "",
-            "Main line"
-          ]
-        }
-      },
       "name": "Jakarta",
       "id": 54,
-      "x": 36478,
-      "z": 2180
-    },
-    {
+      "x": 36478.0,
+      "z": 2180.0,
       "lines": {
         "Indonesian Ice Lines": {
           "Jakarta-Banana Kingdom": [
@@ -913,13 +905,28 @@
             "Main line"
           ]
         }
-      },
-      "name": "Banana Kingdom",
-      "id": 55,
-      "x": 38056,
-      "z": 2749
+      }
     },
     {
+      "name": "Banana Kingdom",
+      "id": 55,
+      "x": 38056.0,
+      "z": 2749.0,
+      "lines": {
+        "Indonesian Ice Lines": {
+          "Jakarta-Banana Kingdom": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Athens JCT",
+      "id": 56,
+      "x": 8106.0,
+      "z": -12715.0,
+      "type": "jct",
       "lines": {
         "IceWay": {
           "Eurasian": [
@@ -927,14 +934,14 @@
             "Main line and Athens branch"
           ]
         }
-      },
-      "name": "Athens JCT",
-      "id": 56,
-      "x": 8106,
-      "z": -12715,
-      "type": "jct"
+      }
     },
     {
+      "name": "Western Aegean JCT",
+      "id": 57,
+      "x": 7831.0,
+      "z": -12715.0,
+      "type": "jct",
       "lines": {
         "IceWay": {
           "Eurasian": [
@@ -946,14 +953,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Western Aegean JCT",
-      "id": 57,
-      "x": 7831,
-      "z": -12715,
-      "type": "jct"
+      }
     },
     {
+      "name": "Cilicia",
+      "id": 58,
+      "x": 12019.0,
+      "z": -12715.0,
       "lines": {
         "IceWay": {
           "Eurasian": [
@@ -961,13 +967,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Cilicia",
-      "id": 58,
-      "x": 12019,
-      "z": -12715
+      }
     },
     {
+      "name": "Athens",
+      "id": 59,
+      "x": 8106.0,
+      "z": -12922.0,
       "lines": {
         "IceWay": {
           "Eurasian": [
@@ -975,13 +981,14 @@
             "Athens branch"
           ]
         }
-      },
-      "name": "Athens",
-      "id": 59,
-      "x": 8106,
-      "z": -12922
+      }
     },
     {
+      "name": "Samos JCT",
+      "id": 60,
+      "x": 9419.0,
+      "z": -12875.0,
+      "type": "jct",
       "lines": {
         "IceWay": {
           "Eastern Aegean": [
@@ -989,14 +996,14 @@
             "Main line and Samos branch"
           ]
         }
-      },
-      "name": "Samos JCT",
-      "id": 60,
-      "x": 9419,
-      "z": -12875,
-      "type": "jct"
+      }
     },
     {
+      "name": "Izmir JCT",
+      "id": 61,
+      "x": 9419.0,
+      "z": -13042.0,
+      "type": "jct",
       "lines": {
         "IceWay": {
           "Eastern Aegean": [
@@ -1004,14 +1011,13 @@
             "Main line and Izmir branch"
           ]
         }
-      },
-      "name": "Izmir JCT",
-      "id": 61,
-      "x": 9419,
-      "z": -13042,
-      "type": "jct"
+      }
     },
     {
+      "name": "Samos",
+      "id": 62,
+      "x": 9240.0,
+      "z": -12875.0,
       "lines": {
         "IceWay": {
           "Eastern Aegean": [
@@ -1019,13 +1025,13 @@
             "Samos branch"
           ]
         }
-      },
-      "name": "Samos",
-      "id": 62,
-      "x": 9240,
-      "z": -12875
+      }
     },
     {
+      "name": "Izmir",
+      "id": 63,
+      "x": 9170.0,
+      "z": -13042.0,
       "lines": {
         "IceWay": {
           "Eastern Aegean": [
@@ -1033,13 +1039,14 @@
             "Izmir branch"
           ]
         }
-      },
-      "name": "Izmir",
-      "id": 63,
-      "x": 9170,
-      "z": -13042
+      }
     },
     {
+      "name": "Northen Anatolian JCT",
+      "id": 64,
+      "x": 10260.0,
+      "z": -14001.0,
+      "type": "jct",
       "lines": {
         "IceWay": {
           "Trans-Anatolia": [
@@ -1051,14 +1058,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Northen Anatolian JCT",
-      "id": 64,
-      "x": 10260,
-      "z": -14001,
-      "type": "jct"
+      }
     },
     {
+      "name": "Barranquilla-Bolívar JCT",
+      "id": 65,
+      "x": -25544.0,
+      "z": -6425.0,
+      "type": "jct",
       "lines": {
         "American Ice lines": {
           "Caribbean": [
@@ -1072,14 +1079,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Barranquilla-Bolívar JCT",
-      "id": 65,
-      "x": -25544,
-      "z": -6425,
-      "type": "jct"
+      }
     },
     {
+      "name": "Medellín JCT",
+      "id": 66,
+      "x": -25544.0,
+      "z": -2072.0,
+      "type": "jct",
       "lines": {
         "Bolívar Ice lines": {
           "Medellín": [
@@ -1091,14 +1098,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Medellín JCT",
-      "id": 66,
-      "x": -25544,
-      "z": -2072,
-      "type": "jct"
+      }
     },
     {
+      "name": "Bogotá JCT",
+      "id": 67,
+      "x": -25544.0,
+      "z": -1417.0,
+      "type": "jct",
       "lines": {
         "Bolívar Ice lines": {
           "Bolívar": [
@@ -1110,14 +1117,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Bogotá JCT",
-      "id": 67,
-      "x": -25544,
-      "z": -1417,
-      "type": "jct"
+      }
     },
     {
+      "name": "Panama JCT",
+      "id": 68,
+      "x": -25544.0,
+      "z": -3094.0,
+      "type": "jct",
       "lines": {
         "Bolívar Ice lines": {
           "Panama": [
@@ -1129,14 +1136,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Panama JCT",
-      "id": 68,
-      "x": -25544,
-      "z": -3094,
-      "type": "jct"
+      }
     },
     {
+      "name": "Panama",
+      "id": 69,
+      "x": -26956.0,
+      "z": -3094.0,
       "lines": {
         "Bolívar Ice lines": {
           "Panama": [
@@ -1144,13 +1150,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Panama",
-      "id": 69,
-      "x": -26956,
-      "z": -3094
+      }
     },
     {
+      "name": "Cyprus JCT",
+      "id": 70,
+      "x": 11481.0,
+      "z": -12715.0,
+      "type": "jct",
       "lines": {
         "IceWay": {
           "Eurasian": [
@@ -1158,14 +1165,13 @@
             "Main line and Cyprus branch"
           ]
         }
-      },
-      "name": "Cyprus Interchange",
-      "id": 70,
-      "x": 11481,
-      "z": -12715,
-      "type": "jct"
+      }
     },
     {
+      "name": "Cyprus",
+      "id": 71,
+      "x": 11481.0,
+      "z": -12016.0,
       "lines": {
         "IceWay": {
           "Eurasian": [
@@ -1173,28 +1179,14 @@
             "Cyprus branch"
           ]
         }
-      },
-      "name": "Cyprus",
-      "id": 71,
-      "x": 11481,
-      "z": -12016
+      }
     },
     {
-      "lines": {
-        "American Ice lines": {
-          "United States": [
-            "",
-            "Main line"
-          ]
-        }
-      },
       "name": "Chicago JCT",
       "id": 72,
       "x": -29975.07,
       "z": -13904.66,
-      "type": "jct"
-    },
-    {
+      "type": "jct",
       "lines": {
         "American Ice lines": {
           "United States": [
@@ -1202,13 +1194,28 @@
             "Main line"
           ]
         }
-      },
+      }
+    },
+    {
       "name": "Salt Lake City",
       "id": 73,
       "x": -38196.5,
-      "z": -13903.5
+      "z": -13903.5,
+      "lines": {
+        "American Ice lines": {
+          "United States": [
+            "",
+            "Main line"
+          ]
+        }
+      }
     },
     {
+      "name": "Japanese Sea 1st JCT",
+      "id": 74,
+      "x": 46321.5,
+      "z": -14400.0,
+      "type": "jct",
       "lines": {
         "X-ICE": {
           "Aqua": [
@@ -1216,14 +1223,16 @@
             "Main line and Kyoto branch"
           ]
         }
-      },
-      "name": "Japanese Sea 1st JCT",
-      "id": 74,
-      "x": 46321.5,
-      "z": -14400,
-      "type": "jct"
+      }
     },
     {
+      "name": "Japanese 1st Elevator",
+      "id": 75,
+      "x": 46323.5,
+      "z": -14300.0,
+      "type": "elev-we",
+      "y1": 10,
+      "y2": 16,
       "lines": {
         "X-ICE": {
           "Aqua": [
@@ -1237,16 +1246,14 @@
             "X-ICE branch"
           ]
         }
-      },
-      "name": "Japanese 1st Elevator",
-      "id": 75,
-      "x": 46323.5,
-      "z": -14300,
-      "type": "elev-we",
-      "y1": 10,
-      "y2": 16
+      }
     },
     {
+      "name": "X-ICE JCT",
+      "id": 76,
+      "x": 46325.5,
+      "z": -12919.5,
+      "type": "jct",
       "lines": {
         "Japanese Ice lines": {
           "Kyoto-Niigata-Tokyo": [
@@ -1254,14 +1261,13 @@
             "Main line and X-ICE branch"
           ]
         }
-      },
-      "name": "X-ICE JCT",
-      "id": 76,
-      "x": 46325.5,
-      "z": -12919.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "Liege",
+      "id": 77,
+      "x": 2014.0,
+      "z": -17313.5,
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -1269,13 +1275,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Liege",
-      "id": 77,
-      "x": 2014,
-      "z": -17313.5
+      }
     },
     {
+      "name": "Kyiv",
+      "id": 78,
+      "x": 10319.0,
+      "z": -17208.0,
       "lines": {
         "European Ice lines": {
           "Kyiv-Petersburg": [
@@ -1283,13 +1289,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Kyiv",
-      "id": 78,
-      "x": 10319,
-      "z": -17208
+      }
     },
     {
+      "name": "Syracusa",
+      "id": 79,
+      "x": 5169.0,
+      "z": -12715.0,
       "lines": {
         "IceWay": {
           "Eurasian": [
@@ -1297,13 +1303,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Syracusa",
-      "id": 79,
-      "x": 5169,
-      "z": -12715
+      }
     },
     {
+      "name": "Transatlantic JCT",
+      "id": 80,
+      "x": -25258.0,
+      "z": -14950.5,
+      "type": "jct",
       "lines": {
         "Transatlantic": {
           "Transatlantic": [
@@ -1317,14 +1324,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Transatlantic JCT",
-      "id": 80,
-      "x": -25258,
-      "z": -14950.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "Mansel",
+      "id": 81,
+      "x": -27152.0,
+      "z": -21148.0,
       "lines": {
         "American Ice lines": {
           "Mansel": [
@@ -1332,13 +1338,16 @@
             "Main line"
           ]
         }
-      },
-      "name": "Mansel",
-      "id": 81,
-      "x": -27152,
-      "z": -21148
+      }
     },
     {
+      "name": "Y=10 to Y=0 Elevator",
+      "id": 82,
+      "x": -24833.0,
+      "z": -7935.0,
+      "type": "elev-we",
+      "y1": 10,
+      "y2": 0,
       "lines": {
         "American Ice lines": {
           "Atlantic": [
@@ -1350,16 +1359,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Y=10 to Y=0 Elevator",
-      "id": 82,
-      "x": -24833,
-      "z": -7935,
-      "type": "elev-we",
-      "y1": 10,
-      "y2": 0
+      }
     },
     {
+      "name": "Atlantic JCT",
+      "id": 83,
+      "x": -24833.0,
+      "z": -14950.5,
+      "type": "jct",
       "lines": {
         "Transatlantic": {
           "Transatlantic": [
@@ -1373,14 +1380,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Atlantic JCT",
-      "id": 83,
-      "x": -24833,
-      "z": -14950.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "Mogawa JCT",
+      "id": 84,
+      "x": 44616.5,
+      "z": -11750.5,
+      "type": "jct",
       "lines": {
         "Japanese Ice lines": {
           "Kyoto-Niigata-Tokyo": [
@@ -1388,14 +1395,13 @@
             "Main line and Mogawa branch"
           ]
         }
-      },
-      "name": "Mogawa JCT",
-      "id": 84,
-      "x": 44616.5,
-      "z": -11750.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "Tsushima",
+      "id": 85,
+      "x": 44156.5,
+      "z": -11750.5,
       "lines": {
         "Japanese Ice lines": {
           "Kyoto-Niigata-Tokyo": [
@@ -1404,24 +1410,24 @@
           ]
         }
       },
-      "name": "Tsushima",
-      "id": 85,
-      "x": 44156.5,
-      "z": -11750.5,
       "areas": [
         [
           [
-            44157,
-            -11748
+            44157.0,
+            -11748.0
           ],
           [
-            44108,
-            -11753
+            44108.0,
+            -11753.0
           ]
         ]
       ]
     },
     {
+      "name": "Brest",
+      "id": 86,
+      "x": -1500.0,
+      "z": -16526.0,
       "lines": {
         "French Rail": {
           "Paris-Brest": [
@@ -1429,13 +1435,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Brest",
-      "id": 86,
-      "x": -1500,
-      "z": -16526
+      }
     },
     {
+      "name": "Nantes-Paris-Brest JCT",
+      "id": 87,
+      "x": -448.0,
+      "z": -16526.0,
+      "type": "jct",
       "lines": {
         "French Rail": {
           "Nantes": [
@@ -1447,14 +1454,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Nantes-Paris-Brest JCT",
-      "id": 87,
-      "x": -448,
-      "z": -16526,
-      "type": "jct"
+      }
     },
     {
+      "name": "Paris French Rail",
+      "id": 88,
+      "x": 760.0,
+      "z": -16678.0,
       "lines": {
         "French Rail": {
           "Paris-Brest": [
@@ -1462,13 +1468,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Paris French Rail",
-      "id": 88,
-      "x": 760,
-      "z": -16678
+      }
     },
     {
+      "name": "Nantes",
+      "id": 89,
+      "x": -448.0,
+      "z": -16204.0,
       "lines": {
         "French Rail": {
           "Nantes": [
@@ -1476,13 +1482,14 @@
             "Rail line"
           ]
         }
-      },
-      "name": "Nantes",
-      "id": 89,
-      "x": -448,
-      "z": -16204
+      }
     },
     {
+      "name": "Corsica JCT",
+      "id": 90,
+      "x": 2460.5,
+      "z": -14418.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Monaco": [
@@ -1490,14 +1497,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Corsica JCT",
-      "id": 90,
-      "x": 2460.5,
-      "z": -14418,
-      "type": "jct"
+      }
     },
     {
+      "name": "Mediterranean JCT",
+      "id": 91,
+      "x": 2460.5,
+      "z": -12715.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Monaco": [
@@ -1511,14 +1518,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Mediterranean JCT",
-      "id": 91,
-      "x": 2460.5,
-      "z": -12715,
-      "type": "jct"
+      }
     },
     {
+      "name": "Algeria",
+      "id": 92,
+      "x": 2460.5,
+      "z": -12000.0,
       "lines": {
         "European Ice lines": {
           "Monaco": [
@@ -1526,13 +1532,16 @@
             "Main line"
           ]
         }
-      },
-      "name": "Algeria",
-      "id": 92,
-      "x": 2460.5,
-      "z": -12000
+      }
     },
     {
+      "name": "Évreux West Eevator",
+      "id": 93,
+      "x": -435.5,
+      "z": -16730.5,
+      "type": "elev-we",
+      "y1": -60,
+      "y2": -54,
       "lines": {
         "European Ice lines": {
           "Yorkshire": [
@@ -1546,16 +1555,14 @@
             "Ice line"
           ]
         }
-      },
-      "name": "Évreux West Eevator",
-      "id": 93,
-      "x": -435.5,
-      "z": -16730.5,
-      "type": "elev-we",
-      "y1": -60,
-      "y2": -54
+      }
     },
     {
+      "name": "Évreux West JCT",
+      "id": 94,
+      "x": -430.5,
+      "z": -16730.5,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Yorkshire": [
@@ -1563,14 +1570,14 @@
             "Main line and Evreux branch"
           ]
         }
-      },
-      "name": "Évreux West JCT",
-      "id": 94,
-      "x": -430.5,
-      "z": -16730.5,
-      "type": "jct"
+      }
     },
     {
+      "name": "Polish JCT",
+      "id": 95,
+      "x": 5523.0,
+      "z": -17313.0,
+      "type": "jct",
       "lines": {
         "European Ice lines": {
           "Brussels Highway": [
@@ -1582,14 +1589,13 @@
             ""
           ]
         }
-      },
-      "name": "Polish JCT",
-      "id": 95,
-      "x": 5523,
-      "z": -17313,
-      "type": "jct"
+      }
     },
     {
+      "name": "Poland Town",
+      "id": 96,
+      "x": 5523.0,
+      "z": -18476.0,
       "lines": {
         "European Ice lines": {
           "Polish Rail": [
@@ -1597,13 +1603,16 @@
             ""
           ]
         }
-      },
-      "name": "Poland Town",
-      "id": 96,
-      "x": 5523,
-      "z": -18476
+      }
     },
     {
+      "name": "Y=35 to Y=18 Elevator",
+      "id": 97,
+      "x": -27582.0,
+      "z": -3094.0,
+      "type": "elev-ew",
+      "y1": 35,
+      "y2": 18,
       "lines": {
         "American Ice lines": {
           "Ozark": [
@@ -1617,16 +1626,14 @@
             "Main line"
           ]
         }
-      },
-      "name": "Y=35 to Y=18 Elevator",
-      "id": 97,
-      "x": -27582,
-      "z": -3094,
-      "type": "elev-ew",
-      "y1": 35,
-      "y2": 18
+      }
     },
     {
+      "name": "Lakamha JCT",
+      "id": 98,
+      "x": -31842.0,
+      "z": -5982.0,
+      "type": "jct",
       "lines": {
         "American Ice lines": {
           "Ozark": [
@@ -1634,14 +1641,13 @@
             "Main line and Lakamha branch"
           ]
         }
-      },
-      "name": "Lakamha JCT",
-      "id": 98,
-      "x": -31842,
-      "z": -5982,
-      "type": "jct"
+      }
     },
     {
+      "name": "Ozark",
+      "id": 99,
+      "x": -31840.0,
+      "z": -12723.0,
       "lines": {
         "American Ice lines": {
           "Ozark": [
@@ -1649,41 +1655,41 @@
             "Main line"
           ]
         }
-      },
-      "name": "Ozark",
-      "id": 99,
-      "x": -31840,
-      "z": -12723
+      }
     },
     {
-      "lines": {
-        "African Ice lines": {
-          "Great West African Ice Highway": [
-            "",
-            "Accra - Bata line"
-          ]
-        }
-      },
       "name": "Accra",
       "id": 100,
-      "x": -147,
-      "z": -1861
-    },
-    {
+      "x": -147.0,
+      "z": -1861.0,
       "lines": {
         "African Ice lines": {
-          "Great West African Ice Highway": [
+          "Great West African": [
             "",
-            "Accra - Bata line"
+            "Accra-Bata line"
           ]
         }
-      },
-      "name": "Bata",
-      "id": 101,
-      "x": 3372,
-      "z": -656
+      }
     },
     {
+      "name": "Bata",
+      "id": 101,
+      "x": 3372.0,
+      "z": -656.0,
+      "lines": {
+        "African Ice lines": {
+          "Great West African": [
+            "",
+            "Accra-Bata line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jerusalem",
+      "id": 102,
+      "x": 12015.0,
+      "z": -10694.0,
       "lines": {
         "IceWay": {
           "Afro-Asiatic": [
@@ -1691,13 +1697,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Jerusalem",
-      "id": 102,
-      "x": 12015,
-      "z": -10694
+      }
     },
     {
+      "name": "Lakamha",
+      "id": 103,
+      "x": -31380.0,
+      "z": -5982.0,
       "lines": {
         "American Ice lines": {
           "Ozark": [
@@ -1705,13 +1711,16 @@
             "Lakamha branch"
           ]
         }
-      },
-      "name": "Lakamha",
-      "id": 103,
-      "x": -31380,
-      "z": -5982
+      }
     },
     {
+      "name": "Y=18 to Y=10 Elevator",
+      "id": 104,
+      "x": -29706.0,
+      "z": -5982.0,
+      "type": "elev-we",
+      "y1": 18,
+      "y2": 10,
       "lines": {
         "American Ice lines": {
           "Caribbean": [
@@ -1723,19 +1732,17 @@
             "Lakamha branch"
           ]
         }
-      },
-      "name": "Y=18 to Y=10 Elevator",
-      "id": 104,
-      "x": -29706,
-      "z": -5982,
-      "type": "elev-we",
-      "y1": 18,
-      "y2": 10
+      }
     },
     {
+      "name": "New York (Liberty City)",
+      "id": 105,
+      "x": -25258.0,
+      "z": -13903.5,
+      "notes": "Transfers: United States Ice Highway; Mansel Ice Highway; Atlantic Ice Highway",
       "lines": {
         "American Ice lines": {
-          "Mansel": [
+          "United States": [
             "",
             "Main line"
           ],
@@ -1743,18 +1750,18 @@
             "",
             "New York branch"
           ],
-          "United States": [
+          "Mansel": [
             "",
             "Main line"
           ]
         }
-      },
-      "name": "New York (Liberty City)",
-      "id": 105,
-      "x": -25258,
-      "z": -13903.5
+      }
     },
     {
+      "name": "New York JCT",
+      "id": 106,
+      "x": -24833.0,
+      "z": -13904.0,
       "lines": {
         "American Ice lines": {
           "Atlantic": [
@@ -1762,13 +1769,14 @@
             "Main line and New York branch"
           ]
         }
-      },
-      "name": "New York JCT",
-      "id": 106,
-      "x": -24833,
-      "z": -13904
+      }
     },
     {
+      "name": "Parrotsville JCT",
+      "id": 107,
+      "x": -26365.0,
+      "z": -6135.0,
+      "type": "jct",
       "lines": {
         "American Ice lines": {
           "Caribbean": [
@@ -1776,14 +1784,13 @@
             "Main line and Parrotsville"
           ]
         }
-      },
-      "name": "Parrotsville JCT",
-      "id": 107,
-      "x": -26365,
-      "z": -6135,
-      "type": "jct"
+      }
     },
     {
+      "name": "Jamaica",
+      "id": 108,
+      "x": -26365.0,
+      "z": -6260.0,
       "lines": {
         "American Ice lines": {
           "Caribbean": [
@@ -1791,13 +1798,13 @@
             "Main line"
           ]
         }
-      },
-      "name": "Jamaica",
-      "id": 108,
-      "x": -26365,
-      "z": -6260
+      }
     },
     {
+      "name": "Parrotsville",
+      "id": 109,
+      "x": -26548.0,
+      "z": -6135.0,
       "lines": {
         "American Ice lines": {
           "Caribbean": [
@@ -1805,13 +1812,13 @@
             "Parrotsville"
           ]
         }
-      },
-      "name": "Parrotsville",
-      "id": 109,
-      "x": -26548,
-      "z": -6135
+      }
     },
     {
+      "name": "Omaha",
+      "id": 110,
+      "x": -32935.0,
+      "z": -13922.0,
       "lines": {
         "American Ice lines": {
           "United States": [
@@ -1819,13 +1826,14 @@
             "Omaha branch"
           ]
         }
-      },
-      "name": "Omaha",
-      "id": 110,
-      "x": -32935,
-      "z": -13922
+      }
     },
     {
+      "name": "Omaha JCT",
+      "id": 111,
+      "x": -32935.0,
+      "z": -13903.5,
+      "type": "jct",
       "lines": {
         "American Ice lines": {
           "United States": [
@@ -1833,12 +1841,14 @@
             "Main line and Omaha branch"
           ]
         }
-      },
-      "name": "Omaha JCT",
-      "id": 111,
-      "x": -32935,
-      "z": -13903.5,
-      "type": "jct"
+      }
+    },
+    {
+      "name": "Southern Sahara",
+      "id": 112,
+      "x": -147.0,
+      "z": -4844.0,
+      "lines": {}
     }
   ],
   "lines": {
@@ -1852,19 +1862,19 @@
           "Main line": {
             "vertices": [
               [
-                31680,
-                -15306
+                31680.0,
+                -15306.0
               ],
               [
-                31680,
-                -14400
+                31680.0,
+                -14400.0
               ]
             ],
             "stations": [
-              1,
-              0,
-              2,
-              3
+              1.0,
+              0.0,
+              2.0,
+              3.0
             ]
           }
         }
@@ -1880,19 +1890,19 @@
           "Main line": {
             "vertices": [
               [
-                29546,
-                -14400
+                29546.0,
+                -14400.0
               ],
               [
-                46323,
-                -14400
+                46323.0,
+                -14400.0
               ]
             ],
             "stations": [
-              11,
-              3,
+              11.0,
+              3.0,
               [
-                74,
+                74.0,
                 "Kyoto branch"
               ]
             ]
@@ -1901,23 +1911,23 @@
             "vertices": [
               [
                 46321.5,
-                -14400
+                -14400.0
               ],
               [
                 46321.5,
-                -14300
+                -14300.0
               ],
               [
                 46323.5,
-                -14300
+                -14300.0
               ]
             ],
             "stations": [
               [
-                74,
+                74.0,
                 "Main line"
               ],
-              75
+              75.0
             ]
           }
         }
@@ -1931,16 +1941,16 @@
           "Main line": {
             "vertices": [
               [
-                13000,
-                -14400
+                13000.0,
+                -14400.0
               ],
               [
-                29546,
-                -14400
+                29546.0,
+                -14400.0
               ]
             ],
             "stations": [
-              11
+              11.0
             ]
           }
         }
@@ -1956,19 +1966,19 @@
           "Main line": {
             "vertices": [
               [
-                2461,
-                -17313
+                2461.0,
+                -17313.0
               ],
               [
-                2461,
-                -16656
+                2461.0,
+                -16656.0
               ],
               [
-                2461,
-                -15353
+                2461.0,
+                -15353.0
               ],
               [
-                2461,
+                2461.0,
                 -14908.5
               ],
               [
@@ -1990,54 +2000,59 @@
               [
                 2460.5,
                 -12000.5
+              ],
+              [
+                2468.5,
+                -14901.0
               ]
             ],
             "stations": [
-              16,
+              16.0,
               [
-                5,
+                5.0,
                 "Taurinorum branch"
               ],
-              7,
-              90,
-              91,
-              92
+              7.0,
+              90.0,
+              91.0,
+              92.0,
+              7
             ]
           },
           "Taurinorum branch": {
             "vertices": [
               [
-                2461,
-                -15353
+                2461.0,
+                -15353.0
               ],
               [
-                2575,
-                -15353
+                2575.0,
+                -15353.0
               ]
             ],
             "stations": [
               [
-                5,
+                5.0,
                 "Main line"
               ],
-              6
+              6.0
             ]
           },
           "Paris branch": {
             "vertices": [
               [
-                899,
-                -16656
+                899.0,
+                -16656.0
               ],
               [
-                2461,
-                -16656
+                2461.0,
+                -16656.0
               ]
             ],
             "stations": [
-              4,
+              4.0,
               [
-                16,
+                16.0,
                 "Main line"
               ]
             ]
@@ -2070,7 +2085,7 @@
                 -17313.5
               ],
               [
-                1459,
+                1459.0,
                 -17313.5
               ],
               [
@@ -2079,52 +2094,52 @@
               ],
               [
                 1610.5,
-                -17313
+                -17313.0
               ],
               [
-                10324,
-                -17313
+                10324.0,
+                -17313.0
               ]
             ],
             "stations": [
-              38,
-              34,
-              9,
-              10,
-              77,
+              38.0,
+              34.0,
+              9.0,
+              10.0,
+              77.0,
               [
-                12,
+                12.0,
                 "Cologne branch"
               ],
-              13,
+              13.0,
               [
-                22,
+                22.0,
                 "Karlsruhe branch"
               ],
-              14,
+              14.0,
               [
-                39,
+                39.0,
                 "Berlin branch"
               ],
-              95,
-              41,
-              42
+              95.0,
+              41.0,
+              42.0
             ]
           },
           "Cologne branch": {
             "vertices": [
               [
-                2376,
-                -17313
+                2376.0,
+                -17313.0
               ],
               [
-                2376,
-                -17386
+                2376.0,
+                -17386.0
               ]
             ],
             "stations": [
               [
-                12,
+                12.0,
                 "Main line"
               ]
             ]
@@ -2142,25 +2157,25 @@
             ],
             "stations": [
               [
-                22,
+                22.0,
                 "Main line"
               ],
-              24
+              24.0
             ]
           },
           "Berlin branch": {
             "vertices": [
               [
-                4608,
-                -17313
+                4608.0,
+                -17313.0
               ],
               [
-                4608,
-                -17743
+                4608.0,
+                -17743.0
               ]
             ],
             "stations": [
-              39
+              39.0
             ]
           }
         }
@@ -2183,7 +2198,7 @@
               ]
             ],
             "stations": [
-              34
+              34.0
             ]
           }
         }
@@ -2198,7 +2213,7 @@
             "vertices": [
               [
                 1600.5,
-                -17313
+                -17313.0
               ],
               [
                 1600.5,
@@ -2210,9 +2225,9 @@
               ]
             ],
             "stations": [
-              10,
-              15,
-              17
+              10.0,
+              15.0,
+              17.0
             ]
           }
         }
@@ -2227,7 +2242,7 @@
             "vertices": [
               [
                 -430.5,
-                -24771
+                -24771.0
               ],
               [
                 -430.5,
@@ -2251,11 +2266,11 @@
               ]
             ],
             "stations": [
-              18,
-              17,
-              38,
+              18.0,
+              17.0,
+              38.0,
               [
-                94,
+                94.0,
                 "Evreux branch"
               ]
             ]
@@ -2272,12 +2287,12 @@
               ]
             ],
             "stations": [
-              93,
+              93.0,
               [
-                94,
+                94.0,
                 "Main line"
               ],
-              19
+              19.0
             ]
           }
         }
@@ -2291,17 +2306,17 @@
           "": {
             "vertices": [
               [
-                5523,
-                -17313
+                5523.0,
+                -17313.0
               ],
               [
-                5523,
-                -18476
+                5523.0,
+                -18476.0
               ]
             ],
             "stations": [
-              96,
-              95
+              96.0,
+              95.0
             ]
           }
         }
@@ -2336,9 +2351,9 @@
               ]
             ],
             "stations": [
-              18,
-              31,
-              32
+              18.0,
+              31.0,
+              32.0
             ]
           }
         }
@@ -2361,9 +2376,9 @@
               ]
             ],
             "stations": [
-              20,
+              20.0,
               [
-                21,
+                21.0,
                 "St. Petersburg line"
               ]
             ]
@@ -2380,19 +2395,19 @@
               ],
               [
                 8605.5,
-                -20460
+                -20460.0
               ],
               [
-                10319,
-                -20460
+                10319.0,
+                -20460.0
               ]
             ],
             "stations": [
               [
-                21,
+                21.0,
                 "Estonian line"
               ],
-              43
+              43.0
             ]
           }
         }
@@ -2406,18 +2421,18 @@
           "Main line": {
             "vertices": [
               [
-                10319,
-                -20460
+                10319.0,
+                -20460.0
               ],
               [
-                10319,
-                -17200
+                10319.0,
+                -17200.0
               ]
             ],
             "stations": [
-              43,
-              42,
-              78
+              43.0,
+              42.0,
+              78.0
             ]
           }
         }
@@ -2432,7 +2447,7 @@
             "vertices": [
               [
                 3477.5,
-                -17313
+                -17313.0
               ],
               [
                 3477.5,
@@ -2440,8 +2455,8 @@
               ]
             ],
             "stations": [
-              14,
-              23
+              14.0,
+              23.0
             ]
           }
         }
@@ -2456,27 +2471,28 @@
             "vertices": [
               [
                 2468.5,
-                -14901
+                -14901.0
               ],
               [
                 7830.5,
-                -14901
+                -14901.0
               ]
             ],
             "stations": [
-              7,
+              7.0,
               [
-                35,
+                35.0,
                 "Rome branch"
               ],
-              40
+              40.0,
+              7
             ]
           },
           "Rome branch": {
             "vertices": [
               [
                 4400.5,
-                -14901
+                -14901.0
               ],
               [
                 4400.5,
@@ -2485,10 +2501,10 @@
             ],
             "stations": [
               [
-                35,
+                35.0,
                 "Main line"
               ],
-              8
+              8.0
             ]
           }
         }
@@ -2511,8 +2527,8 @@
               ]
             ],
             "stations": [
-              36,
-              37
+              36.0,
+              37.0
             ]
           }
         }
@@ -2528,22 +2544,22 @@
           "Main line": {
             "vertices": [
               [
-                10200,
-                -14001
+                10200.0,
+                -14001.0
               ],
               [
-                10300,
-                -14001
+                10300.0,
+                -14001.0
               ],
               [
-                10260,
-                -14001
+                10260.0,
+                -14001.0
               ]
             ],
             "stations": [
-              64,
-              64,
-              64
+              64.0,
+              64.0,
+              64.0
             ]
           }
         }
@@ -2557,73 +2573,73 @@
           "Main line": {
             "vertices": [
               [
-                12019,
-                -12715
+                12019.0,
+                -12715.0
               ],
               [
                 2460.5,
-                -12715
+                -12715.0
               ],
               [
-                10260,
-                -12715
+                10260.0,
+                -12715.0
               ]
             ],
             "stations": [
-              91,
-              79,
-              57,
+              91.0,
+              79.0,
+              57.0,
               [
-                56,
+                56.0,
                 "Athens branch"
               ],
-              52,
-              51,
+              52.0,
+              51.0,
               [
-                70,
+                70.0,
                 "Cyprus branch"
               ],
-              58,
-              51,
-              51
+              58.0,
+              51.0,
+              51.0
             ]
           },
           "Athens branch": {
             "vertices": [
               [
-                8106,
-                -12705
+                8106.0,
+                -12705.0
               ],
               [
-                8106,
-                -12922
+                8106.0,
+                -12922.0
               ]
             ],
             "stations": [
               [
-                56,
+                56.0,
                 "Main line"
               ],
-              59
+              59.0
             ]
           },
           "Cyprus branch": {
             "vertices": [
               [
-                11481,
-                -12715
+                11481.0,
+                -12715.0
               ],
               [
-                11481,
-                -12016
+                11481.0,
+                -12016.0
               ]
             ],
             "stations": [
               [
-                70,
+                70.0,
                 "Main line"
               ],
-              71
+              71.0
             ]
           }
         }
@@ -2646,11 +2662,11 @@
               ]
             ],
             "stations": [
-              41,
-              40,
-              36,
-              37,
-              57
+              41.0,
+              40.0,
+              36.0,
+              37.0,
+              57.0
             ]
           }
         }
@@ -2664,23 +2680,23 @@
           "Main line": {
             "vertices": [
               [
-                9419,
-                -12648
+                9419.0,
+                -12648.0
               ],
               [
-                9419,
-                -13042
+                9419.0,
+                -13042.0
               ]
             ],
             "stations": [
-              53,
-              52,
+              53.0,
+              52.0,
               [
-                60,
+                60.0,
                 "Samos branch"
               ],
               [
-                61,
+                61.0,
                 "Izmir branch"
               ]
             ]
@@ -2688,39 +2704,39 @@
           "Samos branch": {
             "vertices": [
               [
-                9419,
-                -12875
+                9419.0,
+                -12875.0
               ],
               [
-                9240,
-                -12875
+                9240.0,
+                -12875.0
               ]
             ],
             "stations": [
               [
-                60,
+                60.0,
                 "Main line"
               ],
-              62
+              62.0
             ]
           },
           "Izmir branch": {
             "vertices": [
               [
-                9419,
-                -13042
+                9419.0,
+                -13042.0
               ],
               [
-                9170,
-                -13042
+                9170.0,
+                -13042.0
               ]
             ],
             "stations": [
               [
-                61,
+                61.0,
                 "Main line"
               ],
-              63
+              63.0
             ]
           }
         }
@@ -2734,17 +2750,18 @@
           "Main line": {
             "vertices": [
               [
-                12015,
-                -10694
+                12015.0,
+                -10694.0
               ],
               [
-                10260,
-                -10694
+                10260.0,
+                -10694.0
               ]
             ],
             "stations": [
-              102,
-              50,
+              102.0,
+              50.0,
+              50.0,
               50
             ]
           }
@@ -2759,21 +2776,22 @@
           "Main line": {
             "vertices": [
               [
-                10260,
-                -14001
+                10260.0,
+                -14001.0
               ],
               [
-                10260,
-                -12715
+                10260.0,
+                -12715.0
               ],
               [
-                10260,
-                -10694
+                10260.0,
+                -10694.0
               ]
             ],
             "stations": [
-              64,
-              51,
+              64.0,
+              51.0,
+              50.0,
               50
             ]
           }
@@ -2806,21 +2824,21 @@
                 -11750.5
               ],
               [
-                44156,
+                44156.0,
                 -11750.5
               ]
             ],
             "stations": [
-              25,
+              25.0,
               [
-                76,
+                76.0,
                 "X-ICE branch"
               ],
               [
-                84,
+                84.0,
                 "Mogawa branch"
               ],
-              85
+              85.0
             ]
           },
           "Mogawa branch": {
@@ -2836,7 +2854,7 @@
             ],
             "stations": [
               [
-                84,
+                84.0,
                 "Main line"
               ]
             ]
@@ -2845,11 +2863,11 @@
             "vertices": [
               [
                 46323.5,
-                -14300
+                -14300.0
               ],
               [
                 46325.5,
-                -14300
+                -14300.0
               ],
               [
                 46325.5,
@@ -2858,10 +2876,10 @@
             ],
             "stations": [
               [
-                76,
+                76.0,
                 "Main line"
               ],
-              75
+              75.0
             ]
           }
         }
@@ -2875,38 +2893,38 @@
           "Tokyo-Nagoya line": {
             "vertices": [
               [
-                47618,
+                47618.0,
                 -12118.5
               ],
               [
-                47618,
-                -11976
+                47618.0,
+                -11976.0
               ],
               [
-                47354,
-                -11976
+                47354.0,
+                -11976.0
               ],
               [
-                47354,
-                -11892
+                47354.0,
+                -11892.0
               ],
               [
-                46776,
-                -11892
+                46776.0,
+                -11892.0
               ],
               [
-                46776,
-                -12003
+                46776.0,
+                -12003.0
               ],
               [
-                46719,
-                -12003
+                46719.0,
+                -12003.0
               ]
             ],
             "stations": [
-              26,
+              26.0,
               [
-                27,
+                27.0,
                 "Tokyo-Nagoya line"
               ]
             ]
@@ -2914,28 +2932,28 @@
           "Nagoya-Osaka line": {
             "vertices": [
               [
-                46702,
-                -12012
+                46702.0,
+                -12012.0
               ],
               [
-                46618,
-                -12012
+                46618.0,
+                -12012.0
               ],
               [
-                46618,
-                -11865
+                46618.0,
+                -11865.0
               ],
               [
-                46305,
-                -11865
+                46305.0,
+                -11865.0
               ]
             ],
             "stations": [
               [
-                27,
+                27.0,
                 "Nagoya-Osaka line"
               ],
-              28
+              28.0
             ]
           }
         }
@@ -2949,25 +2967,25 @@
           "Main line": {
             "vertices": [
               [
-                44699,
-                -10803
+                44699.0,
+                -10803.0
               ],
               [
-                43603,
-                -10803
+                43603.0,
+                -10803.0
               ],
               [
-                43603,
-                -8594
+                43603.0,
+                -8594.0
               ],
               [
-                41532,
-                -8594
+                41532.0,
+                -8594.0
               ]
             ],
             "stations": [
               [
-                29,
+                29.0,
                 "Shanghai line"
               ]
             ]
@@ -2975,20 +2993,20 @@
           "Shanghai line": {
             "vertices": [
               [
-                41592,
-                -10526
+                41592.0,
+                -10526.0
               ],
               [
-                41592,
-                -8594
+                41592.0,
+                -8594.0
               ]
             ],
             "stations": [
               [
-                29,
+                29.0,
                 "Main line"
               ],
-              30
+              30.0
             ]
           }
         }
@@ -3004,7 +3022,7 @@
           "Main line": {
             "vertices": [
               [
-                -25258,
+                -25258.0,
                 -14950.5
               ],
               [
@@ -3012,18 +3030,18 @@
                 -14950.5
               ],
               [
-                -24833,
+                -24833.0,
                 -14950.5
               ]
             ],
             "stations": [
-              80,
+              80.0,
               [
-                83,
+                83.0,
                 "Bolivar branch"
               ],
-              33,
-              83
+              33.0,
+              83.0
             ]
           }
         }
@@ -3039,23 +3057,24 @@
           "Main line": {
             "vertices": [
               [
-                -25258,
+                -25258.0,
                 -13903.5
               ],
               [
-                -25258,
-                -21146
+                -25258.0,
+                -21146.0
               ],
               [
-                -27152,
-                -21146
+                -27152.0,
+                -21146.0
               ]
             ],
             "stations": [
-              105,
-              80,
-              81,
-              105,
+              105.0,
+              80.0,
+              81.0,
+              105.0,
+              105.0,
               105
             ]
           }
@@ -3070,38 +3089,39 @@
           "Main line": {
             "vertices": [
               [
-                -24833,
+                -24833.0,
                 -14950.5
               ],
               [
-                -24833,
-                -13904
+                -24833.0,
+                -13904.0
               ],
               [
-                -24833,
-                -7935
+                -24833.0,
+                -7935.0
               ]
             ],
             "stations": [
-              83,
-              106,
-              82
+              83.0,
+              106.0,
+              82.0
             ]
           },
           "New York branch": {
             "vertices": [
               [
-                -24833,
-                -13904
+                -24833.0,
+                -13904.0
               ],
               [
-                -25258,
+                -25258.0,
                 -13903.5
               ]
             ],
             "stations": [
-              106,
-              105,
+              106.0,
+              105.0,
+              105.0,
               105
             ]
           }
@@ -3116,49 +3136,49 @@
           "Main line": {
             "vertices": [
               [
-                -29706,
-                -5982
+                -29706.0,
+                -5982.0
               ],
               [
-                -26365,
-                -5982
+                -26365.0,
+                -5982.0
               ],
               [
-                -26365,
-                -6425
+                -26365.0,
+                -6425.0
               ],
               [
-                -24833,
-                -6425
+                -24833.0,
+                -6425.0
               ],
               [
-                -24833,
-                -7935
+                -24833.0,
+                -7935.0
               ]
             ],
             "stations": [
-              82,
-              49,
-              65,
-              108,
-              107,
-              104
+              82.0,
+              49.0,
+              65.0,
+              108.0,
+              107.0,
+              104.0
             ]
           },
           "Parrotsville": {
             "vertices": [
               [
-                -26548,
-                -6135
+                -26548.0,
+                -6135.0
               ],
               [
-                -26365,
-                -6135
+                -26365.0,
+                -6135.0
               ]
             ],
             "stations": [
-              107,
-              109
+              107.0,
+              109.0
             ]
           }
         }
@@ -3172,65 +3192,67 @@
           "Main line": {
             "vertices": [
               [
-                -31840,
-                -12723
+                -31840.0,
+                -12723.0
               ],
               [
-                -31840,
-                -3094
+                -31840.0,
+                -3094.0
               ],
               [
-                -27582,
-                -3094
+                -27582.0,
+                -3094.0
               ]
             ],
             "stations": [
-              99,
+              99.0,
               [
-                98,
+                98.0,
                 "Lakamha branch"
               ],
-              97
+              97.0
             ]
           },
           "Lakamha branch": {
             "vertices": [
               [
-                -31842,
-                -5982
+                -31842.0,
+                -5982.0
               ],
               [
-                -31430,
-                -5982
+                -31430.0,
+                -5982.0
               ],
               [
-                -31380,
-                -5982
+                -31380.0,
+                -5982.0
               ],
               [
-                -29706,
-                -5982
+                -29706.0,
+                -5982.0
               ]
             ],
             "stations": [
               [
-                98,
+                98.0,
                 "Main line"
               ],
-              103,
-              104
+              103.0,
+              104.0
             ]
           }
         }
       },
       "United States": {
+        "prefix": "",
+        "code": "US",
         "color": "ff66ff",
         "y": 9,
         "branches": {
           "Main line": {
             "vertices": [
               [
-                -25258,
+                -25258.0,
                 -13903.5
               ],
               [
@@ -3238,7 +3260,7 @@
                 -13904.66
               ],
               [
-                -32935,
+                -32935.0,
                 -13903.5
               ],
               [
@@ -3247,31 +3269,30 @@
               ]
             ],
             "stations": [
-              105,
-              72,
-              111,
-              73
+              105.0,
+              72.0,
+              111.0,
+              73.0,
+              105
             ]
           },
           "Omaha branch": {
             "vertices": [
               [
-                -32935,
+                -32935.0,
                 -13903.5
               ],
               [
-                -32935,
-                -13922
+                -32935.0,
+                -13922.0
               ]
             ],
             "stations": [
-              111,
-              110
+              111.0,
+              110.0
             ]
           }
-        },
-        "prefix": "",
-        "code": "US"
+        }
       }
     },
     "Indonesian Ice Lines": {
@@ -3284,21 +3305,21 @@
           "Main line": {
             "vertices": [
               [
-                36478,
-                2180
+                36478.0,
+                2180.0
               ],
               [
-                38056,
-                2180
+                38056.0,
+                2180.0
               ],
               [
-                38056,
-                2749
+                38056.0,
+                2749.0
               ]
             ],
             "stations": [
-              54,
-              55
+              54.0,
+              55.0
             ]
           }
         }
@@ -3314,20 +3335,20 @@
           "Rail line": {
             "vertices": [
               [
-                -448,
-                -16526
+                -448.0,
+                -16526.0
               ],
               [
-                -448,
-                -16204
+                -448.0,
+                -16204.0
               ]
             ],
             "stations": [
               [
-                87,
+                87.0,
                 "Ice line"
               ],
-              89
+              89.0
             ]
           },
           "Ice line": {
@@ -3337,18 +3358,18 @@
                 -16730.5
               ],
               [
-                -448,
+                -448.0,
                 -16730.5
               ],
               [
-                -448,
-                -16526
+                -448.0,
+                -16526.0
               ]
             ],
             "stations": [
-              93,
+              93.0,
               [
-                87,
+                87.0,
                 "Rail line"
               ]
             ]
@@ -3364,26 +3385,26 @@
           "Main line": {
             "vertices": [
               [
-                -1500,
-                -16526
+                -1500.0,
+                -16526.0
               ],
               [
-                -448,
-                -16526
+                -448.0,
+                -16526.0
               ],
               [
-                760,
-                -16526
+                760.0,
+                -16526.0
               ],
               [
-                760,
-                -16678
+                760.0,
+                -16678.0
               ]
             ],
             "stations": [
-              86,
-              87,
-              88
+              86.0,
+              87.0,
+              88.0
             ]
           }
         }
@@ -3399,18 +3420,18 @@
           "Main line": {
             "vertices": [
               [
-                -25544,
-                -3094
+                -25544.0,
+                -3094.0
               ],
               [
-                -27582,
-                -3094
+                -27582.0,
+                -3094.0
               ]
             ],
             "stations": [
-              97,
-              69,
-              68
+              97.0,
+              69.0,
+              68.0
             ]
           }
         }
@@ -3424,17 +3445,17 @@
           "Main line": {
             "vertices": [
               [
-                -25544,
-                -3739
+                -25544.0,
+                -3739.0
               ],
               [
-                -25544,
-                -6425
+                -25544.0,
+                -6425.0
               ]
             ],
             "stations": [
-              65,
-              48
+              65.0,
+              48.0
             ]
           }
         }
@@ -3448,27 +3469,27 @@
           "Main line": {
             "vertices": [
               [
-                -26091,
-                -1192
+                -26091.0,
+                -1192.0
               ],
               [
-                -25752,
-                -1192
+                -25752.0,
+                -1192.0
               ],
               [
-                -25752,
-                -2072
+                -25752.0,
+                -2072.0
               ],
               [
-                -25544,
-                -2072
+                -25544.0,
+                -2072.0
               ]
             ],
             "stations": [
-              46,
-              45,
-              47,
-              66
+              46.0,
+              45.0,
+              47.0,
+              66.0
             ]
           }
         }
@@ -3482,19 +3503,19 @@
           "Main line": {
             "vertices": [
               [
-                -25544,
-                -1417
+                -25544.0,
+                -1417.0
               ],
               [
-                -25544,
-                -3739
+                -25544.0,
+                -3739.0
               ]
             ],
             "stations": [
-              48,
-              68,
-              66,
-              67
+              48.0,
+              68.0,
+              66.0,
+              67.0
             ]
           }
         }
@@ -3508,57 +3529,70 @@
           "Main line": {
             "vertices": [
               [
-                -25752,
-                -1417
+                -25752.0,
+                -1417.0
               ],
               [
-                -25405,
-                -1417
+                -25405.0,
+                -1417.0
               ]
             ],
             "stations": [
-              44,
-              67,
-              45
+              44.0,
+              67.0,
+              45.0
             ]
           }
         }
       }
     },
     "African Ice lines": {
-      "Great West African Ice Highway": {
+      "Great West African": {
         "prefix": "",
         "code": "",
         "color": "006400",
         "y": 73,
         "branches": {
-          "Accra - Bata line": {
+          "Accra-Bata line": {
             "vertices": [
               [
-                -147,
-                -1861
+                -147.0,
+                -1861.0
               ],
               [
-                -147,
-                -765
+                -147.0,
+                -765.0
               ],
               [
-                3347,
-                -765
+                3347.0,
+                -765.0
               ],
               [
-                3347,
-                -656
+                3347.0,
+                -656.0
               ],
               [
-                3372,
-                -656
+                3372.0,
+                -656.0
               ]
             ],
             "stations": [
-              100,
-              101
+              100.0,
+              101.0
             ]
+          },
+          "Southern Sahara line": {
+            "vertices": [
+              [
+                -147.0,
+                -4844.0
+              ],
+              [
+                -147.0,
+                -1861.0
+              ]
+            ],
+            "stations": []
           }
         }
       }
