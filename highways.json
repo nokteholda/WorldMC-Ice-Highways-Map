@@ -731,10 +731,6 @@
     {
       "lines": {
         "Bolívar Ice lines": {
-          "Bolívar": [
-            "",
-            "Main line"
-          ],
           "Bogotá": [
             "",
             "Main line"
@@ -3403,7 +3399,7 @@
       },
       "Medellín": {
         "prefix": "",
-        "code": "CAL-MDL-BRQ",
+        "code": "MED",
         "color": "33ff66",
         "y": 35,
         "branches": {
@@ -3456,8 +3452,7 @@
               48,
               68,
               66,
-              67,
-              44
+              67
             ]
           }
         }
