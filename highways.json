@@ -2333,8 +2333,8 @@
         }
       },
       "Brussels": {
-        "prefix": "B",
-        "code": "",
+        "prefix": "",
+        "code": "B",
         "color": "d5dc25",
         "y": -60,
         "branches": {
