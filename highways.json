@@ -731,11 +731,11 @@
     {
       "lines": {
         "Bolívar Ice lines": {
-          "Bogotá": [
+          "Bolívar": [
             "",
             "Main line"
           ],
-          "Bogotá-Medellín": [
+          "Bogotá": [
             "",
             "Main line"
           ]
@@ -753,7 +753,7 @@
             "",
             "Main line"
           ],
-          "Bogotá-Medellín": [
+          "Bogotá": [
             "",
             "Main line"
           ]
@@ -796,7 +796,7 @@
     {
       "lines": {
         "Bolívar Ice lines": {
-          "Bogotá": [
+          "Bolívar": [
             "",
             "Main line"
           ]
@@ -1073,7 +1073,7 @@
           ]
         }
       },
-      "name": "Hispanola-Caribbean JCT",
+      "name": "Barranquilla-Bolívar JCT",
       "id": 65,
       "x": -25544,
       "z": -6425,
@@ -1086,7 +1086,7 @@
             "",
             "Main line"
           ],
-          "Bogotá": [
+          "Bolívar": [
             "",
             "Main line"
           ]
@@ -1101,11 +1101,11 @@
     {
       "lines": {
         "Bolívar Ice lines": {
-          "Bogotá": [
+          "Bolívar": [
             "",
             "Main line"
           ],
-          "Bogotá-Medellín": [
+          "Bogotá": [
             "",
             "Main line"
           ]
@@ -1124,7 +1124,7 @@
             "",
             "Main line"
           ],
-          "Bogotá": [
+          "Bolívar": [
             "",
             "Main line"
           ]
@@ -1607,6 +1607,12 @@
       "lines": {
         "American Ice lines": {
           "Ozark": [
+            "",
+            "Main line"
+          ]
+        },
+        "Bolívar Ice lines": {
+          "Panama": [
             "",
             "Main line"
           ]
@@ -3365,6 +3371,7 @@
               ]
             ],
             "stations": [
+              97,
               69,
               68
             ]
@@ -3428,9 +3435,9 @@
           }
         }
       },
-      "Bogotá": {
+      "Bolívar": {
         "prefix": "",
-        "code": "BOG",
+        "code": "BLV",
         "color": "33ff66",
         "y": 35,
         "branches": {
@@ -3455,9 +3462,9 @@
           }
         }
       },
-      "Bogotá-Medellín": {
+      "Bogotá": {
         "prefix": "",
-        "code": "BGM",
+        "code": "BOG",
         "color": "33ff66",
         "y": 35,
         "branches": {
