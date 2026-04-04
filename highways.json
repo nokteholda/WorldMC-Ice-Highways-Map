@@ -1662,7 +1662,7 @@
         "African Ice lines": {
           "Great West African": [
             "",
-            "Accra-Bata line"
+            "Accra-Bata line and Southern Sahara line"
           ]
         }
       },
@@ -1844,7 +1844,14 @@
       "type": "jct"
     },
     {
-      "lines": {},
+      "lines": {
+        "African Ice lines": {
+          "Great West African": [
+            "",
+            "Southern Sahara line"
+          ]
+        }
+      },
       "name": "Southern Sahara",
       "id": 112,
       "x": -147,
@@ -3591,7 +3598,10 @@
                 -1861
               ]
             ],
-            "stations": []
+            "stations": [
+              112,
+              100
+            ]
           }
         }
       }
