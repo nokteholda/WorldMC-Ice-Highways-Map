@@ -861,11 +861,11 @@
           ]
         }
       },
-      "name": "Eurasia-Eastern Aegean JCT",
+      "name": "Eurasia-Eastern Aegean Interchange",
       "id": 52,
       "x": 9419,
       "z": -12715,
-      "type": "jct"
+      "type": "inter"
     },
     {
       "lines": {
