@@ -1,5 +1,5 @@
 const proxyURL = 'https://api.codetabs.com/v1/proxy/?quest='
-const mapURL = 'https://map.worldmc.org/tiles'
+const mapURL = 'https://map.worldmc.org/'
 const highwaysURL = 'https://raw.githubusercontent.com/nokteholda/WorldMC-Ice-Highways-Map/refs/heads/main/highways.json'
 
 let highwayData;
