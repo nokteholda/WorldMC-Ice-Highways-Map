@@ -20,8 +20,9 @@ let lineFilters = {
 let pathfinder;
 let renderedPath;
 
+const mapScale = 0.25
 const CorrectedCRS = L.extend({}, L.CRS.Simple, {
-    transformation: new L.Transformation(1, 0, -1, 2)
+    transformation: new L.Transformation(mapScale, 0, -1 * mapScale, 0)
 });
 
 const map = L.map('mapa', {
@@ -33,17 +34,14 @@ const map = L.map('mapa', {
 }).setView([0, 0], 1);
 map.zoomControl.setPosition('topright')
 
-let temp2 = mapURL + "/world/flat/{x}_{y}/zzzzz_{ix}_{iy}.jpg"
+let temo3 = "https://map.worldmc.org/tiles/minecraft_overworld/1/2_-3.png"
 
-for (i = 5; i >= 0; i--) {
-    L.tileLayer(mapURL + "/world/flat/{x}_{y}/" + "z".repeat(i) + "_".repeat((i !== 0) + 0) + "{ix}_{iy}.jpg",{
-        real_y: args => args.y,
-        ix: args => args.x * Math.pow(2, 2 + 5 - args.z),
-        iy: args => (- args.y) * Math.pow(2, 2 + 5 - args.z),
-        maxZoom: 2 + 5 - i,
-        minZoom: 2 + 5 - i,
-    }).addTo(map)
-}
+const overworld = L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
+    maxNativeZoom: 5,
+    minNativeZoom: 0,
+    maxZoom: 7,
+    minZoom: -2
+}).addTo(map);
 
 // Variable to store coordinates
 let coordinateController = document.querySelector('.leaflet-mousecoords');
