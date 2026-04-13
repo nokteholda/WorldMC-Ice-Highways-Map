@@ -48,9 +48,7 @@
           "Keisha": [
             "",
             "Main line"
-          ]
-        },
-        "X-ICE": {
+          ],
           "Aqua": [
             "",
             "Main line"
@@ -170,12 +168,12 @@
     },
     {
       "lines": {
-        "X-ICE": {
+        "TNIH": {
           "Aqua": [
             "",
             "Main line"
           ],
-          "Red": [
+          "Aqua": [
             "",
             "Main line"
           ]
@@ -1200,7 +1198,7 @@
     },
     {
       "lines": {
-        "X-ICE": {
+        "TNIH": {
           "Aqua": [
             "",
             "Main line and Kyoto branch"
@@ -1215,7 +1213,7 @@
     },
     {
       "lines": {
-        "X-ICE": {
+        "TNIH": {
           "Aqua": [
             "",
             "Kyoto branch"
@@ -1224,7 +1222,7 @@
         "Japanese Ice lines": {
           "Kyoto-Niigata-Tokyo": [
             "",
-            "X-ICE branch"
+            "Shimeji branch"
           ]
         }
       },
@@ -1241,11 +1239,11 @@
         "Japanese Ice lines": {
           "Kyoto-Niigata-Tokyo": [
             "",
-            "Main line and X-ICE branch"
+            "Main line and Shimeji branch"
           ]
         }
       },
-      "name": "X-ICE JCT",
+      "name": "Shimeji JCT",
       "id": 76,
       "x": 46325.5,
       "z": -12919.5,
@@ -1871,9 +1869,7 @@
             ]
           }
         }
-      }
-    },
-    "X-ICE": {
+      },
       "Aqua": {
         "prefix": "",
         "code": "AQ",
@@ -1883,7 +1879,7 @@
           "Main line": {
             "vertices": [
               [
-                29546,
+                10961,
                 -14400
               ],
               [
@@ -1921,29 +1917,6 @@
                 "Main line"
               ],
               75
-            ]
-          }
-        }
-      },
-      "Red": {
-        "prefix": "",
-        "code": "RD",
-        "color": "ff0000",
-        "y": 10,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                13000,
-                -14400
-              ],
-              [
-                29546,
-                -14400
-              ]
-            ],
-            "stations": [
-              11
             ]
           }
         }
@@ -2755,7 +2728,7 @@
               25,
               [
                 76,
-                "X-ICE branch"
+                "Shimeji branch"
               ],
               [
                 84,
@@ -2782,7 +2755,7 @@
               ]
             ]
           },
-          "X-ICE branch": {
+          "Shimeji branch": {
             "vertices": [
               [
                 46323.5,
