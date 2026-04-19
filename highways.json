@@ -48,7 +48,9 @@
           "Keisha": [
             "",
             "Main line"
-          ],
+          ]
+        },
+        "X-ICE": {
           "Aqua": [
             "",
             "Main line"
@@ -168,8 +170,12 @@
     },
     {
       "lines": {
-        "TNIH": {
+        "X-ICE": {
           "Aqua": [
+            "",
+            "Main line"
+          ],
+          "Red": [
             "",
             "Main line"
           ]
@@ -1194,7 +1200,7 @@
     },
     {
       "lines": {
-        "TNIH": {
+        "X-ICE": {
           "Aqua": [
             "",
             "Main line and Kyoto branch"
@@ -1209,7 +1215,7 @@
     },
     {
       "lines": {
-        "TNIH": {
+        "X-ICE": {
           "Aqua": [
             "",
             "Kyoto branch"
@@ -1218,7 +1224,7 @@
         "Japanese Ice lines": {
           "Kyoto-Niigata-Tokyo": [
             "",
-            "Shimeji branch"
+            "X-ICE branch"
           ]
         }
       },
@@ -1235,11 +1241,11 @@
         "Japanese Ice lines": {
           "Kyoto-Niigata-Tokyo": [
             "",
-            "Main line and Shimeji branch"
+            "Main line and X-ICE branch"
           ]
         }
       },
-      "name": "Shimeji JCT",
+      "name": "X-ICE JCT",
       "id": 76,
       "x": 46325.5,
       "z": -12919.5,
@@ -1865,7 +1871,9 @@
             ]
           }
         }
-      },
+      }
+    },
+    "X-ICE": {
       "Aqua": {
         "prefix": "",
         "code": "AQ",
@@ -1875,7 +1883,7 @@
           "Main line": {
             "vertices": [
               [
-                9950,
+                29546,
                 -14400
               ],
               [
@@ -1913,6 +1921,29 @@
                 "Main line"
               ],
               75
+            ]
+          }
+        }
+      },
+      "Red": {
+        "prefix": "",
+        "code": "RD",
+        "color": "ff0000",
+        "y": 10,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                13000,
+                -14400
+              ],
+              [
+                29546,
+                -14400
+              ]
+            ],
+            "stations": [
+              11
             ]
           }
         }
@@ -2724,7 +2755,7 @@
               25,
               [
                 76,
-                "Shimeji branch"
+                "X-ICE branch"
               ],
               [
                 84,
@@ -2751,7 +2782,7 @@
               ]
             ]
           },
-          "Shimeji branch": {
+          "X-ICE branch": {
             "vertices": [
               [
                 46323.5,
@@ -3441,6 +3472,27 @@
               67,
               45
             ]
+          }
+        }
+      },
+      "Maracaibo": {
+        "prefix": "",
+        "code": "MAR",
+        "color": "33ff66",
+        "y": 35,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                -25542,
+                3650
+              ],
+              [
+                -24481,
+                3650
+              ]
+            ],
+            "stations": []
           }
         }
       }
