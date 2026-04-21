@@ -842,7 +842,7 @@
           ]
         }
       },
-      "name": "Eurasia-Alexandria JCT",
+      "name": "Eurasia-Alexandria Interchange",
       "id": 51,
       "x": 10260,
       "z": -12715,
@@ -1841,6 +1841,39 @@
       "id": 112,
       "x": -31840,
       "z": -13903.5,
+      "type": "jct"
+    },
+    {
+      "lines": {
+        "Bolívar Ice lines": {
+          "Maracaibo": [
+            "",
+            "Main line"
+          ]
+        }
+      },
+      "name": "Maracaibo",
+      "id": 113,
+      "x": -24481,
+      "z": -3650
+    },
+    {
+      "lines": {
+        "Bolívar Ice lines": {
+          "Bolívar": [
+            "",
+            "Main line"
+          ],
+          "Maracaibo": [
+            "",
+            "Main line"
+          ]
+        }
+      },
+      "name": "Maracaibo JCT",
+      "id": 114,
+      "x": -25542,
+      "z": -3650,
       "type": "jct"
     }
   ],
@@ -3443,6 +3476,7 @@
             ],
             "stations": [
               48,
+              114,
               68,
               66,
               67
@@ -3485,14 +3519,17 @@
             "vertices": [
               [
                 -25542,
-                3650
+                -3650
               ],
               [
                 -24481,
-                3650
+                -3650
               ]
             ],
-            "stations": []
+            "stations": [
+              114,
+              113
+            ]
           }
         }
       }
