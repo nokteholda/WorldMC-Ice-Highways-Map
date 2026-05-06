@@ -469,16 +469,12 @@
           "Kagoshima-Taiwan cherry": [
             "",
             "Main line and Shanghai line"
-          ],
-          "Hong-Kong-Taiwan": [
-            "",
-            "Main line"
           ]
         }
       },
       "name": "Taiwan JCT",
       "id": 29,
-      "x": 41592.5,
+      "x": 41592,
       "z": -8594,
       "type": "jct"
     },
@@ -1881,22 +1877,11 @@
       "type": "jct"
     },
     {
-      "lines": {
-        "Japanese Ice lines": {
-          "Kagoshima-Taiwan cherry": [
-            "",
-            "Main line"
-          ],
-          "Hong-Kong-Taiwan": [
-            "",
-            "Main line"
-          ]
-        }
-      },
-      "name": "Hong Kong",
+      "lines": {},
+      "name": "Toronto",
       "id": 115,
-      "x": 38999,
-      "z": -7362.5
+      "x": -27121,
+      "z": -14920
     }
   ],
   "lines": {
@@ -2957,7 +2942,7 @@
                 -8594
               ],
               [
-                41592,
+                41532,
                 -8594
               ]
             ],
@@ -2965,8 +2950,7 @@
               [
                 29,
                 "Shanghai line"
-              ],
-              115
+              ]
             ]
           },
           "Shanghai line": {
@@ -2986,34 +2970,6 @@
                 "Main line"
               ],
               30
-            ]
-          }
-        }
-      },
-      "Hong-Kong-Taiwan": {
-        "prefix": "",
-        "code": "",
-        "color": "f9cf5d",
-        "y": -60,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                38999,
-                -7363.5
-              ],
-              [
-                38999,
-                -8594
-              ],
-              [
-                41592,
-                -8594
-              ]
-            ],
-            "stations": [
-              115,
-              29
             ]
           }
         }
